@@ -1,4 +1,0 @@
-{
-  "framework": "nextjs",
-  "buildCommand": "DATABASE_URL=\"$DATABASE_URL_UNPOOLED\" npx prisma migrate deploy && npx next build"
-}
