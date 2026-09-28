@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand */
+  --brand-navy: #0b1f4d;
+  --brand-navy-soft: #16306b;
+  --brand-blue: #1b6fd6;
+  --brand-blue-soft: #e8f1fd;
+  --brand-green: #16a34a;
+  --brand-green-soft: #e9f8ef;
+  --brand-teal: #0d9488;
+
+  /* Surfaces */
+  --background: #f6f8fb;
+  --foreground: #111827;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --ring: #1b6fd6;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  --color-navy: var(--brand-navy);
+  --color-navy-soft: var(--brand-navy-soft);
+  --color-brand: var(--brand-blue);
+  --color-brand-soft: var(--brand-blue-soft);
+  --color-success: var(--brand-green);
+  --color-success-soft: var(--brand-green-soft);
+  --color-teal: var(--brand-teal);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Markdown content blocks */
+.prose-cr {
+  @apply text-[15px] leading-7 text-zinc-700;
+}
+.prose-cr h2 {
+  @apply mt-8 mb-3 text-xl font-semibold tracking-tight text-navy;
+}
+.prose-cr h3 {
+  @apply mt-6 mb-2 text-base font-semibold text-zinc-900;
+}
+.prose-cr p {
+  @apply my-3;
+}
+.prose-cr ul {
+  @apply my-3 list-disc pl-6;
+}
+.prose-cr ol {
+  @apply my-3 list-decimal pl-6;
+}
+.prose-cr li {
+  @apply my-1;
+}
+.prose-cr a {
+  @apply text-brand underline underline-offset-2;
+}
+.prose-cr strong {
+  @apply font-semibold text-zinc-900;
+}
+.prose-cr table {
+  @apply my-4 w-full text-sm;
+}
+.prose-cr th {
+  @apply border-b border-border px-3 py-2 text-left font-semibold;
+}
+.prose-cr td {
+  @apply border-b border-border px-3 py-2;
+}
+.prose-cr code {
+  @apply rounded bg-zinc-100 px-1 py-0.5 font-mono text-[0.9em];
+}
+.prose-cr blockquote {
+  @apply my-4 border-l-4 border-brand pl-4 text-zinc-600;
+}

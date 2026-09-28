@@ -1,0 +1,513 @@
+// CertReady data model.
+// Content (exams, categories, questions) lives here, never in application code.
+// Adding a new certification = inserting rows through the admin panel.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Users, auth, sessions
+// ---------------------------------------------------------------------------
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+}
+
+model User {
+  id           String     @id @default(cuid())
+  email        String     @unique
+  passwordHash String?
+  name         String?
+  role         UserRole   @default(USER)
+  status       UserStatus @default(ACTIVE)
+
+  // Study goal
+  targetExamId String?
+  targetExam   Exam?     @relation("UserTargetExam", fields: [targetExamId], references: [id], onDelete: SetNull)
+  examDate     DateTime?
+
+  emailVerifiedAt DateTime?
+  lastLoginAt     DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  sessions            Session[]
+  passwordResetTokens PasswordResetToken[]
+  oauthAccounts       OAuthAccount[]
+  practiceSessions    PracticeSession[]
+  mockExams           MockExam[]
+  progress            UserProgress[]
+  bookmarks           Bookmark[]
+  questionReports     QuestionReport[]
+  subscriptions       Subscription[]
+  payments            Payment[]
+  analyticsEvents     AnalyticsEvent[]
+
+  @@index([role, status])
+  @@index([createdAt])
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash String   @unique
+  expiresAt DateTime
+  userAgent String?
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model PasswordResetToken {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tokenHash String    @unique
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+
+  @@index([userId])
+}
+
+/// Ready for Google sign-in (Phase 2). One row per linked provider account.
+model OAuthAccount {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  provider          String
+  providerAccountId String
+  createdAt         DateTime @default(now())
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+// ---------------------------------------------------------------------------
+// Content: certification categories, exams, exam categories, questions
+// ---------------------------------------------------------------------------
+
+/// Directory grouping shown on /exams (HVAC, Water & Wastewater, Security, ...).
+model CertificationCategory {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  description String?
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  exams Exam[]
+}
+
+enum ExamScope {
+  FEDERAL
+  STATE
+  NATIONAL_PRIVATE
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum ContentStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+model Exam {
+  id         String  @id @default(cuid())
+  slug       String  @unique
+  title      String
+  shortTitle String?
+  /// One or two sentences for cards and meta descriptions.
+  summary    String
+  /// Markdown. Full overview shown on the exam detail page.
+  overview   String?
+  /// Markdown. "Who should take this exam".
+  whoShouldTake String?
+  /// Markdown. Eligibility, fees, scheduling, retakes.
+  requirements  String?
+  /// Markdown. Long-form study guide page.
+  studyGuide    String?
+  /// [{ "question": string, "answer": string }]
+  faq               Json?
+  /// [{ "label": string, "url": string }]
+  officialResources Json?
+  /// Free-text descriptor of the certifying body, e.g. "U.S. EPA (Section 608)".
+  certifyingBody    String?
+
+  categoryId String
+  category   CertificationCategory @relation(fields: [categoryId], references: [id])
+
+  scope  ExamScope @default(FEDERAL)
+  /// USPS state codes when scope = STATE. Empty means nationwide.
+  states String[]  @default([])
+
+  difficulty Difficulty    @default(MEDIUM)
+  status     ContentStatus @default(DRAFT)
+  isFeatured Boolean       @default(false)
+
+  // Real exam facts
+  realQuestionCount Int?
+  realTimeMinutes   Int?
+  passingScoreText  String?
+
+  // Mock exam configuration
+  mockQuestionCount Int @default(25)
+  mockTimeMinutes   Int @default(30)
+
+  // Freemium
+  /// Max questions an anonymous or free user may practice per session for this exam.
+  freeQuestionLimit Int @default(10)
+
+  // SEO
+  seoTitle       String?
+  seoDescription String?
+
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  categories       ExamCategory[]
+  questions        Question[]
+  practiceSessions PracticeSession[]
+  mockExams        MockExam[]
+  progress         UserProgress[]
+  subscriptions    Subscription[]
+  analyticsEvents  AnalyticsEvent[]
+  targetedBy       User[]            @relation("UserTargetExam")
+
+  @@index([status, isFeatured])
+  @@index([categoryId, status])
+}
+
+/// A section of one exam (EPA 608: Core, Type I, Type II, Type III).
+model ExamCategory {
+  id          String  @id @default(cuid())
+  examId      String
+  exam        Exam    @relation(fields: [examId], references: [id], onDelete: Cascade)
+  slug        String
+  name        String
+  description String?
+  /// Markdown. Body of the category practice-test landing page.
+  longDescription String?
+  /// Approximate share of the real exam, in percent.
+  weight    Int @default(0)
+  sortOrder Int @default(0)
+
+  seoTitle       String?
+  seoDescription String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  questions        Question[]
+  practiceSessions PracticeSession[]
+
+  @@unique([examId, slug])
+  @@index([examId, sortOrder])
+}
+
+model SourceReference {
+  id        String   @id @default(cuid())
+  title     String
+  url       String?
+  publisher String?
+  notes     String?
+  createdAt DateTime @default(now())
+
+  questions Question[]
+}
+
+model Question {
+  id         String       @id @default(cuid())
+  examId     String
+  exam       Exam         @relation(fields: [examId], references: [id], onDelete: Cascade)
+  categoryId String
+  category   ExamCategory @relation(fields: [categoryId], references: [id])
+
+  prompt      String
+  explanation String
+  difficulty  Difficulty    @default(MEDIUM)
+  isFree      Boolean       @default(false)
+  status      ContentStatus @default(DRAFT)
+  tags        String[]      @default([])
+
+  sourceId   String?
+  source     SourceReference? @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  sourceNote String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  options           QuestionOption[]
+  practiceAnswers   PracticeAnswer[]
+  mockExamQuestions MockExamQuestion[]
+  bookmarks         Bookmark[]
+  reports           QuestionReport[]
+
+  @@index([examId, status])
+  @@index([categoryId, status])
+  @@index([examId, status, isFree])
+  @@index([examId, status, difficulty])
+}
+
+model QuestionOption {
+  id         String   @id @default(cuid())
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  label      String
+  text       String
+  isCorrect  Boolean  @default(false)
+  sortOrder  Int      @default(0)
+
+  practiceAnswers   PracticeAnswer[]
+  mockExamQuestions MockExamQuestion[]
+
+  @@index([questionId, sortOrder])
+}
+
+// ---------------------------------------------------------------------------
+// Practice and mock exams
+// ---------------------------------------------------------------------------
+
+enum PracticeMode {
+  QUICK
+  CATEGORY
+  RANDOM
+}
+
+model PracticeSession {
+  id         String        @id @default(cuid())
+  userId     String
+  user       User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examId     String
+  exam       Exam          @relation(fields: [examId], references: [id], onDelete: Cascade)
+  mode       PracticeMode
+  categoryId String?
+  category   ExamCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  difficulty Difficulty?
+
+  questionCount Int
+  answeredCount Int       @default(0)
+  correctCount  Int       @default(0)
+  startedAt     DateTime  @default(now())
+  completedAt   DateTime?
+
+  answers PracticeAnswer[]
+
+  @@index([userId, startedAt])
+  @@index([examId])
+}
+
+model PracticeAnswer {
+  id               String          @id @default(cuid())
+  sessionId        String
+  session          PracticeSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  questionId       String
+  question         Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  selectedOptionId String?
+  selectedOption   QuestionOption? @relation(fields: [selectedOptionId], references: [id], onDelete: SetNull)
+  isCorrect        Boolean
+  timeSpentSec     Int?
+  answeredAt       DateTime        @default(now())
+
+  @@unique([sessionId, questionId])
+  @@index([questionId])
+}
+
+enum MockExamStatus {
+  IN_PROGRESS
+  COMPLETED
+  ABANDONED
+}
+
+model MockExam {
+  id     String         @id @default(cuid())
+  userId String
+  user   User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examId String
+  exam   Exam           @relation(fields: [examId], references: [id], onDelete: Cascade)
+  status MockExamStatus @default(IN_PROGRESS)
+
+  totalQuestions Int
+  timeLimitSec   Int
+  startedAt      DateTime  @default(now())
+  completedAt    DateTime?
+  timeTakenSec   Int?
+  correctCount   Int?
+  scorePercent   Int?
+
+  questions MockExamQuestion[]
+
+  @@index([userId, startedAt])
+  @@index([examId, status])
+}
+
+model MockExamQuestion {
+  id               String          @id @default(cuid())
+  mockExamId       String
+  mockExam         MockExam        @relation(fields: [mockExamId], references: [id], onDelete: Cascade)
+  questionId       String
+  question         Question        @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  position         Int
+  selectedOptionId String?
+  selectedOption   QuestionOption? @relation(fields: [selectedOptionId], references: [id], onDelete: SetNull)
+  isCorrect        Boolean?
+  isFlagged        Boolean         @default(false)
+
+  @@unique([mockExamId, questionId])
+  @@index([mockExamId, position])
+}
+
+/// Per-user, per-exam rollup kept in sync by the practice and mock services.
+model UserProgress {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  examId            String
+  exam              Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+  questionsAnswered Int      @default(0)
+  correctAnswers    Int      @default(0)
+  mocksCompleted    Int      @default(0)
+  bestMockScore     Int?
+  currentStreakDays Int      @default(0)
+  lastActivityDate  DateTime?
+  updatedAt         DateTime @updatedAt
+
+  @@unique([userId, examId])
+}
+
+model Bookmark {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  createdAt  DateTime @default(now())
+
+  @@unique([userId, questionId])
+}
+
+enum ReportStatus {
+  OPEN
+  RESOLVED
+  DISMISSED
+}
+
+model QuestionReport {
+  id         String       @id @default(cuid())
+  questionId String
+  question   Question     @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  userId     String?
+  user       User?        @relation(fields: [userId], references: [id], onDelete: SetNull)
+  reason     String
+  details    String?
+  status     ReportStatus @default(OPEN)
+  createdAt  DateTime     @default(now())
+  resolvedAt DateTime?
+
+  @@index([status, createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// Monetization (Stripe wiring comes after core MVP)
+// ---------------------------------------------------------------------------
+
+enum SubscriptionPlan {
+  MONTHLY
+  ANNUAL
+  EXAM_PACKAGE
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  TRIALING
+  PAST_DUE
+  CANCELED
+  EXPIRED
+}
+
+model Subscription {
+  id     String             @id @default(cuid())
+  userId String
+  user   User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+  plan   SubscriptionPlan
+  status SubscriptionStatus @default(ACTIVE)
+  /// Set for EXAM_PACKAGE; null grants access to every exam.
+  examId String?
+  exam   Exam?              @relation(fields: [examId], references: [id], onDelete: SetNull)
+
+  provider               String    @default("stripe")
+  providerCustomerId     String?
+  providerSubscriptionId String?   @unique
+  currentPeriodEnd       DateTime?
+  cancelAtPeriodEnd      Boolean   @default(false)
+  createdAt              DateTime  @default(now())
+  updatedAt              DateTime  @updatedAt
+
+  payments Payment[]
+
+  @@index([userId, status])
+}
+
+enum PaymentStatus {
+  PENDING
+  SUCCEEDED
+  FAILED
+  REFUNDED
+}
+
+model Payment {
+  id                String        @id @default(cuid())
+  userId            String
+  user              User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subscriptionId    String?
+  subscription      Subscription? @relation(fields: [subscriptionId], references: [id], onDelete: SetNull)
+  provider          String        @default("stripe")
+  providerPaymentId String?       @unique
+  amountCents       Int
+  currency          String        @default("usd")
+  status            PaymentStatus @default(PENDING)
+  createdAt         DateTime      @default(now())
+
+  @@index([userId, createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// Analytics (server-side event log powering the admin dashboard)
+// ---------------------------------------------------------------------------
+
+model AnalyticsEvent {
+  id          String   @id @default(cuid())
+  name        String
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  anonymousId String?
+  examId      String?
+  exam        Exam?    @relation(fields: [examId], references: [id], onDelete: SetNull)
+  properties  Json?
+  createdAt   DateTime @default(now())
+
+  @@index([name, createdAt])
+  @@index([userId, createdAt])
+  @@index([createdAt])
+}
