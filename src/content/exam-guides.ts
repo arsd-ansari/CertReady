@@ -91,7 +91,7 @@ Practice the [Type III question bank](/exams/epa-608/type-3).
 - **Appliance repair only** → Core + Type I
 - **Residential / light commercial HVAC** → Core + Type I + Type II (add Type III if your shop has chillers)
 - **Chiller plant / facilities** → Core + Type III (add Type II if you also own rooftops)
-- **Default for employment** → Universal (Core + I + II + III)
+- **Default for employment** → [Universal](/exams/epa-608/guides/universal) (Core + I + II + III)
 
 You can add a type later. Credit for sections you already passed is kept; you retake only the section you need.
 
@@ -99,7 +99,7 @@ You can add a type later. Credit for sections you already passed is kept; you re
 
 Each official section is 25 questions, **18 correct (72%)** to pass. CertReady’s mock exam is a 25-question timed mix so you practice that pacing. Drill one type until you are consistently above 80% on that category, then sit a [full mock](/mock/epa-608).
 
-See the [passing score guide](/exams/epa-608/guides/passing-score) and [who needs 608 certification](/exams/epa-608/guides/who-needs-certification).`,
+See the [passing score guide](/exams/epa-608/guides/passing-score), [Universal certification](/exams/epa-608/guides/universal), [who needs 608](/exams/epa-608/guides/who-needs-certification) and [taking the exam online](/exams/epa-608/guides/certification-online).`,
       faq: [
         {
           question: "Is Type 1 easier than Type 2?",
@@ -176,7 +176,7 @@ Use category scores, not one overall percentage. A 90% mock that hid a 60% Type 
 
 All CertReady items are original practice questions, not the live exam. The live exam is administered by an EPA-approved organization, not by EPA and not by CertReady.
 
-Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you are still deciding how many sections to book.`,
+Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you are still deciding how many sections to book, or the [Universal](/exams/epa-608/guides/universal) and [online exam](/exams/epa-608/guides/certification-online) guides.`,
       faq: [
         {
           question: "Is the EPA 608 passing score 70% or 72%?",
@@ -257,7 +257,7 @@ Match the equipment you will open:
 - Low-pressure centrifugal chillers → **Type III**
 - All of the above, or you want to be hireable → **Universal**
 
-Details: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2).
+Details: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). Most shops want [Universal](/exams/epa-608/guides/universal). Many techs sit the whole thing [online with a live proctor](/exams/epa-608/guides/certification-online).
 
 ## After you pass
 
@@ -292,6 +292,189 @@ CertReady is independent practice material. We are not affiliated with EPA or an
         },
       ],
     },
+    {
+      slug: "universal",
+      title: "EPA 608 Universal Certification",
+      seoTitle: "EPA 608 Universal Certification — Core + Type I, II & III",
+      seoDescription:
+        "EPA 608 Universal is Core plus Type I, Type II and Type III: 100 questions, 72% on each section. What Universal covers, how it is scored, and how to practice before you book.",
+      intro:
+        "Universal is not a fifth test. It is Core plus Type I, Type II and Type III in one sitting — 100 questions and four separate 72% bars. Most HVAC/R employers ask for this card.",
+      markdown: `## What Universal is
+
+**Universal = Core + Type I + Type II + Type III.**
+
+You are certified to service:
+
+- Factory-sealed small appliances (refrigerators, window A/C, vending) — Type I
+- Field-charged high-pressure equipment (splits, rooftops, walk-ins, racks) — Type II
+- Low-pressure centrifugal chillers — Type III
+
+Plus the Core rules that apply to every type: venting prohibition, recover/recycle/reclaim, cylinders, sales restriction, safety.
+
+It does **not** cover motor vehicle A/C. That is [Section 609](/exams/epa-608/guides/who-needs-certification). A Universal 608 card does not let you empty a car.
+
+If you only ever open one class of equipment, you can sit Core plus that type. Universal is the employment default because shops do not want to track which systems you are allowed to touch. Full type breakdown: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2).
+
+## How the exam is scored
+
+Each section is 25 multiple-choice questions. You need **18 correct (72%) on each section**, not 72% overall.
+
+| Section | Questions | To pass |
+| --- | --- | --- |
+| Core | 25 | 18 |
+| Type I | 25 | 18 |
+| Type II | 25 | 18 |
+| Type III | 25 | 18 |
+| **Universal total** | **100** | **18 on every section** |
+
+Fail Type III at 17/25 and you still receive Core + I + II if those passed. You retake only Type III. Fail Core and you take home no types from that sitting.
+
+Details: [EPA 608 passing score](/exams/epa-608/guides/passing-score).
+
+## Closed book and proctored
+
+Universal is **closed-book** and **proctored**. Some organizations still offer a Type I-only exam that is open-book and not proctored. That does not apply once you add Type II, Type III or Universal.
+
+You can sit Universal **in a testing center or online with a live proctor**. Online is still a locked-down, ID-checked exam — not an open-tab take-home. See [EPA 608 certification online](/exams/epa-608/guides/certification-online).
+
+EPA does not print the wallet card. An [EPA-approved certifying organization](https://www.epa.gov/section608/section-608-technician-certification-programs) does. Fees are set by the provider.
+
+## What people actually miss on Universal
+
+The failure mode is mixing numbers across types:
+
+- Type I **80% / 90% / 4 in. Hg** is not a Type II vacuum
+- Type II leak rates: comfort cooling **10%**, commercial refrigeration **20%**, industrial process **30%** (appliances with 50 lb or more)
+- Type II evacuation: 0 / 10 / 15 in. Hg by refrigerant and charge; very-high-pressure is 0
+- Type III: **10 psig** leak test, **15 psig** rupture disc, **25 mm Hg absolute** for a major repair, vapor-first charging
+
+Memorize the [study-guide table](/exams/epa-608/study-guide), then drill the weak type. A 90% mock that hid a 60% Type III is how Universal is lost by one section.
+
+## How to prepare on CertReady
+
+1. Core until you can recite dates, 80% cylinder fill, and recover/recycle/reclaim — [Core practice](/exams/epa-608/core)
+2. Type I definition and 80/90% — [Type I](/exams/epa-608/type-1)
+3. Type II leak rates and evacuation table — [Type II](/exams/epa-608/type-2)
+4. Type III vacuum operation — [Type III](/exams/epa-608/type-3)
+5. Timed [mock exams](/mock/epa-608) until every category is above 80%
+
+All CertReady questions are original practice material, not the live exam. We are not affiliated with EPA or any certifying organization.`,
+      faq: [
+        {
+          question: "Is Universal a separate EPA 608 exam?",
+          answer:
+            "No. Universal is Core plus Type I, II and III. There is no fifth booklet. You select Universal when you book, and you sit all four sections.",
+        },
+        {
+          question: "Can I add Universal later if I only passed Type II?",
+          answer:
+            "You keep the sections you passed. Book the missing types (and Core if you do not have it). You do not retake Type II.",
+        },
+        {
+          question: "Does Universal expire?",
+          answer:
+            "No. Section 608 certification does not expire. Replacement cards come from the organization that tested you, not from EPA or CertReady.",
+        },
+        {
+          question: "Do employers require Universal or just Type II?",
+          answer:
+            "Type II is enough for splits and rooftops. Most shops still want Universal so you can also recover a refrigerator or work a chiller without a second test day.",
+        },
+      ],
+    },
+    {
+      slug: "certification-online",
+      title: "EPA 608 Certification Online",
+      seoTitle: "EPA 608 Certification Online — Proctored Test From Home",
+      seoDescription:
+        "You can take EPA 608 online with a live proctor through an EPA-approved organization. How online testing works for Core, Type I–III and Universal, what you need at home, and how to practice first.",
+      intro:
+        "EPA 608 can be taken online. That means a live proctor watching you on camera — not an unsupervised quiz. EPA still does not give the test itself.",
+      markdown: `## What “online” actually means
+
+Section 608 exams are administered by **EPA-approved certifying organizations** (ESCO Institute, RSES, Mainstream Engineering, HVAC Excellence and others), not by EPA and not by CertReady.
+
+Online usually means:
+
+- You book with one of those organizations
+- You sit at home (or another quiet room) with a webcam, microphone and government ID
+- A **live proctor** checks your ID, scans the room, and watches the session
+- Core, Type II, Type III and **Universal are closed-book**
+
+Some providers still offer a **Type I-only** exam that is open-book and not proctored. If you are booking Universal, assume closed-book with a proctor. [Universal](/exams/epa-608/guides/universal) is Core + I + II + III.
+
+Confirm current rules, price and software with the organization you book. EPA’s list: [approved technician certification programs](https://www.epa.gov/section608/section-608-technician-certification-programs).
+
+## What you need on test day
+
+Typical online-proctor requirements (providers differ — read their checklist):
+
+- Quiet, private room; no second monitor, notes or phone in reach
+- Webcam the proctor can pan around the room
+- Government photo ID that matches the name on the booking
+- A computer that meets their lock-down browser / app requirements
+- Stable internet — a drop can void the sitting
+
+You cannot open CertReady, a P/T chart, or your notes during a closed-book section. Practice here **before** you book, not during.
+
+## Online vs in-person
+
+| | Online with live proctor | Testing center |
+| --- | --- | --- |
+| Same exam | Yes — same sections, same 72% bar | Yes |
+| Closed book | Yes for Core / II / III / Universal | Yes |
+| Schedule | Often evenings and weekends | Center hours |
+| Travel | None | Drive to a site |
+| Failure mode | Room scan, ID, tech issues | Parking and wait time |
+
+The passing score does not change because you are at home: **18 of 25 on each section**. See the [passing score guide](/exams/epa-608/guides/passing-score).
+
+## Cost and the card
+
+EPA does not set a national fee. Providers commonly charge on the order of **$20–$150** depending on how many sections you sit and whether you test online or in person. The **wallet card comes from that organization**. It does not expire. Lost-card replacements are also from them.
+
+CertReady is free practice. We do not sell the official exam, and a completed mock here is not a certification.
+
+## Who this is for
+
+- Apprentices and helpers who need the card before a wholesaler will sell refrigerant — [who needs 608](/exams/epa-608/guides/who-needs-certification)
+- Residential techs booking [Universal](/exams/epa-608/guides/universal) on a weekend
+- Anyone who cannot get to a testing center during work hours
+
+If you only service cars, you need **Section 609**, which is a different online/in-person program.
+
+## Practice first, then book
+
+1. Drill [Core](/exams/epa-608/core), [Type I](/exams/epa-608/type-1), [Type II](/exams/epa-608/type-2) and [Type III](/exams/epa-608/type-3) until each is above 80%
+2. Sit a timed [mock exam](/mock/epa-608) (25 questions / 30 minutes)
+3. Read the [study guide numbers](/exams/epa-608/study-guide)
+4. Book with an EPA-approved organization when category scores are consistently high
+
+All questions on CertReady are original study material, not live exam items.`,
+      faq: [
+        {
+          question: "Can I take EPA 608 online from home?",
+          answer:
+            "Yes, through many EPA-approved organizations that offer live online proctoring. Core, Type II, Type III and Universal are closed-book. Some Type I-only exams are still unproctored — check the provider.",
+        },
+        {
+          question: "Does EPA itself offer an online 608 test?",
+          answer:
+            "No. EPA approves certifying organizations. Those organizations give the exam, take the fee and print the card.",
+        },
+        {
+          question: "Is the online exam easier?",
+          answer:
+            "No. Same question counts, same 72% per section, same closed-book rule for Universal. The only difference is where you sit.",
+        },
+        {
+          question: "Is CertReady the official online exam?",
+          answer:
+            "No. CertReady is independent practice. Passing a mock here does not certify you. Book the live exam with an EPA-approved program.",
+        },
+      ],
+    },
   ],
 };
 
@@ -302,6 +485,8 @@ The live EPA 608 exam is **25 multiple-choice questions per section**, **18 corr
 Start with a 10-question mixed set if you have ten minutes. Switch to one type when a mock shows a weak section. Sit the timed mock when you can hit **80%+** on each category; passing is 72%, and you want margin.
 
 - [Type I vs Type II vs Type III](/exams/epa-608/guides/type-1-vs-type-2)
+- [Universal certification](/exams/epa-608/guides/universal)
+- [Take EPA 608 online](/exams/epa-608/guides/certification-online)
 - [Passing score (72%)](/exams/epa-608/guides/passing-score)
 - [Who needs EPA 608](/exams/epa-608/guides/who-needs-certification)
 `;

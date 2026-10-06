@@ -106,9 +106,19 @@ export default async function HomePage() {
       <section className="mx-auto w-full max-w-6xl px-4 pb-4 sm:px-6">
         <h2 className="text-2xl font-semibold tracking-tight text-navy sm:text-3xl">EPA 608 study guides</h2>
         <p className="mt-2 max-w-2xl text-zinc-600">
-          The pages technicians search before they book: which type to take, the 72% passing score, and who actually needs the card.
+          The pages technicians search before they book: Universal, taking it online, which type you need, and the 72% passing score.
         </p>
-        <div className="mt-8 grid gap-4 md:grid-cols-3">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <GuideLink
+            href="/exams/epa-608/guides/universal"
+            title="Universal certification"
+            text="Core + Type I, II and III. 100 questions, 72% on each section — the card most shops want."
+          />
+          <GuideLink
+            href="/exams/epa-608/guides/certification-online"
+            title="Take EPA 608 online"
+            text="Live proctor from home. Same exam as a testing center. EPA does not give the test itself."
+          />
           <GuideLink
             href="/exams/epa-608/guides/type-1-vs-type-2"
             title="Type 1 vs Type 2 vs Type 3"
