@@ -14,10 +14,15 @@ export async function generateMetadata({ params }: GuideIndexParams): Promise<Me
   if (!exam) return {};
   const guides = getExamGuides(exam.slug);
   if (guides.length === 0) return {};
+  const isCdl = exam.slug === "cdl";
   return examMetadata(exam, {
     path: `/exams/${exam.slug}/guides`,
-    title: `${exam.shortTitle} Study Guides — Type Comparisons, Passing Score & Who Needs It`,
-    description: `Free ${exam.title} guides: which certification type to take, the 72% passing score, and who must be certified before handling refrigerant.`,
+    title: isCdl
+      ? `${exam.shortTitle} Study Guides — Class A vs B, Permit, 80% Score & State Tests`
+      : `${exam.shortTitle} Study Guides — Type Comparisons, Passing Score & Who Needs It`,
+    description: isCdl
+      ? `Free CDL guides: Class A vs Class B, the CLP permit wait, 80% passing score, and California, Texas, Florida and Georgia practice pages.`
+      : `Free ${exam.title} guides: which certification type to take, the 72% passing score, and who must be certified before handling refrigerant.`,
   });
 }
 
@@ -37,7 +42,11 @@ export default async function ExamGuidesIndexPage({ params }: GuideIndexParams) 
         { name: "Guides", href: `/exams/${exam.slug}/guides` },
       ]}
       title={`${exam.shortTitle} study guides`}
-      intro="Longer answers to the questions technicians actually search before they book the exam."
+      intro={
+        exam.slug === "cdl"
+          ? "Class A vs B, the permit wait, the 80% passing score, and state pages for California, Texas, Florida and Georgia."
+          : "Longer answers to the questions technicians actually search before they book the exam."
+      }
       aside={
         <>
           <ExamFactsCard exam={exam} />
