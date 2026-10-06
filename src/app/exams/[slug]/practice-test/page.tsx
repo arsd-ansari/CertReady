@@ -5,6 +5,7 @@ import { ExamCategoriesCard, ExamFactsCard, ExamPageShell } from "@/components/e
 import { RelatedGuides } from "@/components/exams/related-guides";
 import { Markdown } from "@/components/markdown";
 import { Button } from "@/components/ui/button";
+import { CDL_PRACTICE_COPY } from "@/content/cdl-guides";
 import { EPA_608_PRACTICE_COPY } from "@/content/exam-guides";
 import { FREE_LIMITS } from "@/lib/entitlements";
 import { examMetadata } from "@/lib/content/metadata";
@@ -72,6 +73,7 @@ export default async function PracticeTestPage({ params }: PageProps<"/exams/[sl
       }
     >
       {exam.slug === "epa-608" && <Markdown content={EPA_608_PRACTICE_COPY} className="mb-10" />}
+      {exam.slug === "cdl" && <Markdown content={CDL_PRACTICE_COPY} className="mb-10" />}
 
       <div className="grid gap-4 sm:grid-cols-2">
         {modes.map((mode) => (

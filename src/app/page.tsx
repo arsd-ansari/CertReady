@@ -10,7 +10,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: `${site.name} — Free Practice Tests for Trade & Professional Certifications`,
   description:
-    "Free practice questions, timed mock exams and progress tracking for EPA 608, water and wastewater operator, and other professional certification exams.",
+    "Free practice questions, timed mock exams and progress tracking for EPA 608, CDL knowledge tests, water operator licensing, and other professional certification exams.",
   alternates: { canonical: "/" },
 };
 
@@ -33,7 +33,7 @@ const HOME_FAQ = [
   {
     question: "Which exams are available?",
     answer:
-      "EPA 608 (Core, Type I, II and III) and Grade 1 water treatment, wastewater treatment and collection system operator exams, with more skilled-trade certifications being added.",
+      "EPA 608 (Core, Type I, II and III), CDL knowledge tests (General Knowledge, Air Brakes, Combination Vehicles, Hazmat, Tanker and Passenger), and Grade 1 water and wastewater operator exams.",
   },
 ];
 
@@ -58,7 +58,7 @@ export default async function HomePage() {
             </h1>
             <p className="mt-5 max-w-xl text-lg text-zinc-600">
               Realistic practice questions, timed mock exams and clear explanations for the certification exams that
-              get you hired — starting with EPA 608 and water operator licensing.
+              get you hired — starting with EPA 608, CDL, and water operator licensing.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Button asChild size="lg">
@@ -87,7 +87,7 @@ export default async function HomePage() {
         <div className="flex items-end justify-between gap-4">
           <div>
             <h2 className="text-2xl font-semibold tracking-tight text-navy sm:text-3xl">Popular exams</h2>
-            <p className="mt-2 text-zinc-600">Start with the exams most technicians and operators are preparing for.</p>
+            <p className="mt-2 text-zinc-600">Start with the exams most technicians, CDL applicants and operators are preparing for.</p>
           </div>
           <Link href="/exams" className="hidden text-sm font-medium text-brand hover:underline sm:block">
             View all exams →
@@ -133,6 +133,55 @@ export default async function HomePage() {
             href="/exams/epa-608/guides/who-needs-certification"
             title="Who needs EPA 608"
             text="If you open a refrigerant circuit or buy cylinders, you need 608. Cars are 609."
+          />
+        </div>
+      </section>
+
+      <section className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
+        <h2 className="text-2xl font-semibold tracking-tight text-navy sm:text-3xl">CDL practice tests</h2>
+        <p className="mt-2 max-w-2xl text-zinc-600">
+          General Knowledge, Air Brakes and endorsements — plus the state pages people search before they book DMV.
+        </p>
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <GuideLink
+            href="/exams/cdl/practice-test"
+            title="Free CDL practice test"
+            text="Original questions on General Knowledge, Air Brakes, Combination Vehicles, Hazmat, Tanker and Passenger."
+          />
+          <GuideLink
+            href="/exams/cdl/guides/class-a-vs-class-b"
+            title="Class A vs Class B vs Class C"
+            text="Trailer 10,001 lb+ is A. Single heavy truck is B. 16+ riders or placards can be C."
+          />
+          <GuideLink
+            href="/exams/cdl/guides/cdl-permit"
+            title="CDL permit (CLP)"
+            text="Pass the knowledge tests, wait (often 14 days), practice with a qualified CDL holder, then skills."
+          />
+          <GuideLink
+            href="/exams/cdl/guides/passing-score"
+            title="Passing score: 80%"
+            text="Each test is scored alone. 40 of 50 on General Knowledge. Fail Air Brakes and you get a restriction."
+          />
+          <GuideLink
+            href="/exams/cdl/guides/california"
+            title="California CDL"
+            text="CA DMV knowledge tests on the federal topics. Practice here, then book DMV."
+          />
+          <GuideLink
+            href="/exams/cdl/guides/texas"
+            title="Texas CDL"
+            text="Texas DPS written tests. Same General Knowledge, Air Brakes and Class A combination bank."
+          />
+          <GuideLink
+            href="/exams/cdl/guides/florida"
+            title="Florida CDL"
+            text="Florida DHSMV knowledge tests. Drill 80% before you sit at the tax collector."
+          />
+          <GuideLink
+            href="/exams/cdl/guides/georgia"
+            title="Georgia CDL"
+            text="Georgia DDS written tests. Class A still needs Combination Vehicles — do not skip it."
           />
         </div>
       </section>

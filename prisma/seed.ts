@@ -6,6 +6,7 @@
  */
 import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcryptjs";
+import { cdl } from "./seed-data/cdl";
 import { wastewaterCollection1 } from "./seed-data/collections-1";
 import { epa608, type SeedExam } from "./seed-data/epa-608";
 import { fromLegacy } from "./seed-data/legacy-adapter";
@@ -15,6 +16,7 @@ import { waterTreatment1 } from "./seed-data/water-treatment-1";
 const db = new PrismaClient();
 
 const certificationCategories = [
+  { slug: "commercial-driving", name: "Commercial Driving", description: "CDL knowledge tests: General Knowledge, Air Brakes, Combination Vehicles and endorsements.", sortOrder: 0 },
   { slug: "hvac-refrigeration", name: "HVAC & Refrigeration", description: "EPA 608, NATE, and state HVAC licensing exams.", sortOrder: 1 },
   { slug: "water-wastewater", name: "Water & Wastewater", description: "Treatment, distribution and collection system operator certifications.", sortOrder: 2 },
   { slug: "security", name: "Security", description: "Unarmed and armed security guard licensing exams.", sortOrder: 3 },
@@ -25,6 +27,7 @@ const certificationCategories = [
 
 const exams: SeedExam[] = [
   epa608,
+  cdl,
   fromLegacy(waterTreatment1, { categorySlug: "water-wastewater" }),
   fromLegacy(wastewaterTreatment1, { categorySlug: "water-wastewater" }),
   fromLegacy(wastewaterCollection1, { categorySlug: "water-wastewater" }),

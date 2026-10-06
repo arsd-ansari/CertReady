@@ -11,7 +11,7 @@ import { US_STATES } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "All Certification Practice Exams",
   description:
-    "Browse free practice tests for professional and trade certification exams: EPA 608, water and wastewater operator licensing and more. Filter by category and state.",
+    "Browse free practice tests for professional and trade certification exams: EPA 608, CDL knowledge tests, water and wastewater operator licensing and more. Filter by category and state.",
   alternates: { canonical: "/exams" },
 };
 

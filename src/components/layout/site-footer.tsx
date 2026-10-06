@@ -11,8 +11,8 @@ export function SiteFooter() {
           <p className="mt-3 max-w-sm text-sm text-zinc-600">{site.tagline}</p>
           <p className="mt-4 max-w-md text-xs leading-5 text-zinc-500">
             CertReady is an independent study platform. All practice questions are original material and are not
-            actual exam questions. CertReady is not affiliated with, endorsed by, or connected to the U.S. EPA, any
-            state licensing board, or any certifying organization.
+            actual exam questions. CertReady is not affiliated with, endorsed by, or connected to the U.S. EPA, FMCSA,
+            any state DMV or licensing board, or any certifying organization.
           </p>
         </div>
         <div>
@@ -20,8 +20,9 @@ export function SiteFooter() {
           <ul className="mt-3 space-y-2 text-sm text-zinc-600">
             <li><Link href="/exams" className="hover:text-navy">All exams</Link></li>
             <li><Link href="/exams/epa-608" className="hover:text-navy">EPA 608</Link></li>
+            <li><Link href="/exams/cdl" className="hover:text-navy">CDL</Link></li>
+            <li><Link href="/exams/cdl/practice-test" className="hover:text-navy">CDL practice test</Link></li>
             <li><Link href="/exams/epa-608/practice-test" className="hover:text-navy">EPA 608 practice test</Link></li>
-            <li><Link href="/exams/epa-608/study-guide" className="hover:text-navy">EPA 608 study guide</Link></li>
             <li><Link href="/exams?category=water-wastewater" className="hover:text-navy">Water & wastewater</Link></li>
           </ul>
         </div>

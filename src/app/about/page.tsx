@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About CertReady",
-  description: "CertReady builds practice tests for skilled-trade and professional certification exams, starting with EPA 608 and water operator licensing.",
+  description: "CertReady builds practice tests for skilled-trade and professional certification exams, starting with EPA 608, CDL knowledge tests, and water operator licensing.",
   alternates: { canonical: "/about" },
 };
 
@@ -20,8 +20,9 @@ export default function AboutPage() {
       <div className="prose-cr mt-8">
         <p>
           CertReady is an independent exam-prep platform for the certifications that skilled trades and technical
-          professionals need to get hired and stay licensed. We started with EPA Section 608 for HVAC/R technicians and
-          Grade 1 water and wastewater operator exams, and we add certifications based on what learners ask for.
+          professionals need to get hired and stay licensed. We started with EPA Section 608 for HVAC/R technicians,
+          CDL knowledge tests for commercial drivers, and Grade 1 water and wastewater operator exams, and we add
+          certifications based on what learners ask for.
         </p>
         <h2>How we write questions</h2>
         <p>
@@ -32,9 +33,9 @@ export default function AboutPage() {
         </p>
         <h2>What we are not</h2>
         <p>
-          We are not affiliated with the U.S. Environmental Protection Agency, any state licensing board, Water
-          Professionals International, or any exam provider. We never publish actual exam questions, and we don&apos;t
-          guarantee you&apos;ll pass — but we do our best to make sure you walk in knowing where you stand.
+          We are not affiliated with the U.S. Environmental Protection Agency, FMCSA, any state DMV or licensing board,
+          Water Professionals International, or any exam provider. We never publish actual exam questions, and we
+          don&apos;t guarantee you&apos;ll pass — but we do our best to make sure you walk in knowing where you stand.
         </p>
         <h2>Found a mistake?</h2>
         <p>

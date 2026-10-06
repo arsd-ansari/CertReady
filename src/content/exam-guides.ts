@@ -1,18 +1,12 @@
-/** Long-form SEO guides keyed by exam slug. Content is original study material, not official EPA text. */
+/** Long-form SEO guides keyed by exam slug. Content is original study material, not official exam text. */
 
-export type ExamGuideFaq = { question: string; answer: string };
+import { CDL_GUIDES } from "./cdl-guides";
+import type { ExamGuide, ExamGuideFaq } from "./exam-guide-types";
 
-export type ExamGuide = {
-  slug: string;
-  title: string;
-  seoTitle: string;
-  seoDescription: string;
-  intro: string;
-  markdown: string;
-  faq: ExamGuideFaq[];
-};
+export type { ExamGuide, ExamGuideFaq };
 
 export const EXAM_GUIDES: Record<string, ExamGuide[]> = {
+  cdl: CDL_GUIDES,
   "epa-608": [
     {
       slug: "type-1-vs-type-2",
