@@ -5,6 +5,7 @@ import { AdSlot } from "@/components/ads/ad-slot";
 import { Breadcrumbs, type Crumb } from "@/components/seo/breadcrumbs";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { getExamGuides } from "@/content/exam-guides";
 import { ExamSubnav, type ExamTab } from "./exam-subnav";
 
 const SCOPE_LABEL = { FEDERAL: "Federal certification", STATE: "State certification", NATIONAL_PRIVATE: "National certification" } as const;
@@ -50,7 +51,7 @@ export function ExamPageShell({
       </header>
 
       <div className="mt-8">
-        <ExamSubnav slug={exam.slug} active={tab} />
+        <ExamSubnav slug={exam.slug} active={tab} showGuides={getExamGuides(exam.slug).length > 0} />
       </div>
 
       <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_300px]">

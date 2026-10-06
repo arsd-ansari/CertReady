@@ -5,6 +5,8 @@
  * certifying organizations test. They are NOT actual exam questions.
  */
 
+import { moreEpa608Questions } from "./epa-608-more";
+
 export type SeedOption = { label: string; text: string; correct?: boolean };
 export type SeedQuestion = {
   category: string; // ExamCategory slug
@@ -92,8 +94,20 @@ const categories: SeedCategory[] = [
     slug: "core",
     name: "Core",
     description: "Ozone depletion, the Clean Air Act, the Three Rs, safety, shipping and the venting rule. Required for every certification type.",
-    longDescription:
-      "The Core section is taken by everyone. It covers stratospheric ozone science, the Montreal Protocol and Clean Air Act Section 608, the definitions of recover/recycle/reclaim, the venting prohibition and penalties, refrigerant oils, leak detection, dehydration and evacuation, recovery cylinders and DOT shipping rules, and technician safety.",
+    longDescription: `The Core section is taken by everyone who sits any EPA 608 type. It is 25 questions; you need **18 correct (72%)**.
+
+Topics that show up every sitting:
+
+- Stratospheric ozone, chlorine, ODP vs GWP, CFCs / HCFCs / HFCs / HFOs
+- Montreal Protocol and Clean Air Act Section 608
+- Recover, recycle, reclaim (AHRI 700 before a change of ownership)
+- Venting prohibition (July 1, 1992 for CFC/HCFC; November 15, 1995 for HFCs) and de minimis releases
+- Sales restriction, fines, and losing your card
+- Gray/yellow recovery cylinders, 80% fill, DOT labels, never refill disposables
+- Nitrogen only for leak-test pressure — never oxygen or compressed air
+- POE oil, moisture, evacuation/dehydration, P/T charts and non-condensables
+
+Drill Core until you can recite the dates and the 80% cylinder rule without notes, then add a type.`,
     weight: 25,
     seoTitle: "EPA 608 Core Practice Test — Free Questions & Explanations",
     seoDescription:
@@ -103,8 +117,18 @@ const categories: SeedCategory[] = [
     slug: "type-1",
     name: "Type I — Small Appliances",
     description: "Systems factory-charged with 5 lb or less of refrigerant: recovery levels, piercing valves and passive recovery.",
-    longDescription:
-      "Type I covers small appliances such as domestic refrigerators, window air conditioners, dehumidifiers and vending machines that are hermetically sealed and factory-charged with five pounds or less of refrigerant. Expect questions on recovery percentages, 4 in. Hg vacuum, system-dependent (passive) versus self-contained recovery, piercing access valves and the November 15, 1993 equipment date.",
+    longDescription: `Type I is **small appliances only**: factory-manufactured, factory-charged, hermetically sealed, **5 lb or less**. Household refrigerators, window units, dehumidifiers, water coolers and vending machines.
+
+Not Type I: any field-charged split or rooftop, even under 5 lb. That is [Type II](/exams/epa-608/type-2).
+
+Numbers to lock in:
+
+- Working compressor → recover **90%** or **4 in. Hg**
+- Dead compressor → recover **80%** or **4 in. Hg**
+- Passive recovery → **15 lb or less**
+- Certified recovery equipment after **November 15, 1993**
+
+Read [Type 1 vs Type 2](/exams/epa-608/guides/type-1-vs-type-2) if you are choosing sections.`,
     weight: 25,
     seoTitle: "EPA 608 Type I Practice Test — Small Appliance Questions",
     seoDescription:
@@ -114,8 +138,17 @@ const categories: SeedCategory[] = [
     slug: "type-2",
     name: "Type II — High-Pressure Appliances",
     description: "Split systems, rooftop units and supermarket racks: leak-rate thresholds, evacuation levels and recovery technique.",
-    longDescription:
-      "Type II covers high- and very-high-pressure appliances that are not small appliances or motor vehicle air conditioners, including residential split systems, packaged rooftop units and commercial refrigeration. Expect questions on leak-repair thresholds and deadlines for appliances with 50 lb or more, required evacuation levels, nitrogen pressure testing, recovering liquid before vapor, non-condensables and compressor burnout.",
+    longDescription: `Type II is residential and commercial HVAC/R that is **not** a small appliance and **not** a low-pressure chiller: splits, packaged rooftops, walk-ins, racks, and very-high-pressure industrial refrigerants (R-13, R-23, R-503).
+
+The leak-repair program (40 CFR 82.157) applies at **50 lb or more**:
+
+| End use | Annual leak-rate threshold |
+| --- | --- |
+| Comfort cooling | **10%** |
+| Commercial refrigeration | **20%** |
+| Industrial process refrigeration | **30%** |
+
+Also memorize the post-1993 evacuation table (0 / 10 / 15 in. Hg by refrigerant and charge) and recover liquid before vapor. Compare types in the [Type 1 vs Type 2 guide](/exams/epa-608/guides/type-1-vs-type-2).`,
     weight: 25,
     seoTitle: "EPA 608 Type II Practice Test — High-Pressure System Questions",
     seoDescription:
@@ -125,8 +158,16 @@ const categories: SeedCategory[] = [
     slug: "type-3",
     name: "Type III — Low-Pressure Appliances",
     description: "Centrifugal chillers using R-11 and R-123: vacuum operation, purge units, rupture discs and the 25 mm Hg evacuation level.",
-    longDescription:
-      "Type III covers low-pressure appliances — chiefly centrifugal chillers using refrigerants such as R-11, R-113 and R-123 that operate in a vacuum. Expect questions on leak testing with controlled pressure, the 15 psig rupture disc, purge units, charging vapor before liquid to avoid freezing tubes, recovering oil, and the 25 mm Hg absolute evacuation level for appliances made after November 15, 1993.",
+    longDescription: `Type III is **low-pressure appliances** — almost always centrifugal chillers using R-11, R-113 or R-123. The low side runs in a vacuum, so leaks draw **air in**. A purge unit that never shuts up is a leak.
+
+Numbers that decide the section:
+
+- Leak test: stay at or below **10 psig**
+- Rupture disc: **15 psig**
+- Major repair evacuation (equipment after November 15, 1993): **25 mm Hg absolute**
+- Charge **vapor first** until you are above freezing, then liquid — frozen evaporator tubes are the classic fail
+
+Type III does not cover split systems. See [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2).`,
     weight: 25,
     seoTitle: "EPA 608 Type III Practice Test — Low-Pressure Chiller Questions",
     seoDescription:
@@ -748,7 +789,7 @@ export const epa608: SeedExam = {
   freeQuestionLimit: 10,
   seoTitle: "EPA 608 Practice Test — Free Core, Type I, II & III Questions",
   seoDescription:
-    "Free EPA 608 practice tests with detailed explanations. Practice Core, Type I, Type II and Type III questions, take timed mock exams and track weak topics before your Universal certification exam.",
+    "Free EPA 608 practice test with 100+ original questions. Core, Type I, Type II and Type III, timed mocks, 72% passing-score guide, and Type 1 vs Type 2 explained.",
   overview: `## What the EPA 608 exam is
 
 Section 608 of the Clean Air Act requires anyone who maintains, services, repairs or disposes of equipment that could release refrigerant into the atmosphere to be certified. Certification is issued by EPA-approved organizations, never by EPA directly, and it does not expire.
@@ -764,16 +805,20 @@ The exam has four sections:
 
 Passing Core plus one type earns that type's certification. Passing Core plus all three types earns **Universal** certification, which most HVAC/R employers ask for.
 
+Not sure which type you need? Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) and [who needs EPA 608 certification](/exams/epa-608/guides/who-needs-certification). The passing bar is **18 of 25 (72%) on each section**.
+
 ## How CertReady helps
 
-Every question in this bank is original practice material written to mirror the topics, numbers and traps on the real exam — recovery percentages, evacuation levels, leak-rate thresholds, dates and safety rules. Each answer comes with an explanation and, where relevant, a pointer to the EPA rule it comes from.`,
+Every question in this bank is original practice material written to mirror the topics, numbers and traps on the real exam — recovery percentages, evacuation levels, leak-rate thresholds, dates and safety rules. Each answer comes with an explanation and, where relevant, a pointer to the EPA rule it comes from. Start with the [free EPA 608 practice test](/exams/epa-608/practice-test) or a timed [mock exam](/mock/epa-608).`,
   whoShouldTake: `- HVAC/R technicians and apprentices who will handle refrigerant on stationary equipment
 - Facilities and maintenance staff who service rooftop units, walk-in coolers or chillers
 - Appliance repair technicians working on refrigerators, freezers, window units and vending machines
 - Anyone who needs to purchase regulated refrigerant — sales are restricted to certified technicians
 - Trade-school students preparing to enter the field
 
-If you only work on car and truck A/C systems, you need Section **609** certification instead, which is a separate program.`,
+If you only work on car and truck A/C systems, you need Section **609** certification instead, which is a separate program. A 608 card does not cover MVAC, and a 609 card does not cover a rooftop.
+
+There is no federal age, diploma or apprenticeship requirement. State HVAC licenses are separate from 608. Full detail: [who needs EPA 608 certification](/exams/epa-608/guides/who-needs-certification).`,
   requirements: `## Eligibility
 
 There are no age, education or experience requirements. Anyone can sit for the exam.
@@ -789,7 +834,10 @@ There are no age, education or experience requirements. Anyone can sit for the e
 
 - Certification is issued as a wallet card by the certifying organization.
 - **It never expires** and is valid in every U.S. state and territory.
-- If you fail one type section you keep credit for the sections you passed and retake only the failed one.`,
+- If you fail one type section you keep credit for the sections you passed and retake only the failed one.
+- Passing is **18 of 25 correct (72%) per section**, not an overall average. Details: [EPA 608 passing score](/exams/epa-608/guides/passing-score).
+
+Always confirm current fees, seating time and online-proctor rules with the organization that will print your card. EPA publishes the [list of approved programs](https://www.epa.gov/section608/section-608-technician-certification-programs).`,
   studyGuide: `## Numbers you must memorize
 
 | Topic | Value |
@@ -806,9 +854,11 @@ There are no age, education or experience requirements. Anyone can sit for the e
 | Low-pressure evacuation (post-11/15/93 equipment) | **25 mm Hg absolute** |
 | Low-pressure rupture disc | 15 psig |
 | Low-pressure leak test pressure limit | 10 psig |
-| Leak-rate thresholds (≥ 50 lb) | Commercial 30% · Industrial process 20% · Comfort cooling 10% |
-| Leak repair deadline | 30 days |
+| Leak-rate thresholds (≥ 50 lb) | Comfort cooling **10%** · Commercial refrigeration **20%** · Industrial process **30%** |
+| Leak repair deadline | 30 days (or mothball / retire) |
 | Records retention | 3 years |
+
+Do not mix Type I percentages (80/90) with Type II vacuums (0/10/15 in. Hg) or Type III's **25 mm Hg absolute**. That mix-up is how people fail one section at 17/25.
 
 ## Dates
 
@@ -817,13 +867,22 @@ There are no age, education or experience requirements. Anyone can sit for the e
 - **November 14, 1994** — technicians must be certified
 - **November 15, 1995** — venting prohibition extended to HFCs
 
+## Pick the right type before you memorize
+
+- Factory-sealed, 5 lb or less → [Type I](/exams/epa-608/type-1)
+- Field-charged high-pressure (splits, rooftops, racks) → [Type II](/exams/epa-608/type-2)
+- Low-pressure chillers → [Type III](/exams/epa-608/type-3)
+- All three plus Core → Universal
+
+Full comparison: [EPA 608 Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). Passing is **18 of 25 (72%) per section** — see the [passing score guide](/exams/epa-608/guides/passing-score). Who must sit: [who needs EPA 608](/exams/epa-608/guides/who-needs-certification).
+
 ## Study plan (two weeks)
 
-1. **Days 1–3 — Core.** Read the Core topics, then work through the Core practice set until you score 85%+.
-2. **Days 4–6 — Type I.** Focus on the definition of small appliance, the 80/90% rule and passive recovery.
-3. **Days 7–9 — Type II.** Drill evacuation levels and leak-rate thresholds; make flash cards for the table above.
-4. **Days 10–12 — Type III.** Understand *why* chillers operate in a vacuum — most Type III questions follow from that one fact.
-5. **Days 13–14 — Mock exams.** Take timed mocks, review every miss, and re-drill weak categories from your dashboard.`,
+1. **Days 1–3 — Core.** Recite the dates, 80% cylinder fill, recover/recycle/reclaim, and the venting rule. Practice until 85%+.
+2. **Days 4–6 — Type I.** Small-appliance definition, 80/90% or 4 in. Hg, piercing valves, passive recovery.
+3. **Days 7–9 — Type II.** Flash-card the leak-rate table (10 / 20 / 30) and the evacuation table. Recover liquid first.
+4. **Days 10–12 — Type III.** Vacuum operation, 10 psig leak test, 15 psig disc, 25 mm Hg absolute, vapor-first charging.
+5. **Days 13–14 — Mock exams.** Timed mocks, review every miss, re-drill the weak category from your dashboard.`,
   faq: [
     {
       question: "How many questions are on the EPA 608 exam?",
@@ -853,6 +912,31 @@ There are no age, education or experience requirements. Anyone can sit for the e
       answer:
         "No. All questions on CertReady are original practice material written to cover the same topics and numbers as the official exam. CertReady is not affiliated with the EPA or any certifying organization.",
     },
+    {
+      question: "What is the EPA 608 passing score?",
+      answer:
+        "18 of 25 questions (72%) on each section you attempt. Universal requires that score on Core and on Type I, II and III separately — not as an average.",
+    },
+    {
+      question: "What is the difference between Type I, Type II and Type III?",
+      answer:
+        "Type I is factory-sealed small appliances with 5 lb or less. Type II is high-pressure equipment such as split systems and racks. Type III is low-pressure chillers. Universal is Core plus all three. See the Type 1 vs Type 2 guide on CertReady.",
+    },
+    {
+      question: "Do I need EPA 608 to buy refrigerant?",
+      answer:
+        "Yes for most regulated refrigerants. Sales are restricted to Section 608 certified technicians. Motor-vehicle small cans follow Section 609 rules instead.",
+    },
+    {
+      question: "How much does the EPA 608 test cost?",
+      answer:
+        "EPA does not set a national fee. Approved organizations typically charge on the order of $20–$150 depending on how many sections you sit and whether you test in person or with online proctoring.",
+    },
+    {
+      question: "Should I take Universal or just Type II?",
+      answer:
+        "If you only service field-charged HVAC, Core plus Type II is the legal minimum. Most employers still want Universal so you can also open small appliances and chillers. You can add types later without retaking sections you already passed.",
+    },
   ],
   officialResources: [
     {
@@ -878,5 +962,5 @@ There are no age, education or experience requirements. Anyone can sit for the e
   ],
   categories,
   sources,
-  questions,
+  questions: [...questions, ...moreEpa608Questions],
 };

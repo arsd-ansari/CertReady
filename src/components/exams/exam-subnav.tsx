@@ -7,15 +7,25 @@ const TABS = [
   { segment: "study-guide", label: "Study guide" },
   { segment: "requirements", label: "Requirements" },
   { segment: "faq", label: "FAQ" },
+  { segment: "guides", label: "Guides" },
 ] as const;
 
 export type ExamTab = (typeof TABS)[number]["segment"];
 
-export function ExamSubnav({ slug, active }: { slug: string; active: ExamTab }) {
+export function ExamSubnav({
+  slug,
+  active,
+  showGuides = false,
+}: {
+  slug: string;
+  active: ExamTab;
+  showGuides?: boolean;
+}) {
+  const tabs = TABS.filter((tab) => tab.segment !== "guides" || showGuides);
   return (
     <nav aria-label="Exam sections" className="-mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
       <ul className="flex gap-1 border-b border-border">
-        {TABS.map((tab) => {
+        {tabs.map((tab) => {
           const href = tab.segment ? `/exams/${slug}/${tab.segment}` : `/exams/${slug}`;
           const isActive = tab.segment === active;
           return (

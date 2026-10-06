@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExamCategoriesCard, ExamFactsCard, ExamPageShell, OfficialResourcesCard } from "@/components/exams/exam-page-shell";
+import { RelatedGuides } from "@/components/exams/related-guides";
 import { Markdown } from "@/components/markdown";
 import { CourseJsonLd, FaqJsonLd } from "@/components/seo/json-ld";
 import { Button } from "@/components/ui/button";
@@ -31,6 +32,7 @@ export default async function ExamPage({ params }: PageProps<"/exams/[slug]">) {
       aside={
         <>
           <ExamFactsCard exam={exam} />
+          <RelatedGuides examSlug={exam.slug} />
           <ExamCategoriesCard exam={exam} />
           <OfficialResourcesCard exam={exam} />
         </>

@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExamCategoriesCard, ExamFactsCard, ExamPageShell } from "@/components/exams/exam-page-shell";
+import { RelatedGuides } from "@/components/exams/related-guides";
+import { Markdown } from "@/components/markdown";
 import { Button } from "@/components/ui/button";
+import { EPA_608_PRACTICE_COPY } from "@/content/exam-guides";
 import { FREE_LIMITS } from "@/lib/entitlements";
 import { examMetadata } from "@/lib/content/metadata";
 import { getPublishedExamBySlug } from "@/lib/content/exams";
@@ -63,10 +66,13 @@ export default async function PracticeTestPage({ params }: PageProps<"/exams/[sl
       aside={
         <>
           <ExamFactsCard exam={exam} />
+          <RelatedGuides examSlug={exam.slug} />
           <ExamCategoriesCard exam={exam} />
         </>
       }
     >
+      {exam.slug === "epa-608" && <Markdown content={EPA_608_PRACTICE_COPY} className="mb-10" />}
+
       <div className="grid gap-4 sm:grid-cols-2">
         {modes.map((mode) => (
           <div key={mode.title} className="flex flex-col rounded-xl border border-border bg-white p-5">

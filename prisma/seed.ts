@@ -1,6 +1,6 @@
 /**
  * Seed: certification categories, admin user, and exam content.
- * Idempotent — exams are upserted by slug; question banks are only inserted when an exam has none.
+ * Idempotent — exams are upserted by slug; questions are inserted when the prompt is new.
  *
  * Run with: npm run db:seed
  */
@@ -145,13 +145,15 @@ async function seedExam(seed: SeedExam) {
     sourceIds.set(source.key, row.id);
   }
 
-  const existingCount = await db.question.count({ where: { examId: exam.id } });
-  if (existingCount > 0) {
-    console.log(`✓ ${seed.slug}: ${existingCount} questions already present, skipping bank`);
-    return;
-  }
+  const existing = await db.question.findMany({
+    where: { examId: exam.id },
+    select: { prompt: true },
+  });
+  const existingPrompts = new Set(existing.map((row) => row.prompt));
 
+  let inserted = 0;
   for (const question of seed.questions) {
+    if (existingPrompts.has(question.prompt)) continue;
     const categoryId = categoryIds.get(question.category);
     if (!categoryId) throw new Error(`Unknown category "${question.category}" in ${seed.slug}`);
     if (question.options.filter((o) => o.correct).length !== 1) {
@@ -174,8 +176,10 @@ async function seedExam(seed: SeedExam) {
         },
       },
     });
+    inserted += 1;
   }
-  console.log(`✓ ${seed.slug}: ${seed.questions.length} questions across ${seed.categories.length} categories`);
+  const skipped = seed.questions.length - inserted;
+  console.log(`✓ ${seed.slug}: +${inserted} questions (${skipped} already present)`);
 }
 
 async function main() {

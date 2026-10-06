@@ -77,6 +77,30 @@ export function FaqJsonLd({ items }: { items: { question: string; answer: string
   );
 }
 
+export function ArticleJsonLd({
+  headline,
+  description,
+  href,
+}: {
+  headline: string;
+  description: string;
+  href: string;
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline,
+        description,
+        url: absoluteUrl(href),
+        author: { "@type": "Organization", name: site.name, url: site.url },
+        publisher: { "@type": "Organization", name: site.name, url: site.url, logo: absoluteUrl("/logo.png") },
+      }}
+    />
+  );
+}
+
 export function CourseJsonLd({
   name,
   description,

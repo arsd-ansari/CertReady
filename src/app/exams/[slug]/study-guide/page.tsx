@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ExamCategoriesCard, ExamFactsCard, ExamPageShell, OfficialResourcesCard } from "@/components/exams/exam-page-shell";
+import { RelatedGuides } from "@/components/exams/related-guides";
 import { Markdown } from "@/components/markdown";
 import { examMetadata } from "@/lib/content/metadata";
 import { getPublishedExamBySlug } from "@/lib/content/exams";
@@ -34,6 +35,7 @@ export default async function StudyGuidePage({ params }: PageProps<"/exams/[slug
       aside={
         <>
           <ExamCategoriesCard exam={exam} />
+          <RelatedGuides examSlug={exam.slug} />
           <ExamFactsCard exam={exam} />
           <OfficialResourcesCard exam={exam} />
         </>

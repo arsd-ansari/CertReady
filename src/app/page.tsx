@@ -103,6 +103,30 @@ export default async function HomePage() {
         </Link>
       </section>
 
+      <section className="mx-auto w-full max-w-6xl px-4 pb-4 sm:px-6">
+        <h2 className="text-2xl font-semibold tracking-tight text-navy sm:text-3xl">EPA 608 study guides</h2>
+        <p className="mt-2 max-w-2xl text-zinc-600">
+          The pages technicians search before they book: which type to take, the 72% passing score, and who actually needs the card.
+        </p>
+        <div className="mt-8 grid gap-4 md:grid-cols-3">
+          <GuideLink
+            href="/exams/epa-608/guides/type-1-vs-type-2"
+            title="Type 1 vs Type 2 vs Type 3"
+            text="Small appliances, splits and chillers are three different cards. Universal is all three plus Core."
+          />
+          <GuideLink
+            href="/exams/epa-608/guides/passing-score"
+            title="Passing score: 72%"
+            text="18 of 25 on each section — not an overall average. Fail Core and you take home nothing."
+          />
+          <GuideLink
+            href="/exams/epa-608/guides/who-needs-certification"
+            title="Who needs EPA 608"
+            text="If you open a refrigerant circuit or buy cylinders, you need 608. Cars are 609."
+          />
+        </div>
+      </section>
+
       {/* Categories */}
       <section className="border-y border-border bg-white">
         <div className="mx-auto w-full max-w-6xl px-4 py-14 sm:px-6">
@@ -204,6 +228,16 @@ function Step({ n, icon: Icon, title, text }: { n: number; icon: typeof Search; 
       <h3 className="mt-4 font-semibold text-navy">{title}</h3>
       <p className="mt-2 text-sm leading-6 text-zinc-600">{text}</p>
     </li>
+  );
+}
+
+function GuideLink({ href, title, text }: { href: string; title: string; text: string }) {
+  return (
+    <Link href={href} className="rounded-xl border border-border bg-white p-5 transition-colors hover:border-brand/40">
+      <h3 className="font-semibold text-navy">{title}</h3>
+      <p className="mt-2 text-sm leading-6 text-zinc-600">{text}</p>
+      <p className="mt-3 text-xs font-medium text-brand">Read guide →</p>
+    </Link>
   );
 }
 

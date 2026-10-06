@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExamCategoriesCard, ExamFactsCard, ExamPageShell, OfficialResourcesCard } from "@/components/exams/exam-page-shell";
+import { RelatedGuides } from "@/components/exams/related-guides";
 import { Markdown } from "@/components/markdown";
 import { Button } from "@/components/ui/button";
 import { examMetadata } from "@/lib/content/metadata";
@@ -36,6 +37,7 @@ export default async function ExamCategoryPage({ params }: PageProps<"/exams/[sl
       aside={
         <>
           <ExamCategoriesCard exam={exam} />
+          <RelatedGuides examSlug={exam.slug} />
           <ExamFactsCard exam={exam} />
           <OfficialResourcesCard exam={exam} />
         </>
