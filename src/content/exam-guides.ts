@@ -44,7 +44,7 @@ Numbers Type I hammers:
 
 If you mostly swap refrigerators, window units and vending machines, Type I plus Core is enough. If you also braze on splits, you need Type II.
 
-Practice the [Type I question bank](/exams/epa-608/type-1).
+Practice the [EPA 608 Type 1 practice test](/exams/epa-608/type-1).
 
 ## Type II — high-pressure appliances
 
@@ -62,7 +62,7 @@ Numbers Type II hammers:
 
 If you install or service split systems, you want Type II. Most techs who take Type II also take Type I and Type III in the same sitting and walk out Universal.
 
-Practice the [Type II question bank](/exams/epa-608/type-2).
+Practice the [EPA 608 Type 2 practice test](/exams/epa-608/type-2).
 
 ## Type III — low-pressure appliances
 
@@ -78,7 +78,7 @@ Numbers Type III hammers:
 
 A Type II tech is not certified to open a low-pressure chiller. A Type III tech is not certified to recover a split system.
 
-Practice the [Type III question bank](/exams/epa-608/type-3).
+Practice the [EPA 608 Type 3 practice test](/exams/epa-608/type-3).
 
 ## Which combination should you book?
 
@@ -151,6 +151,14 @@ EPA does not publish a single nationwide time limit the way some state boards do
 
 Questions are multiple choice. The traps are the numbers: 80 vs 90, 10 vs 15 in. Hg, 10% vs 20% vs 30% leak rates, 10 psig vs 15 psig, 25 mm Hg absolute vs 25 in. Hg vacuum.
 
+## How hard is the EPA 608 test?
+
+It is a short closed-book quiz, not a multi-hour trade exam. Each section is 25 questions and you need 18 right. People who fail are usually not "bad at HVAC." They mixed a Type 1 recovery percentage with a Type 2 vacuum, or they treated Universal as one average score.
+
+If you can fill the [numbers table](/exams/epa-608/study-guide) from memory and hold **80%+** on the [practice test](/exams/epa-608/practice-test), the live sitting is manageable. If you are still guessing 80 versus 90, or 10 versus 15 in. Hg, it will feel hard — those are the questions.
+
+Core, Type II, Type III and Universal are **closed book**. Some organizations still offer a Type I-only exam that is open book. Booking [Universal](/exams/epa-608/guides/universal) means closed book for the whole sitting. Taking it [online with a live proctor](/exams/epa-608/guides/certification-online) does not open the book.
+
 ## How high you should score in practice
 
 Passing is 72%. That is not a study target.
@@ -186,6 +194,16 @@ Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you
           question: "Can I fail Type III and still get Type I and Type II?",
           answer:
             "Yes, if you passed Core plus those types in the same or earlier sittings. You receive the types you passed and retake Type III later.",
+        },
+        {
+          question: "How easy is it to get EPA 608?",
+          answer:
+            "Each section is 25 questions and you need 18 correct (72%). Core, Type II, Type III and Universal are closed book. Technicians who memorize the recovery, leak-rate and evacuation numbers, and who practice above 80% on each section, usually pass. Mixing Type 1 percentages with Type 2 vacuums is how people fail one section at 17.",
+        },
+        {
+          question: "Is the EPA 608 test open book?",
+          answer:
+            "Core, Type II, Type III and Universal are closed book and proctored, in person or with a live online proctor. Some organizations still offer a Type I-only exam that is open book. If you are sitting Universal, study as if you cannot bring notes.",
         },
       ],
     },

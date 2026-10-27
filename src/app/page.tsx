@@ -38,11 +38,15 @@ const HOME_FAQ = [
 ];
 
 export default async function HomePage() {
-  const [featured, categories, stats] = await Promise.all([
-    listFeaturedExams(3),
+  const [featuredRaw, categories, stats] = await Promise.all([
+    listFeaturedExams(6),
     listCertificationCategories(),
     getPlatformStats(),
   ]);
+  // EPA 608 stays the home exam even when a newer featured exam (CDL) has a later publish date.
+  const featured = [...featuredRaw]
+    .sort((a, b) => Number(b.slug === "epa-608") - Number(a.slug === "epa-608"))
+    .slice(0, 3);
 
   return (
     <>

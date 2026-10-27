@@ -97,6 +97,14 @@ You must already hold a valid auto license. Most states require a **DOT medical 
 
 Fail a knowledge test and you do not get that piece of the permit. Fail Air Brakes and you can still get a CLP **with an air-brake restriction**.
 
+## Can you take the General Knowledge test online?
+
+Practice is online. The **scored** knowledge test is not a public webpage.
+
+California lets you start a CDL **application** online, then you sit the knowledge tests at DMV. Texas DPS, Florida DHSMV and Georgia DDS work the same way: use their site to prepare, take the test at their office unless that agency is currently offering a supervised remote session. An open-internet quiz cannot print a CLP.
+
+Use the [General Knowledge practice test](/exams/cdl/general-knowledge) before the appointment, not instead of it. State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).
+
 ## What to study for the permit appointment
 
 The permit exam **is** the knowledge tests. There is not a separate “permit quiz.” Drill until you are comfortably above **80%** — [passing score](/exams/cdl/guides/passing-score) — then book.
@@ -134,6 +142,11 @@ CertReady does not issue permits. Only your state DMV / DPS / DHSMV / DDS does.`
       {
         question: "Does CertReady give a CDL permit?",
         answer: "No. We are independent practice. Book knowledge tests with your state licensing agency.",
+      },
+      {
+        question: "Can you take the CDL General Knowledge test online?",
+        answer:
+          "You can practice online. The test your state scores is given by that state's licensing agency, usually at a DMV, DPS, DHSMV or DDS office. California's application can be started online; the knowledge test is still a DMV exam. Passing a website quiz does not issue a CLP.",
       },
     ],
   },
@@ -204,7 +217,7 @@ Related: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) · [CDL perm
     title: "California CDL Practice Test",
     seoTitle: "California CDL Practice Test — CA DMV General Knowledge & Endorsements",
     seoDescription:
-      "Practice for the California CDL knowledge tests: General Knowledge, Air Brakes, Combination Vehicles and endorsements. Same federal topics the CA DMV uses, with original questions.",
+      "California CDL practice test for the DMV knowledge exams: usually 50 General Knowledge questions, 80% to pass, three attempts. Original questions, then book DMV.",
     intro:
       "California issues the CDL through DMV, to federal standards. The knowledge tests are the national topics — classes, space, air brakes, combination vehicles — plus CA’s own handbook. This page is practice for that written appointment, not a driving school.",
     markdown: `## How California CDL testing works
@@ -225,6 +238,33 @@ Federal knowledge tests do not change at the state line. Drill:
 Then sit a timed [mock](/mock/cdl). Passing is **80% per test** — [passing score](/exams/cdl/guides/passing-score).
 
 Read CA’s commercial handbook for state-specific rules (HOV, chain controls, smog-related items, and any extra knowledge DMV lists). CertReady does not replace that handbook.
+
+## How many questions are on the California CDL test?
+
+Each test is scored on its own at **80%**. Plan on the usual federal counts unless the handout at the DMV window says otherwise:
+
+| Test | Usual questions | Correct to pass |
+| --- | --- | --- |
+| General Knowledge | 50 | 40 |
+| Air Brakes | 25 | 20 |
+| Combination Vehicles | 20 | 16 |
+
+DMV gives you **three attempts** at each required knowledge test. Fail the same test three times and that application is no longer valid — you reapply. You also have **12 months** from the application to finish both the knowledge tests and the skills test, or you start over. Confirm both clocks on the [CA DMV CDL page](https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/commercial-driver-licenses-cdl/).
+
+## How to pass the California CDL permit test
+
+The permit test **is** the knowledge tests. There is not a second written exam after them.
+
+1. Decide class: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b)
+2. Drill [General Knowledge](/exams/cdl/general-knowledge) until you are above 85%
+3. Add [Air Brakes](/exams/cdl/air-brakes) unless the truck is hydraulic-only
+4. Class A: [Combination Vehicles](/exams/cdl/combination-vehicles)
+5. Sit a timed [mock](/mock/cdl), then book DMV
+6. After you pass, DMV issues the CLP. Hold it at least **14 days**, with a qualified CDL holder beside you, before the skills test
+
+The written section people miss is **Air Brakes** — the 60 psi warning, leakage rates and spring brakes — not a trick question buried in General Knowledge. Class A applicants also drop Combination. Read the [passing score](/exams/cdl/guides/passing-score) page before you walk in.
+
+Entry-level driver training (ELDT) is required before the **skills** test and before a hazmat knowledge test. It does not replace the DMV knowledge tests.
 
 ## Class and permit
 
@@ -251,6 +291,21 @@ Other states: [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/fl
       {
         question: "What is the passing score in California?",
         answer: "80% on each knowledge test, scored separately — the same federal bar used across states.",
+      },
+      {
+        question: "How many questions are on the California CDL test?",
+        answer:
+          "Plan on 50 General Knowledge questions (40 correct), 25 Air Brakes (20 correct) and 20 Combination Vehicles (16 correct), each at 80%. Use the DMV handout if your office shows a different count. You get three attempts per test; a third fail voids the application.",
+      },
+      {
+        question: "How do you pass the California CDL permit test?",
+        answer:
+          "The permit test is the knowledge tests at DMV. Practice General Knowledge, Air Brakes and Combination (Class A) above 85%, then book DMV. After you pass, DMV issues the CLP. Hold it at least 14 days before the skills test. A website quiz does not issue the permit.",
+      },
+      {
+        question: "What is the hardest part of the CDL test?",
+        answer:
+          "On the written side, Air Brakes is the section people fail: low-air warning, leakage and spring brakes. Class A also loses points on Combination Vehicles. The pre-trip skills test is a separate exam and is not in this practice bank.",
       },
     ],
   },

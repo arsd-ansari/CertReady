@@ -721,6 +721,11 @@ State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/
         "Most states use 50 multiple-choice questions and require 80% (40 correct). Air Brakes is typically 25, Combination Vehicles 20, and endorsements 20–30. Confirm the count with your state, because a few use slightly different banks.",
     },
     {
+      question: "Can you take the CDL General Knowledge test online?",
+      answer:
+        "You can practice online. The scored knowledge test is given by your state licensing agency, usually at a DMV, DPS, DHSMV or DDS office. California lets you start the application online; the knowledge test is still a DMV exam. Passing a website quiz does not issue a CLP.",
+    },
+    {
       question: "What is the CDL passing score?",
       answer:
         "80% on each knowledge test, scored separately. A high General Knowledge score does not save a failed Air Brakes test. Failed Air Brakes usually means an air-brake restriction on the license.",

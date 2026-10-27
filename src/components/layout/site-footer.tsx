@@ -20,9 +20,9 @@ export function SiteFooter() {
           <ul className="mt-3 space-y-2 text-sm text-zinc-600">
             <li><Link href="/exams" className="hover:text-navy">All exams</Link></li>
             <li><Link href="/exams/epa-608" className="hover:text-navy">EPA 608</Link></li>
+            <li><Link href="/exams/epa-608/practice-test" className="hover:text-navy">EPA 608 practice test</Link></li>
             <li><Link href="/exams/cdl" className="hover:text-navy">CDL</Link></li>
             <li><Link href="/exams/cdl/practice-test" className="hover:text-navy">CDL practice test</Link></li>
-            <li><Link href="/exams/epa-608/practice-test" className="hover:text-navy">EPA 608 practice test</Link></li>
             <li><Link href="/exams?category=water-wastewater" className="hover:text-navy">Water & wastewater</Link></li>
           </ul>
         </div>

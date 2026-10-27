@@ -918,6 +918,11 @@ Full comparison: [EPA 608 Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type
         "18 of 25 questions (72%) on each section you attempt. Universal requires that score on Core and on Type I, II and III separately — not as an average.",
     },
     {
+      question: "How easy is it to get EPA 608?",
+      answer:
+        "Each section is 25 questions and you need 18 correct (72%). Core, Type II, Type III and Universal are closed book. Technicians who memorize the recovery, leak-rate and evacuation numbers and practice above 80% on each section usually pass. Mixing Type I percentages with Type II vacuums is how people fail one section at 17.",
+    },
+    {
       question: "What is the difference between Type I, Type II and Type III?",
       answer:
         "Type I is factory-sealed small appliances with 5 lb or less. Type II is high-pressure equipment such as split systems and racks. Type III is low-pressure chillers. Universal is Core plus all three. See the Type 1 vs Type 2 guide on CertReady.",
