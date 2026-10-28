@@ -45,7 +45,7 @@ Air brakes are a **restriction**, not a class. Skip the [Air Brakes](/exams/cdl/
 
 Passing is **80% per test**: [CDL passing score](/exams/cdl/guides/passing-score). New drivers also need a [CLP](/exams/cdl/guides/cdl-permit) before the skills test.
 
-State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
+State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). Skills test: [pre-trip inspection](/exams/cdl/guides/pre-trip).`,
     faq: [
       {
         question: "Can I drive a Class B truck with a Class A CDL?",
@@ -103,7 +103,7 @@ Practice is online. The **scored** knowledge test is not a public webpage.
 
 California lets you start a CDL **application** online, then you sit the knowledge tests at DMV. Texas DPS, Florida DHSMV and Georgia DDS work the same way: use their site to prepare, take the test at their office unless that agency is currently offering a supervised remote session. An open-internet quiz cannot print a CLP.
 
-Use the [General Knowledge practice test](/exams/cdl/general-knowledge) before the appointment, not instead of it. State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).
+Use the [General Knowledge practice test](/exams/cdl/general-knowledge) before the appointment, not instead of it. State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).
 
 ## What to study for the permit appointment
 
@@ -118,9 +118,11 @@ The permit exam **is** the knowledge tests. There is not a separate “permit qu
 Waiting periods, fees, and whether you retest the same day are local. Start here:
 
 - [California CDL](/exams/cdl/guides/california)
-- [Texas CDL](/exams/cdl/guides/texas)
+- [Texas CDL](/exams/cdl/guides/texas) — includes the Texas Commercial Rules test
+- [Ohio CDL](/exams/cdl/guides/ohio)
 - [Florida CDL](/exams/cdl/guides/florida)
 - [Georgia CDL](/exams/cdl/guides/georgia)
+- [Pre-trip inspection](/exams/cdl/guides/pre-trip) — the skills test, after the permit
 
 CertReady does not issue permits. Only your state DMV / DPS / DHSMV / DDS does.`,
     faq: [
@@ -171,7 +173,15 @@ CertReady does not issue permits. Only your state DMV / DPS / DHSMV / DDS does.`
 | Tanker (N) | 20 | **16** |
 | Passenger (P) | 20 | **16** |
 
-A few states use a slightly different bank size. The **percentage** is still 80%. Confirm the question count on your state's handbook before you walk in.
+A few states change the **count**, not the idea of a per-test pass:
+
+| State | What is different | Still |
+| --- | --- | --- |
+| Most states | General Knowledge about **50** questions | **80%** (40 correct) |
+| [Illinois](https://www.ilsos.gov/departments/drivers/drivers-license/cdl/cdl.html) | General Knowledge is **30** questions. The school bus test is **90%**, not 80%. | **80%** on the other knowledge tests (24 of 30 on General Knowledge) |
+| [Pennsylvania](https://www.pa.gov/agencies/dmv/faqs/driver-licensing-faqs/commercial-drivers-license-faqs) | PennDOT’s table lists **70** knowledge questions for Class A and **50** for Class B and Class C. The skills test waits **15 days** after the permit, not 14. | **80%** |
+
+Confirm the count on your state's handout before you walk in. [Texas](/exams/cdl/guides/texas) adds a separate Texas Commercial Rules test before General Knowledge. [Ohio](/exams/cdl/guides/ohio) uses the federal topics at a driver exam station.
 
 ## Restrictions vs full fail
 
@@ -193,12 +203,14 @@ That is why you drill **weak categories**, not one overall mock percentage. Cert
 
 All CertReady items are original practice, not live DMV questions.
 
-Related: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) · [CDL permit](/exams/cdl/guides/cdl-permit)`,
+The written tests are not the [pre-trip inspection](/exams/cdl/guides/pre-trip). That is the first part of the skills test, after you already hold the permit.
+
+Related: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) · [CDL permit](/exams/cdl/guides/cdl-permit) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio)`,
     faq: [
       {
         question: "Is the CDL passing score 70% or 80%?",
         answer:
-          "Knowledge tests are 80% in the federal standard used by states. Do not study to 70%. Skills tests are scored on the state's score sheet, not as a percentage of written items.",
+          "The federal standard states use is 80% on each knowledge test. Illinois requires 90% on the school bus knowledge test. Do not study to 70%. Skills tests, including the pre-trip inspection, are scored on the state's score sheet, not as a percentage of written items.",
       },
       {
         question: "If I fail one section, do I retake everything?",
@@ -208,7 +220,7 @@ Related: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) · [CDL perm
       {
         question: "Does a 50-question CertReady mock match the real test?",
         answer:
-          "It matches General Knowledge length and the 80% bar. The live exam may draw a different mix. Use category scores, not one lucky mock, to decide when to book.",
+          "It matches the usual General Knowledge length and the 80% bar. Illinois uses 30 General Knowledge questions, and Pennsylvania lists 70 for Class A. The topics are the same. Use category scores, not one lucky mock, to decide when to book.",
       },
     ],
   },
@@ -276,7 +288,7 @@ Entry-level driver training (ELDT) is required before the **skills** test and be
 
 [Free California-oriented CDL practice test](/exams/cdl/practice-test) — original questions, explanations, no DMV affiliation.
 
-Other states: [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
+Other states: [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). The skills-test walkaround is the [pre-trip inspection](/exams/cdl/guides/pre-trip), not this written bank.`,
     faq: [
       {
         question: "Does California use the same CDL test as other states?",
@@ -312,20 +324,60 @@ Other states: [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/fl
   {
     slug: "texas",
     title: "Texas CDL Practice Test",
-    seoTitle: "Texas CDL Practice Test — TX DPS General Knowledge & Endorsements",
+    seoTitle: "Texas CDL Practice Test — Commercial Rules, General Knowledge & DPS",
     seoDescription:
-      "Practice for the Texas CDL knowledge tests at DPS: General Knowledge, Air Brakes, Combination Vehicles and endorsements. Original questions on the federal topics Texas uses.",
+      "Texas CDL practice for DPS: Texas Commercial Rules (special requirements) first, then General Knowledge, Air Brakes and endorsements. English-only knowledge tests since June 1, 2026. 80% each.",
     intro:
-      "Texas CDLs are issued by the Department of Public Safety. The written tests are the federal knowledge bank — General Knowledge, Air Brakes, Combination, endorsements — administered in Texas. Practice here, then book DPS.",
+      "Texas is not only the federal CDL bank. DPS makes you pass Texas Commercial Rules — the test people still call special requirements — before General Knowledge. Practice the federal topics here, and study Section 14 of the Texas handbook for the state test.",
     markdown: `## How Texas CDL testing works
 
-Knowledge tests and skills tests are **DPS** (and some third-party skills testers DPS authorizes). Pass the written tests, receive a **CLP**, wait the required period, then take the skills test in a representative vehicle.
+The Department of Public Safety issues the license. Knowledge tests are at a DPS driver license office. After you pass, DPS prints a **CLP**. You hold it at least **14 days**, finish entry-level driver training, then take the skills test in a representative vehicle.
 
-Official info: [Texas DPS Commercial Driver License](https://www.dps.texas.gov/section/driver-license/commercial-driver-license). Use that page for fees, ELDT, medical self-certification, and office identifiers.
+Official steps: [How to apply for a Texas CDL](https://www.dps.texas.gov/section/driver-license/how-do-i-apply-commercial-driver-license).
 
-## What to practice
+DPS gives the knowledge exams in this order:
 
-Texas does not invent a different General Knowledge syllabus. Use:
+1. **Texas Commercial Rules**
+2. **General Knowledge**
+3. **Combination** — Class A only
+4. **Air Brakes** — if the truck has them
+5. **Endorsements** you are adding
+
+The CLP is valid for **180 days** or until your Texas driver license expires, whichever is sooner. It can be renewed once, up to 30 days before it expires, without retaking the knowledge exams. A qualified CDL holder age 21 or older, with the same class, has to sit beside you on the road.
+
+## Texas Commercial Rules (special requirements)
+
+This is a **separate** knowledge test. It is not General Knowledge with a Texas flag on it. DPS still lists it as Texas Commercial Rules. The source in the handbook is **Section 14, Special Requirements for Texas Commercial Motor Vehicles**.
+
+The handbook says you need **80%** on each knowledge test before the skills test. DPS does not publish one fixed public question count for Commercial Rules on the application page. Study Section 14, not a recycled answer key.
+
+Numbers Section 14 actually tests:
+
+| Topic | Texas rule |
+| --- | --- |
+| Height, including the load | **14 feet**. You still have to clear the bridge in front of you. |
+| Width, including the load | **102 inches**, with the handbook’s exceptions |
+| Gross weight | **80,000 lb** unless TxDOT issued an oversize/overweight permit |
+| Single vehicle length (not a truck-tractor) | **45 feet** |
+| Semitrailer in a tractor-semitrailer combo | **59 feet** |
+| Mud flaps | Within **8 inches** of the road, on trucks and trailers with four or more rear-axle tires. Not required on a bobtail tractor or a pole trailer. |
+| Slow-moving vehicle emblem | Vehicles **designed for 25 mph or less**. Do not put that emblem on an ordinary truck. |
+| Disabled vehicle | Carry three flares, red lanterns, or reflective triangles. Put them out first. No flame devices if you are hauling explosives or flammable cargo. |
+| Registration papers | On the vehicle, showing empty weight and registered weight |
+| Oversize load | TxDOT permit. A permit is not for a load you could reasonably take apart. |
+| Trailer brakes | Trailers, semitrailers, and pole trailers at **4,500 lb or less** are exempt. Heavier trailers pick up a brake requirement once weight and speed cross the lines in Section 14. Read that section before you memorize a shortcut. |
+
+General Knowledge will not ask you the 14-foot Texas height limit. Commercial Rules will not ask you the 11-hour driving clock. Drill them as two tests.
+
+## Knowledge tests are in English
+
+Since **June 1, 2026**, DPS gives every CDL and CLP **knowledge** exam in English only. Spanish-language versions are no longer offered, and interpreters are not allowed. The skills test (pre-trip, basic control, road) was already in English.
+
+You have to be able to read signs, talk with the public, and answer an officer, under the federal English rule DPS cites (49 CFR 391.11). If you cannot show that during the test, DPS will not issue the CLP or CDL.
+
+## What to practice on CertReady
+
+The federal half of the Texas appointment is the same bank as every other state:
 
 - [General Knowledge](/exams/cdl/general-knowledge)
 - [Air Brakes](/exams/cdl/air-brakes)
@@ -334,22 +386,34 @@ Texas does not invent a different General Knowledge syllabus. Use:
 
 [Free CDL practice test](/exams/cdl/practice-test) · [mock exam](/mock/cdl) · **80%** [passing score](/exams/cdl/guides/passing-score)
 
-Read the Texas CDL handbook DPS publishes. Oilfield and oversize work still sit on the same class rules: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). Permit wait: [CLP](/exams/cdl/guides/cdl-permit).
+Class lines: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). On the DPS page, Class A is a combination with a GCWR of 26,001 lb or more when the towed vehicle’s GVWR **exceeds 10,000 lb**. Class B is a single vehicle of 26,001 lb or more and may tow a vehicle that does not exceed 10,000 lb. Permit timing: [CLP](/exams/cdl/guides/cdl-permit). The walkaround is a skills test: [pre-trip inspection](/exams/cdl/guides/pre-trip).
 
-Other states: [California](/exams/cdl/guides/california) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
+Other states: [California](/exams/cdl/guides/california) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
     faq: [
       {
-        question: "Is the Texas CDL test the federal test?",
+        question: "What is the Texas CDL special requirements test?",
         answer:
-          "Yes — knowledge tests follow FMCSA/AAMVA topics. You still test with DPS and should study the Texas CDL handbook.",
+          "DPS calls it Texas Commercial Rules. It is its own knowledge test, taken before General Knowledge, from Section 14 of the Texas Commercial Motor Vehicle Driver Handbook (special requirements). It covers Texas size, weight, equipment, and paperwork — not the federal hours-of-service chapter.",
       },
       {
-        question: "Where do I take the Texas CDL written exam?",
-        answer: "Texas DPS driver license offices (follow current DPS appointment rules). CertReady does not give the official test.",
+        question: "Is the Texas CDL test only the federal test?",
+        answer:
+          "No. You take Texas Commercial Rules and then the federal-style tests (General Knowledge, Combination for Class A, Air Brakes if equipped, and any endorsement). Both are at DPS.",
       },
       {
         question: "What score do I need in Texas?",
-        answer: "80% on each knowledge test.",
+        answer:
+          "80% on each knowledge test, including Texas Commercial Rules. A high General Knowledge score does not cover a failed Commercial Rules test.",
+      },
+      {
+        question: "Can I take the Texas CDL knowledge test in Spanish?",
+        answer:
+          "Not since June 1, 2026. DPS administers CDL and CLP knowledge exams in English only. Interpreters are not allowed. The skills test was already in English.",
+      },
+      {
+        question: "Where do I take the Texas CDL written exam?",
+        answer:
+          "At a Texas DPS driver license office, by appointment. CertReady does not give the official test and does not issue a CLP.",
       },
     ],
   },
@@ -378,7 +442,7 @@ Check that site for fees, ELDT, third-party testers, and medical certification. 
 
 Passenger and school-bus work is common in Florida tourism and districts — P is in this bank; **S** is not yet.
 
-Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Georgia](/exams/cdl/guides/georgia).`,
+Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Georgia](/exams/cdl/guides/georgia). The walkaround is the [pre-trip inspection](/exams/cdl/guides/pre-trip).`,
     faq: [
       {
         question: "Does Florida have its own CDL questions?",
@@ -421,7 +485,7 @@ Use DDS for appointments, fees, ELDT proof, and medical self-certification. Do n
 
 Atlanta-area Class A demand is combination work: do not skip Combination Vehicles. [Class A vs B](/exams/cdl/guides/class-a-vs-class-b) · [CLP](/exams/cdl/guides/cdl-permit).
 
-Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/florida).`,
+Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida). The walkaround is the [pre-trip inspection](/exams/cdl/guides/pre-trip).`,
     faq: [
       {
         question: "Is the Georgia CDL test different from other states?",
@@ -438,11 +502,183 @@ Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/g
       },
     ],
   },
+  {
+    slug: "ohio",
+    title: "Ohio CDL Practice Test",
+    seoTitle: "Ohio CDL Practice Test — BMV Knowledge Test, CLP & Skills",
+    seoDescription:
+      "Ohio CDL practice for the BMV knowledge tests: General Knowledge, Air Brakes, Combination and endorsements. Written tests at a driver exam station, CLP valid 12 months, 80% to pass.",
+    intro:
+      "Ohio writes the CDL through the Bureau of Motor Vehicles. The knowledge tests are the federal topics, taken in person at a driver exam station. Practice those here, then buy the permit and book the skills test.",
+    markdown: `## How Ohio CDL testing works
+
+You already need an Ohio driver license, a Social Security number, and proof of citizenship or lawful permanent residency. Knowledge tests are **in person at a driver exam station**. The CLP and the final license are issued at a **deputy registrar**. Skills tests are at a CDL skills site, and you bring a vehicle that matches the class.
+
+Official start: [Ohio BMV CDL classes](https://www.bmv.ohio.gov/dl-cdl-classes.aspx). The handbook is HSY 7605 (English) and HSY 7606 (Spanish). A Spanish handbook is for study. Translation aids are not allowed on the test, and you have to read, speak, and write English well enough to handle signs, the public, and an officer.
+
+Under **21**, the license is **intrastate** — Ohio only. Interstate driving still waits until 21.
+
+## Permit, then skills
+
+Pass the knowledge test for the class, each endorsement, and air brakes if you want that restriction off. Then purchase the **Commercial Learner’s Permit** and self-certify the kind of driving you will do.
+
+- A CLP is valid for **12 months** in Ohio.
+- You may drive a CMV on a highway only with a properly endorsed CDL holder beside you.
+- Entry-level driver training has to be on file **before** you schedule or attempt the skills test, unless you are exempt.
+- After you pass the skills test, buy the CDL at a deputy registrar **before the CLP expires**.
+
+Ohio’s skills test is three parts, with the clocks the BMV publishes for the state sites:
+
+| Part | Time limit | State-site fee |
+| --- | --- | --- |
+| Pre-trip inspection | 30 minutes | $10 |
+| Basic maneuverability | 40 minutes | $10 |
+| Road test | — | $30 |
+
+You buy a CDL test receipt at a deputy registrar before a state-owned site will test you. Third-party sites set their own fees. Fail any part and you wait **two days** to retest. The walkaround itself is covered in the [pre-trip guide](/exams/cdl/guides/pre-trip). This bank is the written half.
+
+## What to practice
+
+Ohio does not add a separate state-rules knowledge test the way [Texas Commercial Rules](/exams/cdl/guides/texas) does. Use the federal topics:
+
+- [General Knowledge](/exams/cdl/general-knowledge)
+- [Air Brakes](/exams/cdl/air-brakes) if the truck has air brakes
+- [Combination Vehicles](/exams/cdl/combination-vehicles) for Class A
+- [Hazmat](/exams/cdl/hazardous-materials), [Tanker](/exams/cdl/tanker), [Passenger](/exams/cdl/passenger) if you need the letter
+
+Passing is **80% on each knowledge test** — [passing score](/exams/cdl/guides/passing-score). Class lines match the usual split: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). Hazmat still needs the TSA threat assessment before the endorsement goes on the license.
+
+[Free CDL practice test](/exams/cdl/practice-test) · [timed mock](/mock/cdl) · [permit](/exams/cdl/guides/cdl-permit)
+
+Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
+    faq: [
+      {
+        question: "Where do I take the Ohio CDL written test?",
+        answer:
+          "At a driver exam station. The permit and the license card are issued at a deputy registrar. Skills tests are at a CDL skills location. CertReady is not an Ohio testing site.",
+      },
+      {
+        question: "How long is an Ohio CDL permit good for?",
+        answer:
+          "12 months. You still need a qualified CDL holder with you when you practice on a highway, and you must finish skills testing and pay for the license before that permit expires.",
+      },
+      {
+        question: "What is the Ohio CDL passing score?",
+        answer:
+          "80% on each knowledge test — General Knowledge, Air Brakes, Combination, and each endorsement — scored separately.",
+      },
+      {
+        question: "Does Ohio have a special requirements test like Texas?",
+        answer:
+          "No. Ohio uses the federal knowledge tests for the class and endorsements. Texas is the state that adds Texas Commercial Rules before General Knowledge.",
+      },
+      {
+        question: "Can I use a Spanish translator on the Ohio CDL test?",
+        answer:
+          "No. Ohio publishes a Spanish handbook (HSY 7606) for study, and translation aids are prohibited at the test. You have to be able to read, speak, and write English.",
+      },
+    ],
+  },
+  {
+    slug: "pre-trip",
+    title: "CDL Pre-Trip Inspection",
+    seoTitle: "CDL Pre-Trip Inspection — What the Skills Test Checks",
+    seoDescription:
+      "The CDL pre-trip is the first part of the skills test, not a written knowledge quiz. What examiners score, how to practice out loud, and how it differs from General Knowledge.",
+    intro:
+      "The pre-trip inspection is a skills test. You walk the truck with an examiner and say what you are checking and what would make it illegal to drive. A website quiz cannot print that score.",
+    markdown: `## Where pre-trip sits
+
+The CDL is two appointments, not one.
+
+1. **Knowledge tests** at the state office. Pass them and you get a [permit](/exams/cdl/guides/cdl-permit).
+2. **Skills test** after the waiting period, in a truck that matches the class you want. The skills test is three parts, in order: **vehicle inspection (pre-trip)**, **basic control**, then the **road test**.
+
+People search “pre-trip practice test” because the inspection feels like a quiz. It is scored like a demonstration. You point, you name the part, you say the defect that would put the truck out of service, and you say why. Touching a tire without saying “looking for cuts, bulges, and tread depth” does not count.
+
+CertReady’s question bank is the **written** half: [General Knowledge](/exams/cdl/general-knowledge), [Air Brakes](/exams/cdl/air-brakes), [Combination Vehicles](/exams/cdl/combination-vehicles), and the endorsements. Use it before the permit appointment. Use the state handbook’s inspection section, out loud, on a real truck, before the skills appointment.
+
+## What examiners are listening for
+
+They are not impressed by a memorized paragraph you cannot attach to a part. The pattern that scores is short:
+
+- **Name** the item (steering shaft, slack adjuster, gladhand, tread).
+- **Condition** you would reject (cracked, loose, leaking, missing, worn past the limit).
+- **Why** it matters (loss of steering, no trailer brakes, a blowout).
+
+Do that for the area they point at, then move. Silence while you stare at a component is a miss even if you know the answer.
+
+Group the truck so you do not skip a side:
+
+| Area | What you are proving |
+| --- | --- |
+| Engine compartment | Fluids, belts, hoses, steering, and leaks you can see with the hood open |
+| Cab and start | Gauges, horn, wipers, emergency equipment, and that the parking brake will hold |
+| Lights and glass | Lights work, glass is not broken, mirrors are secure |
+| Coupling (Class A) | Fifth wheel, locking jaws, air lines, and the kingpin area — see [Combination Vehicles](/exams/cdl/combination-vehicles) |
+| Walkaround | Tires, wheels, suspension, brakes, frame, and cargo securement |
+| Brake test | The air-brake check if the truck has air brakes: warning at or before **60 psi**, leak-down limits, and that the spring brakes hold |
+
+Class B is the same idea without the fifth wheel. A bus adds passenger items; school bus adds student-specific checks. Those endorsement scripts are not in this bank.
+
+## Air brakes are part of the inspection
+
+If the test truck has air brakes and you skipped the air-brake knowledge test, you already have a restriction and you should not be testing in that truck. On the pre-trip, the examiner still wants the **in-cab air test**, not just a look at a hose.
+
+The numbers live on the [Air Brakes](/exams/cdl/air-brakes) practice page and the [study guide](/exams/cdl/study-guide): low-air warning at or before 60 psi, and applied leakage of about 2 psi in one minute for a single vehicle or 3 psi for a combination. Say the test as you do it. Guessing the sequence on test day is how people fail a truck they can otherwise drive.
+
+## State clocks, same inspection
+
+The inspection is federal in outline and local in the score sheet.
+
+- **Ohio** gives the pre-trip **30 minutes** at state sites and charges $10 for that part. Fail it and you wait two days. Details: [Ohio CDL](/exams/cdl/guides/ohio).
+- **Texas** uses the modernized AAMVA inspection, with a checklist to help you, at every CDL test site except Del Rio and Wichita Falls. Details: [Texas CDL](/exams/cdl/guides/texas).
+- **California** scores the inspection as a skills test after the knowledge tests. The written bank is separate. Details: [California CDL](/exams/cdl/guides/california).
+
+Bring a truck that matches the class. A Class A permit tested in a straight truck does not give you Class A. Rented or school trucks are normal; the examiner does not care whose name is on the title if the vehicle is legal and representative.
+
+## How to practice this week
+
+1. Pass the written tests in practice first: [free CDL practice test](/exams/cdl/practice-test) and a [mock](/mock/cdl) above 85%.
+2. Print your state’s inspection list from the handbook. Do not use a random photo set from another state.
+3. Walk a parked truck once a day. Say the part, the bad condition, and why, until you can do one side without reading.
+4. Add the air-brake test only after the walkaround is boring. Mixing both on day one is how the 60 psi step gets skipped.
+5. Book the skills test only after the [permit wait](/exams/cdl/guides/cdl-permit) (often 14 days; Pennsylvania uses 15).
+
+All CertReady questions are original written practice. We do not administer pre-trip exams and we are not your state licensing agency.`,
+    faq: [
+      {
+        question: "Is the CDL pre-trip the same as the General Knowledge test?",
+        answer:
+          "No. General Knowledge is a written test you take to get the permit. The pre-trip is the vehicle inspection at the start of the skills test, after you already hold that permit.",
+      },
+      {
+        question: "Can I take a CDL pre-trip practice test online?",
+        answer:
+          "You can rehearse the script online and drill the written air-brake and combination questions here. The scored inspection is in person, on a truck, with an examiner. Passing a webpage does not waive it.",
+      },
+      {
+        question: "What do people fail on the pre-trip?",
+        answer:
+          "They point and stay quiet, they skip the in-cab air-brake test, or they never look at the coupling on a combination vehicle. Name the part, the defect, and why it matters.",
+      },
+      {
+        question: "How long is the pre-trip inspection?",
+        answer:
+          "There is no single national clock. Ohio allows 30 minutes for the pre-trip at state sites. Other states publish their own limit on the score sheet. Ask when you schedule.",
+      },
+      {
+        question: "Does CertReady include pre-trip questions?",
+        answer:
+          "The bank covers the written tests, including air brakes and combination vehicles, which supply the numbers you recite during the inspection. It is not a scored walkaround.",
+      },
+    ],
+  },
 ];
 
 export const CDL_PRACTICE_COPY = `## How this practice test is set up
 
-CDL knowledge tests are **80% to pass**, scored **one test at a time**. Most states use **50 questions** for General Knowledge (40 correct), **25** for Air Brakes, **20** for Combination Vehicles, and **20–30** for endorsements.
+CDL knowledge tests are **80% to pass**, scored **one test at a time**. Most states use **50 questions** for General Knowledge (40 correct), **25** for Air Brakes, **20** for Combination Vehicles, and **20–30** for endorsements. Illinois uses **30** General Knowledge questions, and Pennsylvania lists **70** for Class A. The percentage stays 80% except Illinois school bus, which is 90%. See the [passing score](/exams/cdl/guides/passing-score) page.
 
 CertReady’s bank is original practice on those topics — space and hours of service in General Knowledge, 60 psi and spring brakes in Air Brakes, coupling and off-tracking in Combination, placards, surge and passenger railroad stops. It is not a Georgia-only or California-only quiz; the federal manual is the same, and we add [state landing pages](/exams/cdl/guides/california) for booking.
 
@@ -451,5 +687,6 @@ Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (5
 - [Class A vs Class B vs Class C](/exams/cdl/guides/class-a-vs-class-b)
 - [CDL permit (CLP)](/exams/cdl/guides/cdl-permit)
 - [Passing score (80%)](/exams/cdl/guides/passing-score)
-- [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia)
+- [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia)
+- [Pre-trip inspection](/exams/cdl/guides/pre-trip) — skills test, not this written bank
 `;

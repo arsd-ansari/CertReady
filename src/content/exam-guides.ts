@@ -454,7 +454,7 @@ CertReady is free practice. We do not sell the official exam, and a completed mo
 - Residential techs booking [Universal](/exams/epa-608/guides/universal) on a weekend
 - Anyone who cannot get to a testing center during work hours
 
-If you only service cars, you need **Section 609**, which is a different online/in-person program.
+If you only service cars, you need **Section 609**, which is a different online/in-person program. If you need the sitting in Spanish, confirm that with the organization before you pay — see [EPA 608 in Spanish](/exams/epa-608/guides/spanish).
 
 ## Practice first, then book
 
@@ -485,6 +485,79 @@ All questions on CertReady are original study material, not live exam items.`,
           answer:
             "No. CertReady is independent practice. Passing a mock here does not certify you. Book the live exam with an EPA-approved program.",
         },
+        {
+          question: "Can I take the online EPA 608 exam in Spanish?",
+          answer:
+            "Some EPA-approved organizations offer the scored exam in Spanish, and ESCO publishes Spanish practice exams. Others are English only. Confirm the language with the provider you book. CertReady’s practice bank is English. Details: the EPA 608 in Spanish guide.",
+        },
+      ],
+    },
+    {
+      slug: "spanish",
+      title: "EPA 608 in Spanish",
+      seoTitle: "EPA 608 in Spanish — Exam Language, ESCO Practice, and What Stays the Same",
+      seoDescription:
+        "Some EPA-approved organizations offer the 608 exam in Spanish, and ESCO publishes Spanish practice exams. The 72% score and the type rules do not change. CertReady’s bank is English.",
+      intro:
+        "Spanish is a language option some certifying organizations offer. It is not a different certification. Core, Type I, Type II, Type III, and Universal use the same rules in either language.",
+      markdown: `## Who decides the language
+
+EPA does not sit you for the test and does not print the card. An **EPA-approved certifying organization** does (ESCO, RSES, Mainstream, HVAC Excellence, and others).
+
+That organization decides whether your sitting is offered in Spanish. ESCO publishes **Spanish practice exams** for Core and for Type I, Type II, and Type III, next to the English set. A Spanish practice exam on a provider’s site is not proof that the sitting you booked is in Spanish. Ask before you pay.
+
+[Taking the exam online](/exams/epa-608/guides/certification-online) does not change this. A live proctor can run a Spanish form or an English form. The room rules — ID, webcam, closed book for Universal — stay.
+
+## What does not change
+
+| Rule | Either language |
+| --- | --- |
+| Questions per section | **25** |
+| To pass | **18 correct (72%)** on that section |
+| Universal | Core + Type I + Type II + Type III, each at 72% |
+| Type I | Factory-sealed, **5 lb or less** |
+| Type II | High-pressure equipment that is not a small appliance |
+| Type III | Low-pressure chillers |
+| Card | Does **not** expire |
+
+The numbers people miss are the same in Spanish: Type I recovery **90%** with a working compressor and **80%** with a dead one, Type II leak rates **10% / 20% / 30%**, Type III evacuation **25 mm Hg absolute**. Mixing those across types fails a section at 17 whether the booklet is in Spanish or English.
+
+Full comparison: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). Scoring: [passing score](/exams/epa-608/guides/passing-score). Who must hold the card: [who needs 608](/exams/epa-608/guides/who-needs-certification).
+
+Section **609** (car and truck A/C) is still a different exam. A Spanish 608 card does not cover motor-vehicle refrigerant work.
+
+## CertReady’s practice is English
+
+The questions, explanations, and timed mocks on this site are **English**. Use them if you can read the items. If you need to drill in Spanish, use the Spanish practice exam from the organization that will print your card, and use the [study-guide table](/exams/epa-608/study-guide) for the numbers.
+
+We do not publish a translated copy of the live exam, and we are not ESCO. Their Spanish practice set is theirs. Ours is an independent English bank:
+
+- [Free EPA 608 practice test](/exams/epa-608/practice-test)
+- [Core](/exams/epa-608/core) · [Type I](/exams/epa-608/type-1) · [Type II](/exams/epa-608/type-2) · [Type III](/exams/epa-608/type-3)
+- [Universal](/exams/epa-608/guides/universal) · [timed mock](/mock/epa-608)
+
+Study until each section is above 80% here or on the provider’s Spanish practice, then book the language you will actually test in.`,
+      faq: [
+        {
+          question: "Is the EPA 608 test offered in Spanish?",
+          answer:
+            "Sometimes. EPA-approved organizations choose the language. ESCO publishes Spanish practice exams for Core and each type. Confirm that the sitting you paid for is in Spanish before test day.",
+        },
+        {
+          question: "Is CertReady’s EPA 608 practice test in Spanish?",
+          answer:
+            "No. The CertReady bank, explanations, and mocks are English. For a Spanish drill, use the practice exam from the organization that will give you the card.",
+        },
+        {
+          question: "Does the passing score change in Spanish?",
+          answer:
+            "No. You still need 18 of 25 correct (72%) on each section. Universal is still four separate scores, not an average.",
+        },
+        {
+          question: "Is Universal a different test in Spanish?",
+          answer:
+            "No. Universal is still Core plus Type I, Type II, and Type III. The language of the booklet does not add a fifth section.",
+        },
       ],
     },
   ],
@@ -501,6 +574,7 @@ Start with a 10-question mixed set if you have ten minutes. Switch to one type w
 - [Take EPA 608 online](/exams/epa-608/guides/certification-online)
 - [Passing score (72%)](/exams/epa-608/guides/passing-score)
 - [Who needs EPA 608](/exams/epa-608/guides/who-needs-certification)
+- [EPA 608 in Spanish](/exams/epa-608/guides/spanish)
 `;
 
 export function getExamGuides(examSlug: string): ExamGuide[] {

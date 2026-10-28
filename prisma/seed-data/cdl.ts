@@ -620,7 +620,7 @@ export const cdl: SeedExam = {
   freeQuestionLimit: 10,
   seoTitle: "CDL Practice Test — Free General Knowledge, Air Brakes & Endorsements",
   seoDescription:
-    "Free CDL practice test with original questions: General Knowledge, Air Brakes, Combination Vehicles, Hazmat, Tanker and Passenger. 80% passing-score guide plus CA, TX, FL and GA pages.",
+    "Free CDL practice test: General Knowledge, Air Brakes, Combination, and endorsements. 80% score guide, Texas Commercial Rules, Ohio, and a pre-trip inspection guide.",
   overview: `## What the CDL knowledge tests are
 
 A Commercial Driver's License is issued by **your state**, to **federal** standards. The written tests come from the same core manual in every state: General Knowledge for every class, then extra tests for air brakes, combination vehicles and endorsements.
@@ -636,7 +636,7 @@ A Commercial Driver's License is issued by **your state**, to **federal** standa
 
 You also need a **Commercial Learner's Permit (CLP)** before the skills test. Read [CDL permit](/exams/cdl/guides/cdl-permit) and [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). Passing is **80% on each test**, not an average — [passing score](/exams/cdl/guides/passing-score).
 
-State pages (same federal bank, local booking): [California](/exams/cdl/guides/california), [Texas](/exams/cdl/guides/texas), [Florida](/exams/cdl/guides/florida), [Georgia](/exams/cdl/guides/georgia).
+State pages: [California](/exams/cdl/guides/california), [Texas](/exams/cdl/guides/texas) (Texas adds a Commercial Rules test before General Knowledge), [Ohio](/exams/cdl/guides/ohio), [Florida](/exams/cdl/guides/florida), [Georgia](/exams/cdl/guides/georgia). The walkaround is a skills test: [pre-trip inspection](/exams/cdl/guides/pre-trip).
 
 ## How CertReady helps
 
@@ -661,7 +661,7 @@ Interstate driving generally requires age **21** and a valid DOT medical examine
 - **21** for interstate commerce; many states allow **18** for intrastate only
 - **H** endorsement also requires a TSA security threat assessment
 
-Always confirm current rules with your state. Federal standards are the floor; California, Texas, Florida and Georgia each book the exam at their own DMV / DPS / DHSMV / DDS.
+Always confirm current rules with your state. Federal standards are the floor; California, Texas, Ohio, Florida and Georgia each book the exam at their own DMV / DPS / BMV / DHSMV / DDS. Texas also requires a Texas Commercial Rules knowledge test before General Knowledge.
 
 ## Format
 
@@ -713,7 +713,7 @@ Class comparison: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). Sc
 3. **Days 8–10 — Combination** (Class A) and any endorsement you need.
 4. **Days 11–14 — Timed mocks.** 50 questions / 50 minutes. Review every miss on the dashboard.
 
-State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
+State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). Skills test: [pre-trip inspection](/exams/cdl/guides/pre-trip).`,
   faq: [
     {
       question: "How many questions are on the CDL General Knowledge test?",
