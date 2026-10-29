@@ -209,12 +209,12 @@ Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you
     },
     {
       slug: "who-needs-certification",
-      title: "Who Needs EPA 608 Certification?",
-      seoTitle: "Who Needs EPA 608 Certification? Technicians, Sales & Disposal Rules",
+      title: "EPA 608 Certification",
+      seoTitle: "EPA 608 Certification — Who Needs It, Cost, and How to Get the Card",
       seoDescription:
-        "EPA 608 is required to maintain, service, repair or dispose of equipment that could release refrigerant, and to buy most refrigerants. See who needs it, who needs 609 instead, and how to get certified.",
+        "EPA 608 certification is required to service equipment that could release refrigerant and to buy most refrigerants. Who needs it, what it costs, how you get the card, and how it differs from ESCO’s exam.",
       intro:
-        "If you will open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant, you need Section 608 certification. There is no federal age or apprenticeship prerequisite — only the exam.",
+        "EPA 608 certification is the card you need before you open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant. There is no federal age or apprenticeship prerequisite — only the exam.",
       markdown: `## The legal trigger
 
 Section 608 of the Clean Air Act requires certification for anyone who **maintains, services, repairs or disposes of** appliances that could release ozone-depleting refrigerant (and, under later rules, many substitute refrigerants) into the atmosphere.
@@ -278,9 +278,25 @@ Details: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). M
 - If you lose the card, the **certifying organization** (not EPA, not CertReady) issues a replacement
 - Knowingly venting refrigerant can still cost you the card and civil penalties
 
+## How to get EPA 608 certification
+
+1. Match the type to the equipment, or book [Universal](/exams/epa-608/guides/universal) if the shop wants all three. Comparison: [Type I vs Type II vs Type III](/exams/epa-608/guides/type-1-vs-type-2).
+2. Practice [Core](/exams/epa-608/core) and each type until you are above 80%. The bar on test day is [18 of 25](/exams/epa-608/guides/passing-score) on every section.
+3. Sit the exam with an EPA-approved organization (ESCO, RSES, Mainstream, HVAC Excellence, and others). EPA approves them. EPA does not hand you the card.
+4. Pass each section you attempt. A failed section does not erase the sections you passed.
+5. Keep the wallet card that organization prints. Wholesalers and employers ask for it. A lost card is replaced by that organization, not by EPA and not by CertReady.
+
+Many techs test [online with a live proctor](/exams/epa-608/guides/certification-online). Closed book still applies to Core, Type II, Type III, and Universal.
+
+## ESCO’s 2026 bank is a different product
+
+ESCO Institute says it released an updated Section 608 test bank in August 2026, and that its 2018 exam stays available until January 1, 2027. If you book ESCO, study the manual and pressure-temperature chart that match that sitting. Other approved organizations publish their own materials and their own dates.
+
+CertReady is not ESCO’s practice exam, the 9th edition, or the 10th. The questions here are original practice on the public rules: recovery percentages, leak rates, evacuation levels, and the venting prohibition. Use them to learn the numbers, then take the proctored exam you paid for.
+
 ## How to prepare on CertReady
 
-1. Read the [requirements](/exams/epa-608/requirements) and [study guide](/exams/epa-608/study-guide)
+1. Read the [certification requirements](/exams/epa-608/requirements) and [study guide](/exams/epa-608/study-guide)
 2. Take the [free EPA 608 practice test](/exams/epa-608/practice-test)
 3. Drill weak sections until you are above 80%
 4. Sit a timed [mock exam](/mock/epa-608) at the [72% passing bar](/exams/epa-608/guides/passing-score)
@@ -301,6 +317,21 @@ CertReady is independent practice material. We are not affiliated with EPA or an
           question: "Can a helper pull gauges without a card?",
           answer:
             "If the work is maintaining, servicing, repairing or disposing of equipment that can release refrigerant, the person doing that work needs to be certified. Holding gauges on a charged system is the classic example.",
+        },
+        {
+          question: "How do I get EPA 608 certification?",
+          answer:
+            "Pick the type or Universal, pass Core plus that type at 18 of 25 with an EPA-approved organization, and keep the card they issue. EPA does not administer the exam or print the card.",
+        },
+        {
+          question: "How much does EPA 608 certification cost?",
+          answer:
+            "EPA does not set a national fee. Approved organizations commonly charge somewhere from about $20 to about $150, depending on how many sections you sit and whether a live proctor is included. Ask the organization that will print your card.",
+        },
+        {
+          question: "Is CertReady the ESCO EPA 608 practice test?",
+          answer:
+            "No. ESCO publishes its own practice exams, including a 2026 bank and a 2018 bank that ESCO says remains available until January 1, 2027. CertReady’s questions are an independent English bank on the same rules.",
         },
       ],
     },
@@ -573,8 +604,10 @@ Start with a 10-question mixed set if you have ten minutes. Switch to one type w
 - [Universal certification](/exams/epa-608/guides/universal)
 - [Take EPA 608 online](/exams/epa-608/guides/certification-online)
 - [Passing score (72%)](/exams/epa-608/guides/passing-score)
-- [Who needs EPA 608](/exams/epa-608/guides/who-needs-certification)
+- [EPA 608 certification](/exams/epa-608/guides/who-needs-certification) — who needs the card, what it costs, and how you get it
 - [EPA 608 in Spanish](/exams/epa-608/guides/spanish)
+
+CertReady is not ESCO’s practice exam. ESCO’s 2026 test bank and its 2018 bank are theirs. The rules those sittings still test — 18 of 25, recovery percentages, leak rates — are what this bank drills.
 `;
 
 export function getExamGuides(examSlug: string): ExamGuide[] {

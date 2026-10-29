@@ -15,10 +15,15 @@ export async function generateMetadata({ params }: PageProps<"/exams/[slug]/prac
   const { slug } = await params;
   const exam = await getPublishedExamBySlug(slug);
   if (!exam) return {};
+  const isCdl = exam.slug === "cdl";
   return examMetadata(exam, {
     path: `/exams/${exam.slug}/practice-test`,
-    title: `Free ${exam.shortTitle} Practice Test — ${exam._count.questions} Questions with Answers`,
-    description: `Take a free ${exam.title} practice test online. ${exam._count.questions} original questions with detailed explanations, timed mock exams and topic scores.`,
+    title: isCdl
+      ? "CDL Practice Test — Free Test Questions and Answers"
+      : `Free ${exam.shortTitle} Practice Test — ${exam._count.questions} Questions with Answers`,
+    description: isCdl
+      ? "Free CDL test questions with answers for General Knowledge, Air Brakes, Combination, Hazmat, Tanker and Passenger. Original practice. 80% to pass each knowledge test."
+      : `Take a free ${exam.title} practice test online. ${exam._count.questions} original questions with detailed explanations, timed mock exams and topic scores.`,
   });
 }
 

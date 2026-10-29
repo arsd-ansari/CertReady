@@ -43,7 +43,7 @@ Air brakes are a **restriction**, not a class. Skip the [Air Brakes](/exams/cdl/
 3. [Combination Vehicles](/exams/cdl/combination-vehicles) — Class A only
 4. Timed [mock](/mock/cdl) once category scores are above 85%
 
-Passing is **80% per test**: [CDL passing score](/exams/cdl/guides/passing-score). New drivers also need a [CLP](/exams/cdl/guides/cdl-permit) before the skills test.
+Passing is **80% per test**: [CDL passing score](/exams/cdl/guides/passing-score). Those written tests are the [CDL permit practice test](/exams/cdl/guides/cdl-permit). Pass them and the state prints the CLP you hold before the skills test.
 
 State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). Skills test: [pre-trip inspection](/exams/cdl/guides/pre-trip).`,
     faq: [
@@ -66,17 +66,43 @@ State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/
         question: "Do I need Combination Vehicles for Class B?",
         answer: "No. Combination Vehicles is the Class A knowledge test.",
       },
+      {
+        question: "Where is the Class A CDL practice test?",
+        answer:
+          "Class A is three knowledge tests, not one quiz: General Knowledge, Combination Vehicles, and Air Brakes if the truck has air brakes. Practice each section, then the timed mock. The permit is issued after those tests.",
+      },
     ],
   },
   {
     slug: "cdl-permit",
-    title: "CDL Permit (CLP)",
-    seoTitle: "CDL Permit (CLP) — Knowledge Tests, Wait Time and What You Can Drive",
+    title: "CDL Permit Practice Test",
+    seoTitle: "Free CDL Permit Practice Test — CLP Knowledge Questions",
     seoDescription:
-      "A Commercial Learner's Permit is what you get after CDL knowledge tests. Typical 14-day wait, qualified CDL holder in the seat, and no passengers or hazmat. How to practice before you book.",
+      "Free CDL permit practice for the CLP knowledge tests: General Knowledge, Air Brakes, and Combination. 80% on each test. Your state scores the real exam; this site does not print a permit.",
     intro:
-      "The CDL is not one exam. You pass the written tests, the state prints a Commercial Learner's Permit, you wait, you practice, then you take the skills test. Searching “CDL permit” is the beginning of that sequence — not a different license.",
-    markdown: `## What a CLP is
+      "The CDL permit test is the set of knowledge tests your state gives before it prints a Commercial Learner's Permit. There is no second quiz called “permit.” Practice those tests here, then book the office that scores them.",
+    markdown: `## What to practice for the permit
+
+The appointment that gets you a **CLP** is the written knowledge tests. Drill them until each one is above **80%**, then schedule.
+
+| Test | Who sits it for a permit | Usual questions | Correct to pass |
+| --- | --- | --- | --- |
+| [General Knowledge](/exams/cdl/general-knowledge) | Every class | 50 | 40 |
+| [Air Brakes](/exams/cdl/air-brakes) | Any air-brake truck | 25 | 20 |
+| [Combination Vehicles](/exams/cdl/combination-vehicles) | Class A | 20 | 16 |
+| [Hazmat](/exams/cdl/hazardous-materials) | Placarded loads | 30 | 24 |
+| [Tanker](/exams/cdl/tanker) | Tank vehicles | 20 | 16 |
+| [Passenger](/exams/cdl/passenger) | 16+ including the driver | 20 | 16 |
+
+A few states change the **count**. Illinois uses **30** General Knowledge questions. Pennsylvania lists a longer Class A written set and waits **15 days** (not 14) before the skills test. Both still use **80%** on the knowledge tests except Illinois school bus, which is 90%. Full table: [CDL passing score](/exams/cdl/guides/passing-score).
+
+New York and other states use the same federal topics. The booklet at the window is what counts for the exact length. Start with General Knowledge either way.
+
+CertReady’s [free CDL practice test](/exams/cdl/practice-test) is original questions on those topics, with explanations. It is not a copy of the DMV form, and a passing score here does not print a CLP. When category scores are **85%+**, sit the timed [mock](/mock/cdl) (50 questions, 50 minutes).
+
+Class A adds Combination and almost always Air Brakes. Class B skips Combination. Compare them in [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) before you pay for the wrong set.
+
+## What a CLP is
 
 A **Commercial Learner's Permit** lets you **practice** in a commercial motor vehicle with a qualified CDL holder beside you. It is not a solo CDL. It is not valid for:
 
@@ -105,12 +131,13 @@ California lets you start a CDL **application** online, then you sit the knowled
 
 Use the [General Knowledge practice test](/exams/cdl/general-knowledge) before the appointment, not instead of it. State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).
 
-## What to study for the permit appointment
+## What to study before you book
 
-The permit exam **is** the knowledge tests. There is not a separate “permit quiz.” Drill until you are comfortably above **80%** — [passing score](/exams/cdl/guides/passing-score) — then book.
+The permit exam **is** the knowledge tests. Use the table at the top of this page, then:
 
-- [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) so you do not pay for the wrong tests
-- [Free CDL practice test](/exams/cdl/practice-test)
+- [Free CDL practice test](/exams/cdl/practice-test) for a mixed set
+- [Hazmat practice test](/exams/cdl/hazardous-materials) if the job is placarded freight (H on a permit is limited; you still learn the test)
+- [Passing score](/exams/cdl/guides/passing-score) so a 39/50 does not surprise you
 - Timed [mock exam](/mock/cdl)
 
 ## State notes
@@ -139,7 +166,17 @@ CertReady does not issue permits. Only your state DMV / DPS / DHSMV / DDS does.`
       {
         question: "Is the CDL permit test different from General Knowledge?",
         answer:
-          "No. The permit is issued after you pass the knowledge tests for that class. Practice General Knowledge, Air Brakes and Combination Vehicles (for Class A) the same way.",
+          "General Knowledge is the test every applicant takes. The permit also requires Air Brakes if the truck has them, Combination Vehicles for Class A, and any endorsement tests you need. Pass those and the state prints the CLP.",
+      },
+      {
+        question: "Is there a free CDL permit practice test?",
+        answer:
+          "Yes. CertReady’s General Knowledge, Air Brakes, Combination, and endorsement sets are free to start, with an explanation on every answer. The scored permit test is still at your state licensing office.",
+      },
+      {
+        question: "How many questions are on the CDL permit test?",
+        answer:
+          "Most states use 50 General Knowledge questions (40 correct), 25 Air Brakes (20 correct), and 20 Combination (16 correct). Illinois uses 30 General Knowledge questions. Pennsylvania’s Class A written set is longer. Passing is 80% on each test.",
       },
       {
         question: "Does CertReady give a CDL permit?",
@@ -680,12 +717,13 @@ export const CDL_PRACTICE_COPY = `## How this practice test is set up
 
 CDL knowledge tests are **80% to pass**, scored **one test at a time**. Most states use **50 questions** for General Knowledge (40 correct), **25** for Air Brakes, **20** for Combination Vehicles, and **20–30** for endorsements. Illinois uses **30** General Knowledge questions, and Pennsylvania lists **70** for Class A. The percentage stays 80% except Illinois school bus, which is 90%. See the [passing score](/exams/cdl/guides/passing-score) page.
 
-CertReady’s bank is original practice on those topics — space and hours of service in General Knowledge, 60 psi and spring brakes in Air Brakes, coupling and off-tracking in Combination, placards, surge and passenger railroad stops. It is not a Georgia-only or California-only quiz; the federal manual is the same, and we add [state landing pages](/exams/cdl/guides/california) for booking.
+CertReady’s bank is original CDL test questions on those topics — space and hours of service in General Knowledge, 60 psi and spring brakes in Air Brakes, coupling and off-tracking in Combination, placards, surge and passenger railroad stops. It is not a Georgia-only or California-only quiz; the federal manual is the same, and we add [state landing pages](/exams/cdl/guides/california) for booking.
 
 Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (50 questions / 50 minutes) when category scores are **85%+**.
 
 - [Class A vs Class B vs Class C](/exams/cdl/guides/class-a-vs-class-b)
-- [CDL permit (CLP)](/exams/cdl/guides/cdl-permit)
+- [CDL permit practice test](/exams/cdl/guides/cdl-permit) — the knowledge tests that get you a CLP
+- [Hazmat practice test](/exams/cdl/hazardous-materials) · [Air Brakes](/exams/cdl/air-brakes) · [Combination Vehicles](/exams/cdl/combination-vehicles)
 - [Passing score (80%)](/exams/cdl/guides/passing-score)
 - [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia)
 - [Pre-trip inspection](/exams/cdl/guides/pre-trip) — skills test, not this written bank

@@ -14,6 +14,15 @@ export async function generateMetadata({ params }: PageProps<"/exams/[slug]">): 
   const { slug } = await params;
   const exam = await getPublishedExamBySlug(slug);
   if (!exam) return {};
+  if (exam.slug === "epa-608") {
+    return examMetadata(exam, {
+      path: "/exams/epa-608",
+      title: "EPA 608 Certification Practice Test — Free Core, Type I, II & III",
+      description:
+        exam.seoDescription ??
+        "Free EPA 608 certification practice for Core, Type I, Type II and Type III. Original questions, the 72% score on each section, and who needs the card.",
+    });
+  }
   return examMetadata(exam);
 }
 
