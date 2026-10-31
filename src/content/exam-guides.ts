@@ -93,7 +93,7 @@ You can add a type later. Credit for sections you already passed is kept; you re
 
 Each official section is 25 questions, **18 correct (72%)** to pass. CertReady’s mock exam is a 25-question timed mix so you practice that pacing. Drill one type until you are consistently above 80% on that category, then sit a [full mock](/mock/epa-608).
 
-See the [passing score guide](/exams/epa-608/guides/passing-score), [Universal certification](/exams/epa-608/guides/universal), [who needs 608](/exams/epa-608/guides/who-needs-certification) and [taking the exam online](/exams/epa-608/guides/certification-online).`,
+See the [passing score guide](/exams/epa-608/guides/passing-score), [Universal certification](/exams/epa-608/guides/universal), [EPA Section 608](/exams/epa-608/guides/who-needs-certification) and [taking the exam online](/exams/epa-608/guides/certification-online).`,
       faq: [
         {
           question: "Is Type 1 easier than Type 2?",
@@ -209,13 +209,13 @@ Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you
     },
     {
       slug: "who-needs-certification",
-      title: "EPA 608 Certification",
-      seoTitle: "EPA 608 Certification — Who Needs It, Cost, and How to Get the Card",
+      title: "EPA Section 608 Certification",
+      seoTitle: "EPA Section 608 Certification — Who Needs It, Cost, and the Card",
       seoDescription:
-        "EPA 608 certification is required to service equipment that could release refrigerant and to buy most refrigerants. Who needs it, what it costs, how you get the card, and how it differs from ESCO’s exam.",
+        "EPA Section 608 certification is required to service stationary equipment that could release refrigerant and to buy most refrigerants. Who needs it, what it costs, how you get the card, and how it differs from Section 609 and from ESCO’s exam.",
       intro:
-        "EPA 608 certification is the card you need before you open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant. There is no federal age or apprenticeship prerequisite — only the exam.",
-      markdown: `## The legal trigger
+        "EPA Section 608 certification is the card you need before you open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant. There is no federal age or apprenticeship prerequisite — only the exam.",
+      markdown: `## What EPA Section 608 requires
 
 Section 608 of the Clean Air Act requires certification for anyone who **maintains, services, repairs or disposes of** appliances that could release ozone-depleting refrigerant (and, under later rules, many substitute refrigerants) into the atmosphere.
 
@@ -303,6 +303,11 @@ CertReady is not ESCO’s practice exam, the 9th edition, or the 10th. The quest
 
 CertReady is independent practice material. We are not affiliated with EPA or any certifying organization, and our questions are not the live exam.`,
       faq: [
+        {
+          question: "What is EPA Section 608 certification?",
+          answer:
+            "Section 608 of the Clean Air Act requires a certified technician to maintain, service, repair, or dispose of stationary air-conditioning and refrigeration equipment that could release refrigerant, and to buy most regulated refrigerants. An EPA-approved organization gives the exam and prints the card. Motor vehicle air conditioning is Section 609, a different card.",
+        },
         {
           question: "Do I need EPA 608 to buy refrigerant?",
           answer:
@@ -405,6 +410,11 @@ Memorize the [study-guide table](/exams/epa-608/study-guide), then drill the wea
 All CertReady questions are original practice material, not the live exam. We are not affiliated with EPA or any certifying organization.`,
       faq: [
         {
+          question: "What is 608 universal certification?",
+          answer:
+            "608 universal certification is EPA Section 608 Core plus Type I, Type II, and Type III. That is 100 questions, with 18 of 25 correct on every section, closed book and proctored. It does not cover motor vehicle air conditioning.",
+        },
+        {
           question: "Is Universal a separate EPA 608 exam?",
           answer:
             "No. Universal is Core plus Type I, II and III. There is no fifth booklet. You select Universal when you book, and you sit all four sections.",
@@ -481,7 +491,7 @@ CertReady is free practice. We do not sell the official exam, and a completed mo
 
 ## Who this is for
 
-- Apprentices and helpers who need the card before a wholesaler will sell refrigerant — [who needs 608](/exams/epa-608/guides/who-needs-certification)
+- Apprentices and helpers who need the card before a wholesaler will sell refrigerant — [EPA Section 608 certification](/exams/epa-608/guides/who-needs-certification)
 - Residential techs booking [Universal](/exams/epa-608/guides/universal) on a weekend
 - Anyone who cannot get to a testing center during work hours
 
@@ -553,7 +563,7 @@ That organization decides whether your sitting is offered in Spanish. ESCO publi
 
 The numbers people miss are the same in Spanish: Type I recovery **90%** with a working compressor and **80%** with a dead one, Type II leak rates **10% / 20% / 30%**, Type III evacuation **25 mm Hg absolute**. Mixing those across types fails a section at 17 whether the booklet is in Spanish or English.
 
-Full comparison: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). Scoring: [passing score](/exams/epa-608/guides/passing-score). Who must hold the card: [who needs 608](/exams/epa-608/guides/who-needs-certification).
+Full comparison: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). Scoring: [passing score](/exams/epa-608/guides/passing-score). Who must hold the card: [EPA Section 608](/exams/epa-608/guides/who-needs-certification).
 
 Section **609** (car and truck A/C) is still a different exam. A Spanish 608 card does not cover motor-vehicle refrigerant work.
 
@@ -604,7 +614,7 @@ Start with a 10-question mixed set if you have ten minutes. Switch to one type w
 - [Universal certification](/exams/epa-608/guides/universal)
 - [Take EPA 608 online](/exams/epa-608/guides/certification-online)
 - [Passing score (72%)](/exams/epa-608/guides/passing-score)
-- [EPA 608 certification](/exams/epa-608/guides/who-needs-certification) — who needs the card, what it costs, and how you get it
+- [EPA Section 608 certification](/exams/epa-608/guides/who-needs-certification) — who needs the card, what it costs, and how you get it
 - [EPA 608 in Spanish](/exams/epa-608/guides/spanish)
 
 CertReady is not ESCO’s practice exam. ESCO’s 2026 test bank and its 2018 bank are theirs. The rules those sittings still test — 18 of 25, recovery percentages, leak rates — are what this bank drills.

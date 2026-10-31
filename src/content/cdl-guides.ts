@@ -4,9 +4,9 @@ export const CDL_GUIDES: ExamGuide[] = [
   {
     slug: "class-a-vs-class-b",
     title: "CDL Class A vs Class B vs Class C",
-    seoTitle: "CDL Class A vs Class B vs Class C — Which License Do You Need?",
+    seoTitle: "Class A vs Class B CDL Practice Test — Which Tests You Sit",
     seoDescription:
-      "Class A is combination vehicles (trailer 10,001 lb+). Class B is a single heavy vehicle. Class C is 16+ passengers or placarded hazmat. Compare tests, endorsements and practice each section.",
+      "Class A CDL practice is General Knowledge, Combination, and Air Brakes. Class B skips Combination. Class C is 16+ passengers or placarded hazmat. Practice the tests for the license you are booking.",
     intro:
       "Class is about what the truck is rated to weigh and what you may tow — not the job title on the application. Book the wrong class and you either sit extra tests you do not need, or you cannot legally pull the trailer on day one.",
     markdown: `## The short answer
@@ -36,6 +36,26 @@ Air brakes are a **restriction**, not a class. Skip the [Air Brakes](/exams/cdl/
 - **T** doubles/triples (Class A) and **S** school bus (needs P) are not in this bank yet
 - **X** is H+N printed as one code in many states
 
+## Class A CDL practice test
+
+Class A is three knowledge tests, not one quiz:
+
+1. [General Knowledge](/exams/cdl/general-knowledge)
+2. [Combination Vehicles](/exams/cdl/combination-vehicles)
+3. [Air Brakes](/exams/cdl/air-brakes), unless you are sure the truck is hydraulic-only
+
+Then the skills test in a tractor-trailer. The walkaround includes the fifth wheel: [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).
+
+## Class B CDL practice test
+
+Class B does **not** sit Combination Vehicles. Practice:
+
+1. [General Knowledge](/exams/cdl/general-knowledge)
+2. [Air Brakes](/exams/cdl/air-brakes) if the straight truck, dump, mixer, or bus has air brakes
+3. [Passenger](/exams/cdl/passenger) when the vehicle is built for 16 or more, including the driver
+
+The skills test is the same three parts, without a fifth-wheel script. Use the Class B half of the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).
+
 ## What to practice
 
 1. [General Knowledge](/exams/cdl/general-knowledge) — every class
@@ -45,7 +65,7 @@ Air brakes are a **restriction**, not a class. Skip the [Air Brakes](/exams/cdl/
 
 Passing is **80% per test**: [CDL passing score](/exams/cdl/guides/passing-score). Those written tests are the [CDL permit practice test](/exams/cdl/guides/cdl-permit). Pass them and the state prints the CLP you hold before the skills test.
 
-State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). Skills test: [pre-trip inspection](/exams/cdl/guides/pre-trip).`,
+State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). Skills test: [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).`,
     faq: [
       {
         question: "Can I drive a Class B truck with a Class A CDL?",
@@ -70,6 +90,11 @@ State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/
         question: "Where is the Class A CDL practice test?",
         answer:
           "Class A is three knowledge tests, not one quiz: General Knowledge, Combination Vehicles, and Air Brakes if the truck has air brakes. Practice each section, then the timed mock. The permit is issued after those tests.",
+      },
+      {
+        question: "Where is the Class B CDL practice test?",
+        answer:
+          "Class B is General Knowledge, plus Air Brakes if the truck has them. There is no Combination Vehicles test. A bus built for 16 or more people, including the driver, also needs the Passenger endorsement. Practice those sections, then the timed mock.",
       },
     ],
   },
@@ -149,7 +174,7 @@ Waiting periods, fees, and whether you retest the same day are local. Start here
 - [Ohio CDL](/exams/cdl/guides/ohio)
 - [Florida CDL](/exams/cdl/guides/florida)
 - [Georgia CDL](/exams/cdl/guides/georgia)
-- [Pre-trip inspection](/exams/cdl/guides/pre-trip) — the skills test, after the permit
+- [Pre-trip inspection checklist](/exams/cdl/guides/pre-trip) — the skills test, after the permit
 
 CertReady does not issue permits. Only your state DMV / DPS / DHSMV / DDS does.`,
     faq: [
@@ -240,7 +265,7 @@ That is why you drill **weak categories**, not one overall mock percentage. Cert
 
 All CertReady items are original practice, not live DMV questions.
 
-The written tests are not the [pre-trip inspection](/exams/cdl/guides/pre-trip). That is the first part of the skills test, after you already hold the permit.
+The written tests are not the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip). That is the first part of the skills test, after you already hold the permit.
 
 Related: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) · [CDL permit](/exams/cdl/guides/cdl-permit) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio)`,
     faq: [
@@ -317,7 +342,7 @@ Entry-level driver training (ELDT) is required before the **skills** test and be
 
 ## Class and permit
 
-- [Class A vs Class B vs Class C](/exams/cdl/guides/class-a-vs-class-b)
+- [Class A vs Class B CDL practice test](/exams/cdl/guides/class-a-vs-class-b)
 - [CDL permit (CLP)](/exams/cdl/guides/cdl-permit)
 - Interstate still means age **21** and a current medical certificate
 
@@ -325,7 +350,7 @@ Entry-level driver training (ELDT) is required before the **skills** test and be
 
 [Free California-oriented CDL practice test](/exams/cdl/practice-test) — original questions, explanations, no DMV affiliation.
 
-Other states: [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). The skills-test walkaround is the [pre-trip inspection](/exams/cdl/guides/pre-trip), not this written bank.`,
+Other states: [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). The skills-test walkaround is the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip), not this written bank.`,
     faq: [
       {
         question: "Does California use the same CDL test as other states?",
@@ -423,7 +448,7 @@ The federal half of the Texas appointment is the same bank as every other state:
 
 [Free CDL practice test](/exams/cdl/practice-test) · [mock exam](/mock/cdl) · **80%** [passing score](/exams/cdl/guides/passing-score)
 
-Class lines: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). On the DPS page, Class A is a combination with a GCWR of 26,001 lb or more when the towed vehicle’s GVWR **exceeds 10,000 lb**. Class B is a single vehicle of 26,001 lb or more and may tow a vehicle that does not exceed 10,000 lb. Permit timing: [CLP](/exams/cdl/guides/cdl-permit). The walkaround is a skills test: [pre-trip inspection](/exams/cdl/guides/pre-trip).
+Class lines: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). On the DPS page, Class A is a combination with a GCWR of 26,001 lb or more when the towed vehicle’s GVWR **exceeds 10,000 lb**. Class B is a single vehicle of 26,001 lb or more and may tow a vehicle that does not exceed 10,000 lb. Permit timing: [CLP](/exams/cdl/guides/cdl-permit). The walkaround is a skills test: [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).
 
 Other states: [California](/exams/cdl/guides/california) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
     faq: [
@@ -479,7 +504,7 @@ Check that site for fees, ELDT, third-party testers, and medical certification. 
 
 Passenger and school-bus work is common in Florida tourism and districts — P is in this bank; **S** is not yet.
 
-Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Georgia](/exams/cdl/guides/georgia). The walkaround is the [pre-trip inspection](/exams/cdl/guides/pre-trip).`,
+Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Georgia](/exams/cdl/guides/georgia). The walkaround is the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).`,
     faq: [
       {
         question: "Does Florida have its own CDL questions?",
@@ -522,7 +547,7 @@ Use DDS for appointments, fees, ELDT proof, and medical self-certification. Do n
 
 Atlanta-area Class A demand is combination work: do not skip Combination Vehicles. [Class A vs B](/exams/cdl/guides/class-a-vs-class-b) · [CLP](/exams/cdl/guides/cdl-permit).
 
-Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida). The walkaround is the [pre-trip inspection](/exams/cdl/guides/pre-trip).`,
+Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida). The walkaround is the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).`,
     faq: [
       {
         question: "Is the Georgia CDL test different from other states?",
@@ -572,7 +597,7 @@ Ohio’s skills test is three parts, with the clocks the BMV publishes for the s
 | Basic maneuverability | 40 minutes | $10 |
 | Road test | — | $30 |
 
-You buy a CDL test receipt at a deputy registrar before a state-owned site will test you. Third-party sites set their own fees. Fail any part and you wait **two days** to retest. The walkaround itself is covered in the [pre-trip guide](/exams/cdl/guides/pre-trip). This bank is the written half.
+You buy a CDL test receipt at a deputy registrar before a state-owned site will test you. Third-party sites set their own fees. Fail any part and you wait **two days** to retest. The walkaround itself is covered in the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip). This bank is the written half.
 
 ## What to practice
 
@@ -618,12 +643,12 @@ Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/g
   },
   {
     slug: "pre-trip",
-    title: "CDL Pre-Trip Inspection",
-    seoTitle: "CDL Pre-Trip Inspection — What the Skills Test Checks",
+    title: "CDL Pre-Trip Inspection Checklist",
+    seoTitle: "CDL Pre-Trip Inspection Checklist — Class A and Class B",
     seoDescription:
-      "The CDL pre-trip is the first part of the skills test, not a written knowledge quiz. What examiners score, how to practice out loud, and how it differs from General Knowledge.",
+      "CDL pre-trip inspection checklist for the skills test: engine, cab, lights, walkaround, and the in-cab air test. Class A adds the fifth wheel. A practice script, not your state's score sheet.",
     intro:
-      "The pre-trip inspection is a skills test. You walk the truck with an examiner and say what you are checking and what would make it illegal to drive. A website quiz cannot print that score.",
+      "The pre-trip inspection is a skills test. You walk the truck with an examiner and say what you are checking and what would make it illegal to drive. The checklist below is a practice script. A website quiz cannot print that score.",
     markdown: `## Where pre-trip sits
 
 The CDL is two appointments, not one.
@@ -654,15 +679,74 @@ Group the truck so you do not skip a side:
 | Lights and glass | Lights work, glass is not broken, mirrors are secure |
 | Coupling (Class A) | Fifth wheel, locking jaws, air lines, and the kingpin area — see [Combination Vehicles](/exams/cdl/combination-vehicles) |
 | Walkaround | Tires, wheels, suspension, brakes, frame, and cargo securement |
-| Brake test | The air-brake check if the truck has air brakes: warning at or before **60 psi**, leak-down limits, and that the spring brakes hold |
+| Brake test | The in-cab air test if the truck has air brakes: applied leak, low-air warning, and spring brakes. Numbers are in the checklist below. |
 
 Class B is the same idea without the fifth wheel. A bus adds passenger items; school bus adds student-specific checks. Those endorsement scripts are not in this bank.
+
+## Pre-trip inspection checklist
+
+This is a practice script, not a state score sheet and not a PDF. The examiner marks the list in your state's current CDL manual. On a parked truck, point at the part and say three things: the **name**, the **condition you would reject**, and **why** the truck should not move.
+
+### Every truck — Class A and Class B
+
+**Under the hood**
+
+- Oil, coolant, and power-steering fluid at the mark, and no fresh leak on the ground
+- Hoses and belts not cut, cracked, or glazed. A belt-driven compressor or alternator should not have a loose belt
+- Air compressor, alternator, and water pump mounted, with no bare wires
+- Steering shaft and box not bent or cracked, no play you can see, no leak at the box
+
+**In the cab, before you roll**
+
+- Seat belt, mirrors, horn, wipers, and washer fluid
+- Extinguisher charged, triangles in reach, spare fuses if that truck uses them
+- After start, oil pressure rises and the air gauges climb
+- Parking brake holds the truck
+
+**Lights**
+
+- Front markers amber, rear lamps red
+- Headlights, turn signals, brake lights, and hazards work on both sides
+- Lenses not cracked or painted over
+
+**Walkaround, both sides**
+
+- Tires: at least **4/32 inch** in every major groove on the steering axle, **2/32 inch** on the other axles, no cut that shows cord
+- Wheels: no cracked rim, no loose or missing lug nuts, no leak at the hub
+- Suspension: springs not broken or shifted, U-bolts tight, shocks not leaking
+- Brakes: hoses not rubbed through, chambers not cracked. A slack adjuster that moves more than about an inch where the push rod attaches needs adjustment
+- Frame and cargo: no fresh crack at a crossmember, nothing that can shift
+
+**In-cab air test**, engine off and key on, after pressure is built:
+
+- Hold the foot brake. After the needle settles from the first application, pressure should not drop more than **3 psi in one minute** on a single vehicle or **4 psi** on a combination
+- Fan the pedal. The warning light or buzzer must come on **before pressure drops below 55 psi**, unless the manufacturer marks a different point and your score sheet uses that
+- Keep fanning. The parking-brake knob should pop out between **20 and 45 psi**
+
+The written [Air Brakes](/exams/cdl/air-brakes) set still drills a **60 psi** warning, which is the older knowledge-test line. On the skills test, say **55 psi**, because that is the cutoff in the current national manual. If the sheet the examiner is holding prints another number, say that number.
+
+### Class A only — coupling
+
+Skip this block on a straight truck.
+
+- Fifth-wheel plate not cracked, greased, and mounted solid to the frame
+- Locking jaws closed on the kingpin shank, lever seated, no daylight between the upper and lower fifth wheel
+- Air lines and the electric cord connected, gladhands seated, lines with enough slack to turn and not so much that they drag
+- Landing gear fully up. Trailer tires, lights, and brakes are part of the same walkaround
+
+The written version of that hardware is [Combination Vehicles](/exams/cdl/combination-vehicles). The checklist is those parts, said out loud. Which class sits that test is in [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b).
+
+### Class B
+
+No fifth wheel, and the air-leak limit is the single-vehicle **3 psi** figure. If the truck tows a trailer rated under 10,001 lb, say the hitch, safety chains, and trailer lights. That hitch is not a Class A fifth wheel. The written tests for this license are General Knowledge and Air Brakes: [Class B CDL practice test](/exams/cdl/guides/class-a-vs-class-b).
+
+CertReady does not publish a PDF of this list. Use the inspection section in your state handbook next to this script.
 
 ## Air brakes are part of the inspection
 
 If the test truck has air brakes and you skipped the air-brake knowledge test, you already have a restriction and you should not be testing in that truck. On the pre-trip, the examiner still wants the **in-cab air test**, not just a look at a hose.
 
-The numbers live on the [Air Brakes](/exams/cdl/air-brakes) practice page and the [study guide](/exams/cdl/study-guide): low-air warning at or before 60 psi, and applied leakage of about 2 psi in one minute for a single vehicle or 3 psi for a combination. Say the test as you do it. Guessing the sequence on test day is how people fail a truck they can otherwise drive.
+Say the checklist numbers as you do the test: applied leak no more than **3 psi** in one minute on a single vehicle or **4 psi** on a combination, warning before **55 psi**, parking brake popping out between **20 and 45 psi**. Guessing the sequence on test day is how people fail a truck they can otherwise drive. The written drill, which still uses the 60 psi wording, is the [Air Brakes](/exams/cdl/air-brakes) practice page and the [study guide](/exams/cdl/study-guide).
 
 ## State clocks, same inspection
 
@@ -679,7 +763,7 @@ Bring a truck that matches the class. A Class A permit tested in a straight truc
 1. Pass the written tests in practice first: [free CDL practice test](/exams/cdl/practice-test) and a [mock](/mock/cdl) above 85%.
 2. Print your state’s inspection list from the handbook. Do not use a random photo set from another state.
 3. Walk a parked truck once a day. Say the part, the bad condition, and why, until you can do one side without reading.
-4. Add the air-brake test only after the walkaround is boring. Mixing both on day one is how the 60 psi step gets skipped.
+4. Add the air-brake test only after the walkaround is boring. Mixing both on day one is how the 55 psi warning step gets skipped.
 5. Book the skills test only after the [permit wait](/exams/cdl/guides/cdl-permit) (often 14 days; Pennsylvania uses 15).
 
 All CertReady questions are original written practice. We do not administer pre-trip exams and we are not your state licensing agency.`,
@@ -707,7 +791,17 @@ All CertReady questions are original written practice. We do not administer pre-
       {
         question: "Does CertReady include pre-trip questions?",
         answer:
-          "The bank covers the written tests, including air brakes and combination vehicles, which supply the numbers you recite during the inspection. It is not a scored walkaround.",
+          "The bank covers the written tests, including air brakes and combination vehicles, which supply the numbers you recite during the inspection. It is not a scored walkaround. The checklist on this page is the practice script.",
+      },
+      {
+        question: "Is there a CDL pre-trip inspection checklist?",
+        answer:
+          "Yes. The checklist on this page is the practice script: hood, cab, lights, both sides of the walkaround, and the in-cab air test. Class A adds the fifth wheel. Your state handbook is the sheet the examiner scores. This site does not publish that sheet as a PDF.",
+      },
+      {
+        question: "What is different on a Class A pre-trip versus Class B?",
+        answer:
+          "Class A includes the fifth wheel, kingpin, gladhands, and the combination air-leak limit of 4 psi in one minute. Class B is the straight truck: no fifth wheel, and the air-leak limit is 3 psi in one minute. Both still do the engine, cab, lights, tires, and brakes.",
       },
     ],
   },
@@ -721,10 +815,10 @@ CertReady’s bank is original CDL test questions on those topics — space and 
 
 Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (50 questions / 50 minutes) when category scores are **85%+**.
 
-- [Class A vs Class B vs Class C](/exams/cdl/guides/class-a-vs-class-b)
+- [Class A vs Class B CDL practice test](/exams/cdl/guides/class-a-vs-class-b)
 - [CDL permit practice test](/exams/cdl/guides/cdl-permit) — the knowledge tests that get you a CLP
 - [Hazmat practice test](/exams/cdl/hazardous-materials) · [Air Brakes](/exams/cdl/air-brakes) · [Combination Vehicles](/exams/cdl/combination-vehicles)
 - [Passing score (80%)](/exams/cdl/guides/passing-score)
 - [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia)
-- [Pre-trip inspection](/exams/cdl/guides/pre-trip) — skills test, not this written bank
+- [Pre-trip inspection checklist](/exams/cdl/guides/pre-trip) — skills test, not this written bank
 `;

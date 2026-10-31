@@ -135,8 +135,8 @@ export default async function HomePage() {
           />
           <GuideLink
             href="/exams/epa-608/guides/who-needs-certification"
-            title="Who needs EPA 608"
-            text="If you open a refrigerant circuit or buy cylinders, you need 608. Cars are 609."
+            title="EPA Section 608"
+            text="If you open a refrigerant circuit or buy cylinders, you need Section 608. Cars are Section 609."
           />
         </div>
       </section>
@@ -154,8 +154,8 @@ export default async function HomePage() {
           />
           <GuideLink
             href="/exams/cdl/guides/class-a-vs-class-b"
-            title="Class A vs Class B vs Class C"
-            text="Trailer 10,001 lb+ is A. Single heavy truck is B. 16+ riders or placards can be C."
+            title="Class A vs Class B practice test"
+            text="Class A sits Combination. Class B does not. 16+ riders or placards can be Class C."
           />
           <GuideLink
             href="/exams/cdl/guides/cdl-permit"
@@ -186,6 +186,11 @@ export default async function HomePage() {
             href="/exams/cdl/guides/georgia"
             title="Georgia CDL"
             text="Georgia DDS written tests. Class A still needs Combination Vehicles — do not skip it."
+          />
+          <GuideLink
+            href="/exams/cdl/guides/pre-trip"
+            title="Pre-trip inspection checklist"
+            text="Skills-test walkaround for Class A and Class B. A practice script, not the state's score sheet."
           />
         </div>
       </section>
