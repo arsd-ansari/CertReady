@@ -21,13 +21,39 @@ export const EXAM_GUIDES: Record<string, ExamGuide[]> = {
 | Certification | Equipment you may service | Typical job |
 | --- | --- | --- |
 | **Core + Type I** | Factory-sealed appliances with **5 lb or less** of refrigerant | Domestic refrigerators, window A/C, dehumidifiers, vending machines |
-| **Core + Type II** | High- and very-high-pressure appliances that are **not** small appliances or car A/C | Split systems, rooftops, walk-ins, supermarket racks |
+| **Core + Type II** | Medium-, high-, and very-high-pressure appliances that are **not** small appliances or car A/C | Split systems, rooftops, walk-ins, supermarket racks |
 | **Core + Type III** | Low-pressure appliances | Centrifugal chillers (R-11, R-123 and similar) |
 | **Universal** | All of the above | Core + Type I + Type II + Type III |
 
 Core is required for every type. Passing Core plus one type earns that type. Passing Core plus all three earns **Universal**, which most HVAC/R shops want.
 
 Motor vehicle air conditioning is **Section 609**, not 608. A Type II card does not let you empty a car's A/C system.
+
+## What is a Type II appliance?
+
+Type II is the certification for **medium-, high-, and very-high-pressure appliances**, except small appliances and motor-vehicle air conditioning. That wording is in 40 CFR 82.161. EPA’s public pages often shorten it to high- and very-high-pressure. The equipment is the same either way: splits, rooftops, walk-ins, and racks that were not factory-sealed as small appliances.
+
+A Type II appliance is not “whatever refrigerant feels high.” A factory-sealed refrigerator with **5 lb or less** is Type I even if the gas is R-410A. A car’s A/C is **Section 609**, not Type II. EPA treats a bus that uses R-22 as high-pressure equipment under Type II, not as motor-vehicle A/C.
+
+Practice [Type II](/exams/epa-608/type-2). Who has to hold the card at all is covered in [EPA Section 608 certification](/exams/epa-608/guides/who-needs-certification).
+
+## Type I certification is required for
+
+Anyone who **maintains, services, or repairs small appliances**. A small appliance was fully manufactured, charged, and hermetically sealed in a factory with **five pounds or less** of refrigerant. Window units, domestic refrigerators, dehumidifiers, and vending machines are the usual list.
+
+Disposing of a small appliance does not, by itself, require Type I. Opening it for service does. Field-charged equipment is never Type I, even under 5 lb.
+
+## Which leak-repair category are chillers in?
+
+Leak repair, for appliances with **50 lb or more** of refrigerant, follows how the machine is used:
+
+| Use | Annual leak rate |
+| --- | --- |
+| Comfort cooling | **10%** |
+| Commercial refrigeration | **20%** |
+| Industrial process refrigeration | **30%** |
+
+A centrifugal chiller that cools a building is **generally comfort cooling**. A chiller that is part of a manufacturing line is industrial process refrigeration. The word “chiller” does not pick the category. Low-pressure chillers are still Type III equipment; the leak category is a separate question from the certification type.
 
 ## Type I — small appliances
 
@@ -110,19 +136,34 @@ See the [passing score guide](/exams/epa-608/guides/passing-score), [Universal c
           answer:
             "No. Core is required for every 608 type. Most providers sit you for Core and the types you selected in one appointment.",
         },
+        {
+          question: "What is the definition of a Type II appliance?",
+          answer:
+            "A medium-, high-, or very-high-pressure appliance that is not a small appliance and not motor-vehicle air conditioning. Splits, rooftops, walk-ins, and racks are the common cases. A factory-sealed unit with 5 lb or less is Type I. A passenger car is Section 609.",
+        },
+        {
+          question: "Type I certification is required for which equipment?",
+          answer:
+            "Small appliances: factory-built, factory-charged, and hermetically sealed with five pounds or less of refrigerant. That is service and repair. Disposal of a small appliance alone does not require the card.",
+        },
+        {
+          question: "Which EPA leak-repair category do chillers generally fall under?",
+          answer:
+            "Comfort cooling, when the chiller cools a building. The annual leak-rate threshold there is 10% once the charge is 50 lb or more. A chiller used in a manufacturing process is industrial process refrigeration at 30%. The category follows the use, not the nameplate.",
+        },
       ],
     },
     {
       slug: "passing-score",
-      title: "EPA 608 Passing Score (72%)",
-      seoTitle: "EPA 608 Passing Score — 72% (18 of 25) on Each Section",
+      title: "EPA 608 Passing Score (18 of 25)",
+      seoTitle: "EPA 608 Passing Score — 72% (Miss 7 of 25)",
       seoDescription:
-        "The EPA 608 passing score is 18 of 25 questions (72%) on each section you attempt. How scoring works for Core, Type I, II, III and Universal, plus how to study to that bar.",
+        "A passing EPA 608 score is 18 of 25 (72%) on each section. You can miss 7. 17 fails that section even if the others are perfect. Universal is four separate bars.",
       intro:
-        "You do not pass EPA 608 with an overall average. Each section is graded on its own. 17 out of 25 on Core is a fail even if Type II is perfect.",
+        "A passing EPA score is 18 of 25 correct, which is 72%, on every section you sit. You can miss 7 questions. 17 of 25 fails that section even when another section is perfect.",
       markdown: `## The number
 
-**18 correct out of 25 questions = 72%**, on **each** section you sit:
+**18 correct out of 25 questions = 72%**, on **each** section you sit. You can miss **7**. 17 is a fail on that section:
 
 | Section | Questions | Correct to pass | Fail |
 | --- | --- | --- | --- |
@@ -181,6 +222,11 @@ All CertReady items are original practice questions, not the live exam. The live
 Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you are still deciding how many sections to book, or the [Universal](/exams/epa-608/guides/universal) and [online exam](/exams/epa-608/guides/certification-online) guides.`,
       faq: [
         {
+          question: "What is a passing EPA score?",
+          answer:
+            "For Section 608, 18 of 25 on each section you sit. That is 72%, so you can miss 7. There is no overall average. Universal is Core plus Type I, II, and III, each at 18.",
+        },
+        {
           question: "Is the EPA 608 passing score 70% or 72%?",
           answer:
             "72%. You need 18 of 25 correct on each section. 70% would be 17.5 questions; the cutoff is 18 whole questions.",
@@ -214,7 +260,7 @@ Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you
       seoDescription:
         "EPA Section 608 certification is required to service stationary equipment that could release refrigerant and to buy most refrigerants. Who needs it, what it costs, how you get the card, and how it differs from Section 609 and from ESCO’s exam.",
       intro:
-        "EPA Section 608 certification is the card you need before you open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant. There is no federal age or apprenticeship prerequisite — only the exam.",
+        "EPA Section 608 certification is the card you need before you open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant. There is no federal age minimum. An apprentice may work only while a certified technician supervises; everyone else needs the exam.",
       markdown: `## What EPA Section 608 requires
 
 Section 608 of the Clean Air Act requires certification for anyone who **maintains, services, repairs or disposes of** appliances that could release ozone-depleting refrigerant (and, under later rules, many substitute refrigerants) into the atmosphere.
@@ -227,6 +273,27 @@ In shop language that means:
 - You purchase regulated refrigerant (sales are restricted to certified technicians)
 
 You do **not** need 608 to carry a condensing unit still in the crate, to clean a coil with the circuit sealed, or to replace a thermostat.
+
+## Who requires HVAC technicians to be certified
+
+A four-choice question asks whether the **employer**, the **Environmental Protection Agency**, the **Clean Air Act**, or a **state certification board** requires technicians to be certified to work with refrigerants.
+
+The duty is **Section 608 of the Clean Air Act**. EPA writes that duty into 40 CFR 82.161 and approves the organizations that give the test. EPA does not sit you for the exam and does not print the card.
+
+- **The Clean Air Act** is the statute that requires certification. On that four-choice item, this is the source of the requirement.
+- **EPA** carries the statute out. People mark EPA because the card says EPA. The agency is not a second, separate law.
+- **Your employer** can refuse to let you open a system without a card. That is a job rule.
+- **A state certification board** can require a contractor license or a state HVAC license. That credential is not Section 608, and it does not replace it.
+
+Apprentices can work without their own card only while a certified technician closely and continually supervises the work that could release refrigerant.
+
+Types of equipment, including what a Type II appliance is, are in [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). The score is [18 of 25](/exams/epa-608/guides/passing-score).
+
+## Which refrigerant sales are restricted
+
+The sales restriction is the same Clean Air Act rule, in 40 CFR Part 82 Subpart F. A seller may give **ozone-depleting refrigerants and most substitute refrigerants** (HFCs, HFOs, and blends) only to a technician certified under Section 608 or Section 609, or to an employer who shows they employ one. You can buy only what your card covers.
+
+The usual exception is a **small can under two pounds** of substitute refrigerant with a self-sealing valve, sold for motor-vehicle A/C. Equipment that already contains refrigerant is not that restricted cylinder sale. Section 609 technicians cannot buy refrigerant meant for stationary equipment, including R-22, in any size.
 
 ## Who typically sits the exam
 
@@ -303,6 +370,16 @@ CertReady is not ESCO’s practice exam, the 9th edition, or the 10th. The quest
 
 CertReady is independent practice material. We are not affiliated with EPA or any certifying organization, and our questions are not the live exam.`,
       faq: [
+        {
+          question: "Who requires HVAC technicians to be certified to work with refrigerants?",
+          answer:
+            "Section 608 of the Clean Air Act. EPA writes the regulation and approves the test, but the requirement comes from the Act. An employer can demand the card as a job rule, and a state board can require a separate license. Neither one is the federal refrigerant certification.",
+        },
+        {
+          question: "Which refrigerants can be sold only to an EPA-certified technician?",
+          answer:
+            "Ozone-depleting refrigerants and most substitutes, including HFCs and HFOs, with the small self-sealing MVAC can as the usual exception. The buyer has to be Section 608 or Section 609 certified, or an employer who proves they employ a certified technician, and the purchase has to match that card.",
+        },
         {
           question: "What is EPA Section 608 certification?",
           answer:

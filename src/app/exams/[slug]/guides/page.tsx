@@ -60,6 +60,44 @@ export default async function ExamGuidesIndexPage({ params }: GuideIndexParams) 
         </>
       }
     >
+      {exam.slug === "cdl" && (
+        <p className="mb-6 text-sm leading-6 text-zinc-700">
+          To study for the CDL permit test, use the{" "}
+          <Link href="/exams/cdl/guides/cdl-permit" className="font-medium text-brand hover:underline">
+            permit practice test
+          </Link>
+          , the{" "}
+          <Link href="/exams/cdl/study-guide" className="font-medium text-brand hover:underline">
+            study guide
+          </Link>
+          , and the{" "}
+          <Link href="/exams/cdl/guides/passing-score" className="font-medium text-brand hover:underline">
+            80% passing score
+          </Link>
+          . The written tests are not the{" "}
+          <Link href="/exams/cdl/guides/pre-trip" className="font-medium text-brand hover:underline">
+            pre-trip inspection
+          </Link>
+          .
+        </p>
+      )}
+      {exam.slug === "epa-608" && (
+        <p className="mb-6 text-sm leading-6 text-zinc-700">
+          The Clean Air Act question, the sales restriction, and who needs the card are in{" "}
+          <Link href="/exams/epa-608/guides/who-needs-certification" className="font-medium text-brand hover:underline">
+            EPA Section 608 certification
+          </Link>
+          . Type II appliances and chiller leak categories are in{" "}
+          <Link href="/exams/epa-608/guides/type-1-vs-type-2" className="font-medium text-brand hover:underline">
+            Type 1 vs Type 2 vs Type 3
+          </Link>
+          . The score is{" "}
+          <Link href="/exams/epa-608/guides/passing-score" className="font-medium text-brand hover:underline">
+            18 of 25
+          </Link>
+          .
+        </p>
+      )}
       <ul className="grid gap-4">
         {guides.map((guide) => (
           <li key={guide.slug}>

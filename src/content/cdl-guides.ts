@@ -4,7 +4,7 @@ export const CDL_GUIDES: ExamGuide[] = [
   {
     slug: "class-a-vs-class-b",
     title: "CDL Class A vs Class B vs Class C",
-    seoTitle: "Class A vs Class B CDL Practice Test — Which Tests You Sit",
+    seoTitle: "Class A vs Class B vs Class C CDL — Which Tests You Sit",
     seoDescription:
       "Class A CDL practice is General Knowledge, Combination, and Air Brakes. Class B skips Combination. Class C is 16+ passengers or placarded hazmat. Practice the tests for the license you are booking.",
     intro:
@@ -95,6 +95,11 @@ State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/
         question: "Where is the Class B CDL practice test?",
         answer:
           "Class B is General Knowledge, plus Air Brakes if the truck has them. There is no Combination Vehicles test. A bus built for 16 or more people, including the driver, also needs the Passenger endorsement. Practice those sections, then the timed mock.",
+      },
+      {
+        question: "What is the difference between a Class A, Class B, and Class C license?",
+        answer:
+          "Class A is a combination with a GCWR of 26,001 lb or more and a trailer of 10,001 lb GVWR or more, and it adds the Combination Vehicles test. Class B is a single vehicle of 26,001 lb or more and may tow under 10,001 lb, with no Combination test. Class C is under those weights when the vehicle carries 16 or more people, including the driver, or placarded hazmat. Class A covers B and C vehicles if you have the endorsements.",
       },
     ],
   },
@@ -216,24 +221,26 @@ CertReady does not issue permits. Only your state DMV / DPS / DHSMV / DDS does.`
   },
   {
     slug: "passing-score",
-    title: "CDL Passing Score (80%)",
-    seoTitle: "CDL Passing Score — 80% on Each Knowledge Test",
+    title: "CDL Permit Passing Score (80%)",
+    seoTitle: "CDL Permit Passing Score — 80% (Miss 10 of 50)",
     seoDescription:
-      "The CDL passing score is 80% on each knowledge test, not an average. Typical 40 of 50 on General Knowledge, 20 of 25 on Air Brakes. How scoring and restrictions work.",
+      "The CDL permit passing score is 80% on each knowledge test. That is 40 of 50 on General Knowledge, so you can miss 10. Air Brakes is 20 of 25. Scores are not averaged.",
     intro:
-      "You do not pass the CDL written exams with a blended score. Each test is pass/fail on its own. 90% on General Knowledge and 76% on Air Brakes is a fail on Air Brakes.",
+      "The CDL permit passing score is 80% on each knowledge test. On a 50-question General Knowledge test you need 40 correct, so you can miss 10. A high score on one test does not cover a fail on another.",
     markdown: `## The short answer
 
-**80% on each knowledge test.**
+**80% on each knowledge test.** The permit tests are these knowledge tests. There is no second percentage called “permit.”
 
-| Test | Typical questions | Need correct (80%) |
-| --- | --- | --- |
-| General Knowledge | 50 | **40** |
-| Air Brakes | 25 | **20** |
-| Combination Vehicles | 20 | **16** |
-| Hazmat (H) | 30 | **24** |
-| Tanker (N) | 20 | **16** |
-| Passenger (P) | 20 | **16** |
+| Test | Typical questions | Need correct (80%) | You can miss |
+| --- | --- | --- | --- |
+| General Knowledge | 50 | **40** | **10** |
+| Air Brakes | 25 | **20** | **5** |
+| Combination Vehicles | 20 | **16** | **4** |
+| Hazmat (H) | 30 | **24** | **6** |
+| Tanker (N) | 20 | **16** | **4** |
+| Passenger (P) | 20 | **16** | **4** |
+
+“Miss 10” is the usual General Knowledge test. [Illinois](https://www.ilsos.gov/departments/drivers/drivers-license/cdl/cdl.html) uses 30 General Knowledge questions, so 80% is 24 correct and you can miss 6. [Pennsylvania](https://www.pa.gov/agencies/dmv/faqs/driver-licensing-faqs/commercial-drivers-license-faqs) lists 70 questions for Class A, so 80% is 56 correct. Illinois school bus is **90%**, not 80%.
 
 A few states change the **count**, not the idea of a per-test pass:
 
@@ -269,6 +276,21 @@ The written tests are not the [pre-trip inspection checklist](/exams/cdl/guides/
 
 Related: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) · [CDL permit](/exams/cdl/guides/cdl-permit) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio)`,
     faq: [
+      {
+        question: "What is the passing score for the CDL permit?",
+        answer:
+          "80% on each knowledge test you need for that permit. On the usual 50-question General Knowledge test that is 40 correct, so you can miss 10. Air Brakes is 20 of 25. Combination is 16 of 20. The tests are not averaged.",
+      },
+      {
+        question: "What percentage do you need to pass the CDL permit test?",
+        answer:
+          "80% on every knowledge test, scored separately. 79% on Air Brakes is a fail on Air Brakes even if General Knowledge was perfect. Illinois uses 90% on the school bus knowledge test.",
+      },
+      {
+        question: "How many questions can you miss on the CDL general knowledge test?",
+        answer:
+          "10, when the test is 50 questions, because 40 correct is 80%. If your state uses 30 questions, you can miss 6 (24 correct). Pennsylvania’s Class A list is 70 questions, so 80% is 56 correct. Read the handout at the window.",
+      },
       {
         question: "Is the CDL passing score 70% or 80%?",
         answer:
@@ -409,7 +431,9 @@ The CLP is valid for **180 days** or until your Texas driver license expires, wh
 
 ## Texas Commercial Rules (special requirements)
 
-This is a **separate** knowledge test. It is not General Knowledge with a Texas flag on it. DPS still lists it as Texas Commercial Rules. The source in the handbook is **Section 14, Special Requirements for Texas Commercial Motor Vehicles**.
+This is a **separate** knowledge test. It is not General Knowledge with a Texas flag on it. DPS still lists it as Texas Commercial Rules. On the testing computer it is often labeled the **Texas CVO knowledge test**. Older handouts call it special requirements. All three names are this Section 14 test. It does **not** replace General Knowledge on a CDL application. You take Commercial Rules, then General Knowledge.
+
+The source in the handbook is **Section 14, Special Requirements for Texas Commercial Motor Vehicles**.
 
 The handbook says you need **80%** on each knowledge test before the skills test. DPS does not publish one fixed public question count for Commercial Rules on the application page. Study Section 14, not a recycled answer key.
 
@@ -452,6 +476,11 @@ Class lines: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). On the 
 
 Other states: [California](/exams/cdl/guides/california) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
     faq: [
+      {
+        question: "What is the Texas CVO knowledge test?",
+        answer:
+          "It is Texas Commercial Rules, the Section 14 test DPS gives before General Knowledge. The screen often says CVO. Older books say special requirements. Passing it does not excuse you from General Knowledge, Air Brakes, or Combination on a CDL application.",
+      },
       {
         question: "What is the Texas CDL special requirements test?",
         answer:
@@ -525,34 +554,50 @@ Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/g
   {
     slug: "georgia",
     title: "Georgia CDL Practice Test",
-    seoTitle: "Georgia CDL Practice Test — GA DDS General Knowledge & Endorsements",
+    seoTitle: "Georgia CDL Practice Test — DDS Permit, 80% on Each Test",
     seoDescription:
-      "Practice for the Georgia CDL knowledge tests at DDS: General Knowledge, Air Brakes, Combination Vehicles and endorsements. Original questions on the federal CDL topics.",
+      "Georgia CDL practice test for the DDS written exams. General Knowledge and the endorsements you need, 80% on each. Hazmat and doubles are not printed on the permit.",
     intro:
-      "Georgia’s Department of Driver Services issues CDLs. The written exams are the federal knowledge tests. Practice the topics here, then schedule DDS.",
+      "Georgia’s Department of Driver Services issues the CDL. The permit is the written knowledge tests, and DDS sets the passing score at 80% on each one. Practice those topics here, then schedule DDS.",
     markdown: `## How Georgia CDL testing works
 
-DDS handles knowledge testing, CLPs and skills tests (including third-party examiners where DDS allows). Official start: [Georgia DDS CDL](https://dds.georgia.gov/cdl).
+DDS handles knowledge testing, CLPs and skills tests (including third-party examiners where DDS allows). Official start: [Georgia DDS CDL](https://dds.georgia.gov/cdl). The knowledge-test rules are in [Section 1 of the DDS manual](https://dds.georgia.gov/section-1-introduction).
 
 Use DDS for appointments, fees, ELDT proof, and medical self-certification. Do not show up without the documents DDS lists that week.
 
+## What the Georgia written exam includes
+
+Every applicant takes **General Knowledge**. You add only the tests your class and endorsements need:
+
+- [Air Brakes](/exams/cdl/air-brakes) if the vehicle has air brakes, including air-over-hydraulic
+- [Combination Vehicles](/exams/cdl/combination-vehicles) for combination vehicles (Class A)
+- [Passenger](/exams/cdl/passenger) for a bus, plus a passenger skills test
+- School bus (S) — knowledge and skills. **S is not in this bank**
+- [Tanker](/exams/cdl/tanker)
+- [Hazmat](/exams/cdl/hazardous-materials), plus the TSA check. DDS says this endorsement is **not** printed on the CLP
+- Doubles and triples — knowledge only, and also **not** printed on the CLP. **T is not in this bank**
+
+DDS’s passing score for **all** of those knowledge tests is **80%**. Ask and the examiner will give you the score for each test. A failed knowledge test has to be retaken and passed before the skills test. No CDL class is issued on written tests alone.
+
+That 80% is the same bar as the [CDL permit passing score](/exams/cdl/guides/passing-score). On a 50-question General Knowledge test it is 40 correct.
+
 ## What to practice
 
-- [General Knowledge](/exams/cdl/general-knowledge)
-- [Air Brakes](/exams/cdl/air-brakes)
-- [Combination Vehicles](/exams/cdl/combination-vehicles) for Class A
-- Endorsements: [H](/exams/cdl/hazardous-materials), [N](/exams/cdl/tanker), [P](/exams/cdl/passenger)
-
-[Free CDL practice](/exams/cdl/practice-test) · [mock exam](/mock/cdl) · [passing score 80%](/exams/cdl/guides/passing-score)
+[Free CDL practice](/exams/cdl/practice-test) · [General Knowledge](/exams/cdl/general-knowledge) · [mock exam](/mock/cdl) · [passing score 80%](/exams/cdl/guides/passing-score)
 
 Atlanta-area Class A demand is combination work: do not skip Combination Vehicles. [Class A vs B](/exams/cdl/guides/class-a-vs-class-b) · [CLP](/exams/cdl/guides/cdl-permit).
 
 Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida). The walkaround is the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).`,
     faq: [
       {
+        question: "What is on the Georgia CDL permit practice test?",
+        answer:
+          "The permit is the DDS knowledge tests: General Knowledge for everyone, then Air Brakes, Combination, Passenger, or Tanker if you need them. Hazmat and doubles/triples are not printed on the CLP. Passing is 80% on each test. CertReady’s questions are practice, not the DDS form.",
+      },
+      {
         question: "Is the Georgia CDL test different from other states?",
         answer:
-          "Topics are the federal CDL knowledge tests. You still use the Georgia DDS handbook and test at DDS.",
+          "The topics are the federal CDL knowledge tests, and DDS scores each one at 80%. You still use the Georgia handbook and test at DDS. A failed written test has to be passed before the skills test.",
       },
       {
         question: "Where do I take the Georgia CDL written test?",
@@ -560,7 +605,7 @@ Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/g
       },
       {
         question: "What score does Georgia require?",
-        answer: "80% on each knowledge test.",
+        answer: "80% on each knowledge test. The tests are not averaged.",
       },
     ],
   },
