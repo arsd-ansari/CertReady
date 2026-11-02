@@ -115,8 +115,8 @@ export default async function HomePage() {
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <GuideLink
             href="/exams/epa-608/guides/universal"
-            title="Universal certification"
-            text="Core + Type I, II and III. 100 questions, 72% on each section — the card most shops want."
+            title="EPA universal certification"
+            text="608 universal is Core plus Type I, II, and III. 100 questions, 72% on each section."
           />
           <GuideLink
             href="/exams/epa-608/guides/certification-online"
@@ -154,8 +154,8 @@ export default async function HomePage() {
           />
           <GuideLink
             href="/exams/cdl/guides/class-a-vs-class-b"
-            title="Class A vs Class B practice test"
-            text="Class A sits Combination. Class B does not. 16+ riders or placards can be Class C."
+            title="Class B CDL vs Class A and Class C"
+            text="Class B is a single vehicle of 26,001 lb or more. Class A covers it and adds Combination."
           />
           <GuideLink
             href="/exams/cdl/guides/cdl-permit"
@@ -179,8 +179,8 @@ export default async function HomePage() {
           />
           <GuideLink
             href="/exams/cdl/guides/florida"
-            title="Florida CDL"
-            text="Florida DHSMV knowledge tests. Drill 80% before you sit at the tax collector."
+            title="Florida CDL exam"
+            text="Federal knowledge tests at DHSMV. Operator license, vision, residency. Under 21 is intrastate."
           />
           <GuideLink
             href="/exams/cdl/guides/georgia"

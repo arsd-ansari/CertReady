@@ -111,7 +111,7 @@ Practice the [EPA 608 Type 3 practice test](/exams/epa-608/type-3).
 - **Appliance repair only** → Core + Type I
 - **Residential / light commercial HVAC** → Core + Type I + Type II (add Type III if your shop has chillers)
 - **Chiller plant / facilities** → Core + Type III (add Type II if you also own rooftops)
-- **Default for employment** → [Universal](/exams/epa-608/guides/universal) (Core + I + II + III)
+- **Default for employment** → [EPA universal certification](/exams/epa-608/guides/universal) (Core + I + II + III), also called 608 universal
 
 You can add a type later. Credit for sections you already passed is kept; you retake only the section you need.
 
@@ -119,7 +119,7 @@ You can add a type later. Credit for sections you already passed is kept; you re
 
 Each official section is 25 questions, **18 correct (72%)** to pass. CertReady’s mock exam is a 25-question timed mix so you practice that pacing. Drill one type until you are consistently above 80% on that category, then sit a [full mock](/mock/epa-608).
 
-See the [passing score guide](/exams/epa-608/guides/passing-score), [Universal certification](/exams/epa-608/guides/universal), [EPA Section 608](/exams/epa-608/guides/who-needs-certification) and [taking the exam online](/exams/epa-608/guides/certification-online).`,
+See the [passing score guide](/exams/epa-608/guides/passing-score), [EPA universal certification](/exams/epa-608/guides/universal), [EPA Section 608](/exams/epa-608/guides/who-needs-certification) and [taking the exam online](/exams/epa-608/guides/certification-online).`,
       faq: [
         {
           question: "Is Type 1 easier than Type 2?",
@@ -198,7 +198,7 @@ It is a short closed-book quiz, not a multi-hour trade exam. Each section is 25 
 
 If you can fill the [numbers table](/exams/epa-608/study-guide) from memory and hold **80%+** on the [practice test](/exams/epa-608/practice-test), the live sitting is manageable. If you are still guessing 80 versus 90, or 10 versus 15 in. Hg, it will feel hard — those are the questions.
 
-Core, Type II, Type III and Universal are **closed book**. Some organizations still offer a Type I-only exam that is open book. Booking [Universal](/exams/epa-608/guides/universal) means closed book for the whole sitting. Taking it [online with a live proctor](/exams/epa-608/guides/certification-online) does not open the book.
+Core, Type II, Type III and Universal are **closed book**. Some organizations still offer a Type I-only exam that is open book. Booking [EPA universal certification](/exams/epa-608/guides/universal) means closed book for the whole sitting. Taking it [online with a live proctor](/exams/epa-608/guides/certification-online) does not open the book.
 
 ## How high you should score in practice
 
@@ -219,7 +219,7 @@ Use category scores, not one overall percentage. A 90% mock that hid a 60% Type 
 
 All CertReady items are original practice questions, not the live exam. The live exam is administered by an EPA-approved organization, not by EPA and not by CertReady.
 
-Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you are still deciding how many sections to book, or the [Universal](/exams/epa-608/guides/universal) and [online exam](/exams/epa-608/guides/certification-online) guides.`,
+Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you are still deciding how many sections to book, or [EPA universal certification](/exams/epa-608/guides/universal) and the [online exam](/exams/epa-608/guides/certification-online) guide.`,
       faq: [
         {
           question: "What is a passing EPA score?",
@@ -336,7 +336,7 @@ Match the equipment you will open:
 - Low-pressure centrifugal chillers → **Type III**
 - All of the above, or you want to be hireable → **Universal**
 
-Details: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). Most shops want [Universal](/exams/epa-608/guides/universal). Many techs sit the whole thing [online with a live proctor](/exams/epa-608/guides/certification-online).
+Details: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). Most shops want [EPA universal certification](/exams/epa-608/guides/universal) (608 universal). Many techs sit the whole thing [online with a live proctor](/exams/epa-608/guides/certification-online).
 
 ## After you pass
 
@@ -347,7 +347,7 @@ Details: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). M
 
 ## How to get EPA 608 certification
 
-1. Match the type to the equipment, or book [Universal](/exams/epa-608/guides/universal) if the shop wants all three. Comparison: [Type I vs Type II vs Type III](/exams/epa-608/guides/type-1-vs-type-2).
+1. Match the type to the equipment, or book [EPA universal certification](/exams/epa-608/guides/universal) if the shop wants all three. Comparison: [Type I vs Type II vs Type III](/exams/epa-608/guides/type-1-vs-type-2).
 2. Practice [Core](/exams/epa-608/core) and each type until you are above 80%. The bar on test day is [18 of 25](/exams/epa-608/guides/passing-score) on every section.
 3. Sit the exam with an EPA-approved organization (ESCO, RSES, Mainstream, HVAC Excellence, and others). EPA approves them. EPA does not hand you the card.
 4. Pass each section you attempt. A failed section does not erase the sections you passed.
@@ -419,15 +419,15 @@ CertReady is independent practice material. We are not affiliated with EPA or an
     },
     {
       slug: "universal",
-      title: "EPA 608 Universal Certification",
-      seoTitle: "EPA 608 Universal Certification — Core + Type I, II & III",
+      title: "EPA Universal Certification",
+      seoTitle: "EPA Universal Certification — 608 Universal, Core + I, II & III",
       seoDescription:
-        "EPA 608 Universal is Core plus Type I, Type II and Type III: 100 questions, 72% on each section. What Universal covers, how it is scored, and how to practice before you book.",
+        "EPA universal certification, also called 608 universal, is Core plus Type I, Type II, and Type III. 100 questions, 18 of 25 on each section. It does not cover car A/C.",
       intro:
-        "Universal is not a fifth test. It is Core plus Type I, Type II and Type III in one sitting — 100 questions and four separate 72% bars. Most HVAC/R employers ask for this card.",
-      markdown: `## What Universal is
+        "EPA universal certification — the card shops call 608 universal — is not a fifth exam. It is Core plus Type I, Type II, and Type III: 100 questions and four separate 72% bars.",
+      markdown: `## What is EPA universal certification?
 
-**Universal = Core + Type I + Type II + Type III.**
+**EPA universal certification** is Section 608 **Core + Type I + Type II + Type III**. The same card is called **608 universal**, a **universal technician certification**, and **universal HVAC certification**. There is no fifth booklet.
 
 You are certified to service:
 
@@ -435,9 +435,13 @@ You are certified to service:
 - Field-charged high-pressure equipment (splits, rooftops, walk-ins, racks) — Type II
 - Low-pressure centrifugal chillers — Type III
 
-Plus the Core rules that apply to every type: venting prohibition, recover/recycle/reclaim, cylinders, sales restriction, safety.
+Core still applies to every type: the venting prohibition, recover/recycle/reclaim, cylinders, the sales restriction, and safety.
 
-It does **not** cover motor vehicle A/C. That is [Section 609](/exams/epa-608/guides/who-needs-certification). A Universal 608 card does not let you empty a car.
+## What 608 universal does not cover
+
+608 universal does **not** cover motor vehicle A/C. That is [Section 609](/exams/epa-608/guides/who-needs-certification). An EPA universal card does not let you empty a car. A 609 card does not let you recover a rooftop.
+
+A **universal technician certification** is this 608 card, not a separate HVAC license and not a state contractor license. The organization that proctors the exam prints it. EPA approves that organization. EPA does not hand you the card.
 
 If you only ever open one class of equipment, you can sit Core plus that type. Universal is the employment default because shops do not want to track which systems you are allowed to touch. Full type breakdown: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2).
 
@@ -487,9 +491,24 @@ Memorize the [study-guide table](/exams/epa-608/study-guide), then drill the wea
 All CertReady questions are original practice material, not the live exam. We are not affiliated with EPA or any certifying organization.`,
       faq: [
         {
-          question: "What is 608 universal certification?",
+          question: "What is EPA universal certification?",
           answer:
-            "608 universal certification is EPA Section 608 Core plus Type I, Type II, and Type III. That is 100 questions, with 18 of 25 correct on every section, closed book and proctored. It does not cover motor vehicle air conditioning.",
+            "EPA universal certification is Section 608 Core plus Type I, Type II, and Type III. That is 100 questions, with 18 of 25 correct on every section, closed book and proctored. Shops also call it 608 universal. It does not cover motor vehicle air conditioning.",
+        },
+        {
+          question: "What is 608 universal?",
+          answer:
+            "608 universal is the same card as EPA universal certification: Core and all three types. It is not its own exam, and it does not replace Section 609 for cars and trucks.",
+        },
+        {
+          question: "What is a universal technician certification?",
+          answer:
+            "On an HVAC job, a universal technician certification means the EPA 608 Universal card. It is Core plus Type I, Type II, and Type III. It is not a state contractor license.",
+        },
+        {
+          question: "What is universal HVAC certification?",
+          answer:
+            "Universal HVAC certification is the same Section 608 card: Core plus Type I, Type II, and Type III, each at 18 of 25. It covers small appliances, high-pressure equipment, and low-pressure chillers. It does not cover motor-vehicle A/C.",
         },
         {
           question: "Is Universal a separate EPA 608 exam?",
@@ -688,7 +707,7 @@ The live EPA 608 exam is **25 multiple-choice questions per section**, **18 corr
 Start with a 10-question mixed set if you have ten minutes. Switch to one type when a mock shows a weak section. Sit the timed mock when you can hit **80%+** on each category; passing is 72%, and you want margin.
 
 - [Type I vs Type II vs Type III](/exams/epa-608/guides/type-1-vs-type-2)
-- [Universal certification](/exams/epa-608/guides/universal)
+- [EPA universal certification](/exams/epa-608/guides/universal) — 608 universal, Core plus all three types
 - [Take EPA 608 online](/exams/epa-608/guides/certification-online)
 - [Passing score (72%)](/exams/epa-608/guides/passing-score)
 - [EPA Section 608 certification](/exams/epa-608/guides/who-needs-certification) — who needs the card, what it costs, and how you get it

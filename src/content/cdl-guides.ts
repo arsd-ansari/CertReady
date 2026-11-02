@@ -3,12 +3,12 @@ import type { ExamGuide } from "./exam-guide-types";
 export const CDL_GUIDES: ExamGuide[] = [
   {
     slug: "class-a-vs-class-b",
-    title: "CDL Class A vs Class B vs Class C",
-    seoTitle: "Class A vs Class B vs Class C CDL — Which Tests You Sit",
+    title: "Class B CDL vs Class A and Class C",
+    seoTitle: "Class B CDL vs Class A and Class C — Practice Tests",
     seoDescription:
-      "Class A CDL practice is General Knowledge, Combination, and Air Brakes. Class B skips Combination. Class C is 16+ passengers or placarded hazmat. Practice the tests for the license you are booking.",
+      "A Class B CDL is a single vehicle of 26,001 lb or more. It skips Combination Vehicles. A Class A CDL covers Class B. Practice the tests for the class you book.",
     intro:
-      "Class is about what the truck is rated to weigh and what you may tow — not the job title on the application. Book the wrong class and you either sit extra tests you do not need, or you cannot legally pull the trailer on day one.",
+      "A Class B CDL is a single vehicle rated 26,001 lb or more, or that truck towing 10,000 lb or less. A Class A CDL covers Class B and adds the Combination test. Class C is the lighter vehicle that carries 16 or more people or placarded hazmat.",
     markdown: `## The short answer
 
 | Class | Vehicle | Extra knowledge tests |
@@ -18,6 +18,28 @@ export const CDL_GUIDES: ExamGuide[] = [
 | **C** | Not A or B, but **16 or more persons including the driver**, or **placarded hazmat** | General Knowledge + **P** and/or **H** as required |
 
 A Class A covers Class B and C vehicles (with the right endorsements). A Class B does **not** let you pull a 10,001 lb+ trailer.
+
+## What is a Class B CDL?
+
+A **Class B CDL** is a single vehicle with a GVWR of **26,001 lb or more**, or that vehicle towing another vehicle of **10,000 lb or less**. States use that federal class line. Dump trucks, mixers, large straight trucks, and many buses are Class B.
+
+The written tests are [General Knowledge](/exams/cdl/general-knowledge) and [Air Brakes](/exams/cdl/air-brakes) if the truck has air brakes. There is **no** Combination Vehicles test. A bus built for 16 or more people, including the driver, also needs [Passenger](/exams/cdl/passenger).
+
+California’s commercial Class B is this same line, taken at DMV: [California CDL](/exams/cdl/guides/california).
+
+## Does a Class A CDL cover Class B?
+
+**Yes.** Class A is the broader license. It covers Class B and Class C vehicles when you hold the endorsements that vehicle needs and you do not have a restriction that blocks them. An air-brake restriction still blocks an air-brake truck, whether the license says A or B.
+
+A Class B CDL does **not** cover a combination whose trailer is over 10,000 lb GVWR. That is Class A, and it adds the [Combination Vehicles](/exams/cdl/combination-vehicles) knowledge test. Upgrading from B to A is a new class, so entry-level driver training applies before the skills test.
+
+## Difference between CDL Class A, B, and C
+
+Class is the weight rating and what you tow, not the job title on the ad.
+
+- **Class A** — combination with a GCWR of 26,001 lb or more and a towed unit over 10,000 lb. Adds Combination Vehicles.
+- **Class B** — single vehicle of 26,001 lb or more, trailer 10,000 lb or less. No Combination test.
+- **Class C** — under those weights, but 16 or more people including the driver, or placarded hazmat.
 
 ## What people mix up
 
@@ -67,6 +89,16 @@ Passing is **80% per test**: [CDL passing score](/exams/cdl/guides/passing-score
 
 State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). Skills test: [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).`,
     faq: [
+      {
+        question: "What is a Class B CDL?",
+        answer:
+          "A single vehicle with a GVWR of 26,001 lb or more, or that vehicle towing 10,000 lb or less. You take General Knowledge and Air Brakes if the truck has air brakes. You do not take Combination Vehicles. A Class A CDL covers these vehicles.",
+      },
+      {
+        question: "Does a Class A CDL cover Class B?",
+        answer:
+          "Yes. Class A covers Class B and Class C vehicles if you have the endorsements that truck needs and no restriction that blocks them. Class B does not cover a trailer over 10,000 lb GVWR.",
+      },
       {
         question: "Can I drive a Class B truck with a Class A CDL?",
         answer:
@@ -362,9 +394,17 @@ The written section people miss is **Air Brakes** — the 60 psi warning, leakag
 
 Entry-level driver training (ELDT) is required before the **skills** test and before a hazmat knowledge test. It does not replace the DMV knowledge tests.
 
+## California Class B
+
+A commercial **California Class B** is the federal Class B, taken at DMV: a single vehicle with a GVWR of **26,001 lb or more**, which may tow a vehicle of **10,000 lb or less**. The knowledge tests are General Knowledge and Air Brakes if the truck has air brakes. There is no Combination Vehicles test. A bus built for 16 or more people, including the driver, also needs Passenger.
+
+DMV also licenses **noncommercial** Class A and Class B drivers, and those drivers still have to meet federal medical standards. A noncommercial Class B is not this CDL practice test. If the application says noncommercial, use the class chart in the California driver handbook before you study this bank.
+
+A Class A CDL covers commercial Class B vehicles. What each class sits: [Class B CDL vs Class A and Class C](/exams/cdl/guides/class-a-vs-class-b).
+
 ## Class and permit
 
-- [Class A vs Class B CDL practice test](/exams/cdl/guides/class-a-vs-class-b)
+- [Class B CDL vs Class A and Class C](/exams/cdl/guides/class-a-vs-class-b)
 - [CDL permit (CLP)](/exams/cdl/guides/cdl-permit)
 - Interstate still means age **21** and a current medical certificate
 
@@ -374,6 +414,11 @@ Entry-level driver training (ELDT) is required before the **skills** test and be
 
 Other states: [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). The skills-test walkaround is the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip), not this written bank.`,
     faq: [
+      {
+        question: "What is a California Class B license?",
+        answer:
+          "On a CDL, California Class B is a single vehicle of 26,001 lb GVWR or more, towing 10,000 lb or less. DMV tests General Knowledge and Air Brakes if the truck has them, at 80% each. A noncommercial Class B is a different license and is not this practice bank.",
+      },
       {
         question: "Does California use the same CDL test as other states?",
         answer:
@@ -510,17 +555,30 @@ Other states: [California](/exams/cdl/guides/california) · [Ohio](/exams/cdl/gu
   },
   {
     slug: "florida",
-    title: "Florida CDL Practice Test",
-    seoTitle: "Florida CDL Practice Test — FL DHSMV General Knowledge & Endorsements",
+    title: "Florida CDL Exam Practice Test",
+    seoTitle: "Florida CDL Exam Practice Test — DHSMV Knowledge Tests",
     seoDescription:
-      "Practice for the Florida CDL knowledge tests: General Knowledge, Air Brakes, Combination Vehicles and endorsements. Original questions aligned to the federal manual Florida uses.",
+      "The Florida CDL exam is the federal knowledge tests at DHSMV: 80% each, an operator license, vision, and residency. Under 21 is intrastate. Practice here, then book Florida.",
     intro:
-      "Florida CDLs go through DHSMV / tax collector offices that offer driver services. The knowledge tests are the national CDL topics. Use this bank for the written part, then book Florida for the real exam.",
+      "The Florida CDL exam is the federal knowledge tests, given through DHSMV and tax collector offices that offer driver services. Use this bank for the written part, then book Florida for the real exam.",
     markdown: `## How Florida CDL testing works
 
 Pass the knowledge tests, get a **CLP**, hold it for the waiting period, take the skills test. Florida publishes the process at [DHSMV commercial motor vehicle drivers](https://www.flhsmv.gov/driver-licenses-id-cards/commercial-motor-vehicle-drivers/).
 
 Check that site for fees, ELDT, third-party testers, and medical certification. Hurricane-season office closures are a Florida-specific booking problem — confirm the location is open.
+
+## The Florida CDL exam
+
+Florida does not add a separate state-rules quiz the way [Texas Commercial Rules](/exams/cdl/guides/texas) does. DHSMV’s commercial page says an applicant needs:
+
+- A Florida operator’s license
+- A vision test
+- Age **18**. Under **21**, the CDL is **intrastate** only
+- Proof of Florida residency
+
+The knowledge tests are the federal CDL tests, **80% on each one**. Every class sits [General Knowledge](/exams/cdl/general-knowledge). Add [Air Brakes](/exams/cdl/air-brakes) if the truck has them, [Combination Vehicles](/exams/cdl/combination-vehicles) for Class A, and the endorsement tests you need. Class B skips Combination. What that license covers: [Class B CDL](/exams/cdl/guides/class-a-vs-class-b).
+
+Question counts follow the usual federal set unless the office handout says otherwise. On a 50-question General Knowledge test, 80% is 40 correct: [passing score](/exams/cdl/guides/passing-score).
 
 ## What to practice
 
@@ -535,6 +593,11 @@ Passenger and school-bus work is common in Florida tourism and districts — P i
 
 Other states: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Georgia](/exams/cdl/guides/georgia). The walkaround is the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).`,
     faq: [
+      {
+        question: "What is on the Florida CDL exam?",
+        answer:
+          "The federal knowledge tests, scored at 80% each, at a driver license office. You need a Florida operator’s license, a vision pass, and proof of residency. Under 21, the CDL is intrastate. Florida does not add a Texas-style special requirements test. CertReady does not give the DHSMV exam.",
+      },
       {
         question: "Does Florida have its own CDL questions?",
         answer:
@@ -860,7 +923,7 @@ CertReady’s bank is original CDL test questions on those topics — space and 
 
 Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (50 questions / 50 minutes) when category scores are **85%+**.
 
-- [Class A vs Class B CDL practice test](/exams/cdl/guides/class-a-vs-class-b)
+- [Class B CDL vs Class A and Class C](/exams/cdl/guides/class-a-vs-class-b)
 - [CDL permit practice test](/exams/cdl/guides/cdl-permit) — the knowledge tests that get you a CLP
 - [Hazmat practice test](/exams/cdl/hazardous-materials) · [Air Brakes](/exams/cdl/air-brakes) · [Combination Vehicles](/exams/cdl/combination-vehicles)
 - [Passing score (80%)](/exams/cdl/guides/passing-score)

@@ -18,14 +18,14 @@ export async function generateMetadata({ params }: GuideIndexParams): Promise<Me
   return examMetadata(exam, {
     path: `/exams/${exam.slug}/guides`,
     title: isCdl
-      ? `${exam.shortTitle} Study Guides — Permit Practice Test, Class A vs B & States`
+      ? `${exam.shortTitle} Study Guides — Class B CDL, Permit Test & States`
       : exam.slug === "epa-608"
         ? "EPA 608 Study Guides — Certification, Types, 72% Score & Spanish"
         : `${exam.shortTitle} Study Guides — Type Comparisons, Passing Score & Who Needs It`,
     description: isCdl
-      ? `Free CDL guides: the permit practice test, Class A vs Class B, the 80% score, pre-trip inspection, Texas Commercial Rules, and California, Ohio, Florida, and Georgia pages.`
+      ? `Free CDL guides: Class B vs Class A and Class C, the permit practice test, the 80% score, pre-trip inspection, Texas Commercial Rules, and California, Ohio, Florida, and Georgia pages.`
       : exam.slug === "epa-608"
-        ? `Free EPA 608 guides: certification and cost, Type I vs Type II, Universal, the 72% passing score, online proctoring, and Spanish sittings.`
+        ? `Free EPA 608 guides: certification and cost, Type I vs Type II, EPA universal certification, the 72% passing score, online proctoring, and Spanish sittings.`
         : `Free ${exam.title} guides: which certification type to take, the 72% passing score, and who must be certified before handling refrigerant.`,
   });
 }
@@ -48,9 +48,9 @@ export default async function ExamGuidesIndexPage({ params }: GuideIndexParams) 
       title={`${exam.shortTitle} study guides`}
       intro={
         exam.slug === "cdl"
-          ? "The permit practice test, Class A vs B, the 80% score, the pre-trip inspection, Texas Commercial Rules, and state pages for Ohio, California, Florida, and Georgia."
+          ? "Class B vs Class A and Class C, the permit practice test, the 80% score, the pre-trip inspection, Texas Commercial Rules, and state pages for Ohio, California, Florida, and Georgia."
           : exam.slug === "epa-608"
-            ? "EPA 608 certification, which type to take, the 72% bar, online proctoring, and how Spanish sittings work."
+            ? "EPA 608 certification, which type to take, EPA universal certification, the 72% bar, online proctoring, and how Spanish sittings work."
             : "Longer answers to the questions technicians actually search before they book the exam."
       }
       aside={
