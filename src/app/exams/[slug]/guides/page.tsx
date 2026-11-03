@@ -62,19 +62,18 @@ export default async function ExamGuidesIndexPage({ params }: GuideIndexParams) 
     >
       {exam.slug === "cdl" && (
         <p className="mb-6 text-sm leading-6 text-zinc-700">
-          To study for the CDL permit test, use the{" "}
           <Link href="/exams/cdl/guides/cdl-permit" className="font-medium text-brand hover:underline">
-            permit practice test
+            How to study for the CDL permit test
           </Link>
-          , the{" "}
+          , and what that test consists of, are on the permit guide. The{" "}
           <Link href="/exams/cdl/study-guide" className="font-medium text-brand hover:underline">
             study guide
-          </Link>
-          , and the{" "}
+          </Link>{" "}
+          holds the numbers, and the{" "}
           <Link href="/exams/cdl/guides/passing-score" className="font-medium text-brand hover:underline">
             80% passing score
-          </Link>
-          . The written tests are not the{" "}
+          </Link>{" "}
+          is per knowledge test. The written tests are not the{" "}
           <Link href="/exams/cdl/guides/pre-trip" className="font-medium text-brand hover:underline">
             pre-trip inspection
           </Link>
@@ -91,7 +90,11 @@ export default async function ExamGuidesIndexPage({ params }: GuideIndexParams) 
           <Link href="/exams/epa-608/guides/type-1-vs-type-2" className="font-medium text-brand hover:underline">
             Type 1 vs Type 2 vs Type 3
           </Link>
-          . The score is{" "}
+          .{" "}
+          <Link href="/exams/epa-608/guides/universal" className="font-medium text-brand hover:underline">
+            Universal EPA certification
+          </Link>{" "}
+          is its own guide. The score is{" "}
           <Link href="/exams/epa-608/guides/passing-score" className="font-medium text-brand hover:underline">
             18 of 25
           </Link>
