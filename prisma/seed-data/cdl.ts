@@ -58,9 +58,9 @@ Topics that show up on almost every sitting:
 
 Start here, then add [Air Brakes](/exams/cdl/air-brakes) and [Combination Vehicles](/exams/cdl/combination-vehicles) if you are going for Class A. Compare classes in [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b).`,
     weight: 40,
-    seoTitle: "CDL General Knowledge Practice Test — Free Questions",
+    seoTitle: "CDL General Knowledge Test — Free Practice Questions",
     seoDescription:
-      "Free CDL General Knowledge practice questions: space, cargo, hours of service, inspections, Class A vs B vs C, and emergencies. Original items with explanations.",
+      "The CDL General Knowledge test is usually 50 questions, 80% to pass, so you can miss 10. Free online practice with explanations. The scored test is at your state office, not a PDF answer key.",
   },
   {
     slug: "air-brakes",

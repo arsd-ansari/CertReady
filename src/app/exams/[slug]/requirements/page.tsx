@@ -10,14 +10,19 @@ export async function generateMetadata({ params }: PageProps<"/exams/[slug]/requ
   const exam = await getPublishedExamBySlug(slug);
   if (!exam) return {};
   const is608 = exam.slug === "epa-608";
+  const isCdl = exam.slug === "cdl";
   return examMetadata(exam, {
     path: `/exams/${exam.slug}/requirements`,
     title: is608
       ? "EPA 608 Certification Requirements — Eligibility, Format & Passing Score"
-      : `${exam.shortTitle} Requirements — Eligibility, Format & Passing Score`,
+      : isCdl
+        ? "CDL Test Requirements — Medical Card, Knowledge Tests, Age"
+        : `${exam.shortTitle} Requirements — Eligibility, Format & Passing Score`,
     description: is608
       ? "EPA 608 certification requirements: no federal age or experience bar, 25 questions per section, 18 correct to pass, and a card from an approved organization."
-      : `Who can take the ${exam.title} exam, how it is formatted, the passing score and how certification is issued.`,
+      : isCdl
+        ? "CDL test requirements: a state driver license, a DOT medical certificate, 80% on each knowledge test, and a CLP before the skills test. Interstate driving is 21."
+        : `Who can take the ${exam.title} exam, how it is formatted, the passing score and how certification is issued.`,
   });
 }
 
@@ -26,6 +31,7 @@ export default async function RequirementsPage({ params }: PageProps<"/exams/[sl
   const exam = await getPublishedExamBySlug(slug);
   if (!exam) notFound();
   const is608 = exam.slug === "epa-608";
+  const isCdl = exam.slug === "cdl";
 
   return (
     <ExamPageShell
@@ -35,11 +41,15 @@ export default async function RequirementsPage({ params }: PageProps<"/exams/[sl
         { name: exam.shortTitle, href: `/exams/${exam.slug}` },
         { name: "Requirements", href: `/exams/${exam.slug}/requirements` },
       ]}
-      title={is608 ? "EPA 608 Certification Requirements" : `${exam.shortTitle} Exam Requirements`}
+      title={
+        is608 ? "EPA 608 Certification Requirements" : isCdl ? "CDL Test Requirements" : `${exam.shortTitle} Exam Requirements`
+      }
       intro={
         is608
           ? "Who can sit for EPA 608 certification, how the sections are scored, and who prints the card. Confirm fees and proctor rules with the organization you book."
-          : "Eligibility, exam format, passing score and how certification is issued. Always confirm details with the certifying body before you book."
+          : isCdl
+            ? "CDL test requirements are a driver license, a DOT medical certificate, 80% on each knowledge test, and a CLP before the skills test. Your state books the exam."
+            : "Eligibility, exam format, passing score and how certification is issued. Always confirm details with the certifying body before you book."
       }
       aside={
         <>
