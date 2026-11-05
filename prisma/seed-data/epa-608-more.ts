@@ -30,6 +30,32 @@ export const moreEpa608Questions: SeedQuestion[] = [
   // ------------------------------------------------------------------ CORE
   q(
     C,
+    "Which one of the following requires HVAC technicians to be certified to work with refrigerants?",
+    [
+      "The employer",
+      "The Environmental Protection Agency",
+      "The Clean Air Act",
+      "The state certification board",
+    ],
+    2,
+    "The duty is Section 608 of the Clean Air Act. EPA writes that duty into 40 CFR 82.161 and approves the organizations that give the test. EPA does not sit you for the exam. An employer can make the card a job rule, and a state board can require a contractor license. Neither one is the federal refrigerant certification.",
+    { tags: ["certification", "clean-air-act"], difficulty: "EASY", source: "40-cfr-82-f" },
+  ),
+  q(
+    C,
+    "How many questions are on the EPA 608 Universal certification test?",
+    [
+      "25, all from Core",
+      "50, Core plus one type",
+      "75, Core plus two types",
+      "100, Core plus Type I, Type II, and Type III",
+    ],
+    3,
+    "Universal is four sections of 25 questions, 100 in total. You need 18 correct on every section, not 72% averaged across the packet. Core plus a single type is 50 questions. There is no fifth booklet.",
+    { tags: ["certification", "scoring"], difficulty: "EASY", source: "40-cfr-82-f" },
+  ),
+  q(
+    C,
     "Ozone depletion potential (ODP) and global warming potential (GWP) measure:",
     [
       "The same thing — how much a refrigerant damages the ozone layer",
@@ -331,6 +357,19 @@ export const moreEpa608Questions: SeedQuestion[] = [
   ),
 
   // ------------------------------------------------------------------ TYPE II
+  q(
+    T2,
+    "What is the definition of a Type II appliance?",
+    [
+      "Any appliance charged with R-410A",
+      "A medium-, high-, or very-high-pressure appliance that is not a small appliance and not motor-vehicle air conditioning",
+      "A factory-sealed refrigerator with five pounds or less of refrigerant",
+      "A low-pressure centrifugal chiller",
+    ],
+    1,
+    "Type II is the high-pressure certification: splits, rooftops, walk-ins, and racks. A factory-sealed unit with 5 lb or less is Type I even when the gas is R-410A. A passenger car is Section 609. A centrifugal chiller is Type III. EPA’s rule text is 40 CFR 82.161.",
+    { tags: ["definitions", "certification"], difficulty: "EASY", source: "40-cfr-82-f" },
+  ),
   q(
     T2,
     "Leak-repair rules in 40 CFR 82.157 apply to comfort cooling, commercial refrigeration and industrial process refrigeration appliances that contain:",

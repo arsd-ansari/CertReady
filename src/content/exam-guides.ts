@@ -13,9 +13,9 @@ export const EXAM_GUIDES: Record<string, ExamGuide[]> = {
       title: "EPA 608 Type 1 vs Type 2 vs Type 3",
       seoTitle: "EPA 608 Type 1 vs Type 2 vs Type 3 — Which Certification Do You Need?",
       seoDescription:
-        "EPA Type 1 certification is small appliances. EPA Type 2 certification is high-pressure equipment. Type III is low-pressure chillers. Universal EPA certification is the separate Core + I + II + III card.",
+        "A Type II appliance is high-pressure equipment, not a small appliance: splits, rooftops, walk-ins, and racks. Type I is 5 lb or less. Type III is a low-pressure chiller.",
       intro:
-        "The four EPA 608 sections are not four versions of the same test. Type I, Type II and Type III cover different equipment. Pick the wrong type and you are not legal to open the system.",
+        "The EPA 608 types are not four versions of the same test. Type I, Type II and Type III cover different equipment. Pick the wrong type and you are not legal to open the system.",
       markdown: `## The short answer
 
 | Certification | Equipment you may service | Typical job |
@@ -29,7 +29,7 @@ Core is required for every type. Passing Core plus one type earns that type. Pas
 
 Motor vehicle air conditioning is **Section 609**, not 608. A Type II card does not let you empty a car's A/C system.
 
-A **universal EPA certification**, a **universal HVAC certification**, or **608 universal** is not a fourth equipment type. It is Core plus Type I, Type II, and Type III. That card is on the [EPA universal certification](/exams/epa-608/guides/universal) page. This page is which single type matches the equipment you open.
+Type I, Type II, and Type III are the **EPA 608 types**. The card that covers every type is not a fourth equipment category. The question count and the names shops use for that card are on the [universal EPA certification](/exams/epa-608/guides/universal) page. This page is which single type matches the equipment you open.
 
 ## What is a Type II appliance?
 
@@ -436,12 +436,12 @@ CertReady is independent practice material. We are not affiliated with EPA or an
       title: "EPA Universal Certification",
       seoTitle: "EPA Universal Certification — 608 Universal, Core + I, II & III",
       seoDescription:
-        "EPA universal certification, also called 608 universal, is Core plus Type I, Type II, and Type III. 100 questions, 18 of 25 on each section. It does not cover car A/C.",
+        "Universal EPA certification is 100 questions: 25 each for Core, Type I, Type II, and Type III. HVAC EPA universal certification does not cover car A/C.",
       intro:
-        "EPA universal certification — the card shops call 608 universal — is not a fifth exam. It is Core plus Type I, Type II, and Type III: 100 questions and four separate 72% bars.",
-      markdown: `## What is EPA universal certification?
+        "Universal EPA certification — also called EPA 608 universal certification, 608 universal, or HVAC EPA universal certification — is not a fifth exam. The test is 100 questions, with a separate 72% bar on Core and on each type.",
+      markdown: `## What is universal EPA certification?
 
-**EPA universal certification** is Section 608 **Core + Type I + Type II + Type III**. The same card is called **608 universal**, a **universal technician certification**, and **universal HVAC certification**. There is no fifth booklet.
+**Universal EPA certification** is the same card as **EPA universal certification** and **EPA 608 universal certification**: Section 608 **Core + Type I + Type II + Type III**. Shops also call it **608 universal**, a **universal technician certification**, **universal HVAC certification**, or **HVAC EPA universal certification**. There is no fifth booklet.
 
 You are certified to service:
 
@@ -457,7 +457,13 @@ Core still applies to every type: the venting prohibition, recover/recycle/recla
 
 A **universal technician certification** is this 608 card, not a separate HVAC license and not a state contractor license. The organization that proctors the exam prints it. EPA approves that organization. EPA does not hand you the card.
 
-If you only ever open one class of equipment, you can sit Core plus that type. Universal is the employment default because shops do not want to track which systems you are allowed to touch. Full type breakdown: [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2).
+If you only ever open one class of equipment, you can sit Core plus that type. Universal is the employment default because shops do not want to track which systems you are allowed to touch. Which single type matches the equipment is [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2).
+
+## How many questions is the EPA 608 universal test?
+
+**100 questions.** Core, Type I, Type II, and Type III are 25 questions each. You need **18 correct on every section**. Core plus one type is 50 questions. Universal is those four sections together, not a fifth 25-question booklet. A 72% average does not save a section you scored 17 on.
+
+The pass line on each block of 25 is the [EPA 608 passing score](/exams/epa-608/guides/passing-score).
 
 ## How the exam is scored
 
@@ -504,6 +510,21 @@ Memorize the [study-guide table](/exams/epa-608/study-guide), then drill the wea
 
 All CertReady questions are original practice material, not the live exam. We are not affiliated with EPA or any certifying organization.`,
       faq: [
+        {
+          question: "How many questions is the EPA 608 universal test?",
+          answer:
+            "100. That is 25 Core, 25 Type I, 25 Type II, and 25 Type III. You need 18 correct on every section. Core plus one type is 50 questions. A fail on one section does not erase the sections you passed.",
+        },
+        {
+          question: "What is universal EPA certification?",
+          answer:
+            "Universal EPA certification is EPA 608 Core plus Type I, Type II, and Type III. It is the same card as EPA universal certification and EPA 608 universal certification. It does not cover motor vehicle air conditioning.",
+        },
+        {
+          question: "What is HVAC EPA universal certification?",
+          answer:
+            "HVAC EPA universal certification is the Section 608 Universal card: Core and all three types, 100 questions, closed book and proctored. It covers small appliances, high-pressure equipment, and low-pressure chillers. Cars and trucks are Section 609.",
+        },
         {
           question: "What is EPA universal certification?",
           answer:

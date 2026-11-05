@@ -33,9 +33,9 @@ California issues this same commercial class at DMV. A noncommercial Class B dri
 
 A Class B CDL does **not** cover a combination whose trailer is over 10,000 lb GVWR. That is Class A, and it adds the [Combination Vehicles](/exams/cdl/combination-vehicles) knowledge test. Upgrading from B to A is a new class, so entry-level driver training applies before the skills test.
 
-## Difference between CDL Class A, B, and C
+## CDL class A, B, and C
 
-Class is the weight rating and what you tow, not the job title on the ad.
+**CDL class A, B, and C** are the three commercial classes. The difference is the weight rating and what you tow, not a separate written test named for each letter.
 
 - **Class A** — combination with a GCWR of 26,001 lb or more and a towed unit over 10,000 lb. Adds Combination Vehicles.
 - **Class B** — single vehicle of 26,001 lb or more, trailer 10,000 lb or less. No Combination test.
@@ -159,9 +159,9 @@ State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/
       "How to study for the CDL permit test, and what it consists of: General Knowledge, Air Brakes, and Combination, one test at a time. 80% on each. Free practice. Your state scores the real exam.",
     intro:
       "The CDL permit test is the set of knowledge tests your state gives before it prints a Commercial Learner's Permit. There is no second quiz called “permit.” Study one test at a time until you are above 85%, then book the office that scores them.",
-    markdown: `## What to practice for the permit
+    markdown: `## How many questions are on the CDL learner's permit test?
 
-The appointment that gets you a **CLP** is the written knowledge tests. Drill them until each one is above **80%**, then schedule.
+The CDL learner's permit is not one quiz with one length. It is the knowledge tests for the class you want, and the state scores each test on its own. In most states the counts are:
 
 | Test | Who sits it for a permit | Usual questions | Correct to pass |
 | --- | --- | --- | --- |
@@ -286,9 +286,9 @@ CertReady does not issue permits. Only your state DMV / DPS / DHSMV / DDS does.`
           "Yes. CertReady’s General Knowledge, Air Brakes, Combination, and endorsement sets are free to start, with an explanation on every answer. The scored permit test is still at your state licensing office.",
       },
       {
-        question: "How many questions are on the CDL permit test?",
+        question: "How many questions are on the CDL learner's permit test?",
         answer:
-          "Most states use 50 General Knowledge questions (40 correct), 25 Air Brakes (20 correct), and 20 Combination (16 correct). Illinois uses 30 General Knowledge questions. Pennsylvania’s Class A written set is longer. Passing is 80% on each test.",
+          "It is not one quiz. Most states use 50 General Knowledge questions (40 correct), 25 Air Brakes (20 correct), and 20 Combination for Class A (16 correct). Illinois uses 30 General Knowledge questions. Pennsylvania’s Class A written set is longer. Passing is 80% on each test.",
       },
       {
         question: "Does CertReady give a CDL permit?",
