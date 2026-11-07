@@ -267,7 +267,7 @@ Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you
       title: "EPA Section 608 Certification",
       seoTitle: "EPA Section 608 Certification — Who Needs It, Cost, and the Card",
       seoDescription:
-        "EPA Section 608 certification is required to service stationary equipment that could release refrigerant and to buy most refrigerants. Who needs it, what it costs, how you get the card, and how it differs from Section 609 and from ESCO’s exam.",
+        "The Clean Air Act requires HVAC refrigerant certification — not the employer, EPA, or a state board. Section 608 is that card: who needs it, what it costs, and how it differs from Section 609.",
       intro:
         "EPA Section 608 certification is the card you need before you open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant. There is no federal age minimum. An apprentice may work only while a certified technician supervises; everyone else needs the exam.",
       markdown: `## What EPA Section 608 requires
@@ -436,12 +436,12 @@ CertReady is independent practice material. We are not affiliated with EPA or an
       title: "EPA Universal Certification",
       seoTitle: "EPA Universal Certification — 608 Universal, Core + I, II & III",
       seoDescription:
-        "Universal EPA certification is 100 questions: 25 each for Core, Type I, Type II, and Type III. HVAC EPA universal certification does not cover car A/C.",
+        "608 universal certification is Core plus Type I, II, and III: 100 questions, 18 of 25 on each section. Universal EPA certification and HVAC EPA universal certification are that card, not car A/C.",
       intro:
-        "Universal EPA certification — also called EPA 608 universal certification, 608 universal, or HVAC EPA universal certification — is not a fifth exam. The test is 100 questions, with a separate 72% bar on Core and on each type.",
+        "608 universal certification — also called universal EPA certification, EPA 608 universal certification, or HVAC EPA universal certification — is not a fifth exam. The test is 100 questions, with a separate 72% bar on Core and on each type.",
       markdown: `## What is universal EPA certification?
 
-**Universal EPA certification** is the same card as **EPA universal certification** and **EPA 608 universal certification**: Section 608 **Core + Type I + Type II + Type III**. Shops also call it **608 universal**, a **universal technician certification**, **universal HVAC certification**, or **HVAC EPA universal certification**. There is no fifth booklet.
+**608 universal certification** is the same card as **universal EPA certification**, **EPA universal certification**, and **EPA 608 universal certification**: Section 608 **Core + Type I + Type II + Type III**. Shops also call it **608 universal**, a **universal technician certification**, **universal HVAC certification**, or **HVAC EPA universal certification**. There is no fifth booklet.
 
 You are certified to service:
 
@@ -534,6 +534,11 @@ All CertReady questions are original practice material, not the live exam. We ar
           question: "What is 608 universal?",
           answer:
             "608 universal is the same card as EPA universal certification: Core and all three types. It is not its own exam, and it does not replace Section 609 for cars and trucks.",
+        },
+        {
+          question: "What is 608 universal certification?",
+          answer:
+            "608 universal certification is Section 608 Core plus Type I, Type II, and Type III. It is the same card as EPA universal certification. The exam is 100 questions, with 18 of 25 correct on every section. It does not cover motor vehicle air conditioning.",
         },
         {
           question: "What is a universal technician certification?",

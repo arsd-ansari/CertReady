@@ -154,8 +154,8 @@ export default async function HomePage() {
           />
           <GuideLink
             href="/exams/cdl/guides/class-a-vs-class-b"
-            title="Class B CDL vs Class A and Class C"
-            text="Class B is a single vehicle of 26,001 lb or more. Class A covers it and adds Combination."
+            title="Class B CDL test"
+            text="General Knowledge and Air Brakes, then a straight-truck skills test. No Combination test. Class A covers Class B."
           />
           <GuideLink
             href="/exams/cdl/guides/cdl-permit"

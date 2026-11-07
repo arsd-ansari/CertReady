@@ -6,9 +6,9 @@ export const CDL_GUIDES: ExamGuide[] = [
     title: "Class B CDL vs Class A and Class C",
     seoTitle: "Class B CDL vs Class A and Class C — Practice Tests",
     seoDescription:
-      "A Class A and Class B license are two commercial classes. Class B is a single vehicle of 26,001 lb or more and skips Combination. Class A covers Class B.",
+      "The Class B CDL test is General Knowledge and Air Brakes, then a straight-truck skills test. No Combination test. Class A covers Class B. Class C is the lighter passenger or hazmat vehicle.",
     intro:
-      "A Class A and Class B license are two commercial classes, not two cards. Class B is a single vehicle rated 26,001 lb or more, or that truck towing 10,000 lb or less. Class A covers Class B and adds the Combination test. Class C is the lighter vehicle that carries 16 or more people or placarded hazmat.",
+      "A Class A and Class B license are two commercial classes, not two cards. Class B is a single vehicle rated 26,001 lb or more, or that truck towing 10,000 lb or less. The Class B CDL test skips Combination. Class A covers Class B and adds that test. Class C is the lighter vehicle that carries 16 or more people or placarded hazmat.",
     markdown: `## The short answer
 
 | Class | Vehicle | Extra knowledge tests |
@@ -26,6 +26,34 @@ A **Class B CDL** is a single vehicle with a GVWR of **26,001 lb or more**, or t
 The written tests are [General Knowledge](/exams/cdl/general-knowledge) and [Air Brakes](/exams/cdl/air-brakes) if the truck has air brakes. There is **no** Combination Vehicles test. A bus built for 16 or more people, including the driver, also needs [Passenger](/exams/cdl/passenger).
 
 California issues this same commercial class at DMV. A noncommercial Class B driver license is a different credential: [California CDL](/exams/cdl/guides/california).
+
+## The Class B CDL test
+
+The **Class B CDL test** is not one quiz with a class letter on it. It is the knowledge tests for a straight truck, then a skills test in a vehicle of that class.
+
+| Part | What you sit | Class B note |
+| --- | --- | --- |
+| General Knowledge | Usually 50 questions, **40** correct | Every class |
+| Air Brakes | 25 questions, **20** correct | Only if the truck has air brakes |
+| Combination Vehicles | Not on a Class B application | That written test is Class A |
+| Passenger | The endorsement test, if the vehicle holds 16 or more including the driver | A bus, not a dump truck |
+| Skills | Pre-trip, basic control, and the road | Straight truck. No fifth wheel |
+
+Each knowledge test is **80%**, scored alone. A high General Knowledge score does not cover a failed Air Brakes test. The line is the [CDL passing score](/exams/cdl/guides/passing-score). Written practice is [General Knowledge](/exams/cdl/general-knowledge) and [Air Brakes](/exams/cdl/air-brakes). The walkaround is the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip). Class A’s extra written test is [Combination Vehicles](/exams/cdl/combination-vehicles).
+
+## How to get a Class B CDL
+
+**How to get a Class B CDL** follows the same federal order as any first CDL. Combination Vehicles is the step you skip.
+
+1. Hold a driver license. Interstate driving is age **21**. Many states issue an intrastate CDL at **18**, and that license does not authorize crossing state lines.
+2. Put a DOT medical certificate on file before the state will print the permit.
+3. Pass the Class B knowledge tests above, each at 80%. Study them as the [CDL permit practice test](/exams/cdl/guides/cdl-permit). A Class B application does not include Combination Vehicles.
+4. The state prints a CLP for Class B. Hold it at least **14 days**.
+5. Finish entry-level driver training before the skills test. That course does not replace the knowledge tests.
+6. Take the skills test in a representative Class B vehicle: a single unit of 26,001 lb GVWR or more. There is no fifth-wheel script. A qualified CDL holder rides with you while you practice on the CLP.
+7. The state prints the CDL. It covers Class B and Class C vehicles when you hold the endorsements that truck needs and no restriction blocks them. It does not cover a trailer over 10,000 lb GVWR.
+
+Where you book is the state office, not this site: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). CertReady does not issue the license.
 
 ## Does a Class A CDL cover Class B?
 
@@ -138,6 +166,16 @@ State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/
         question: "Where is the Class B CDL practice test?",
         answer:
           "Class B is General Knowledge, plus Air Brakes if the truck has them. There is no Combination Vehicles test. A bus built for 16 or more people, including the driver, also needs the Passenger endorsement. Practice those sections, then the timed mock.",
+      },
+      {
+        question: "What is on the Class B CDL test?",
+        answer:
+          "General Knowledge, Air Brakes if the truck has them, and Passenger if the vehicle holds 16 or more people including the driver. There is no Combination Vehicles test. After the CLP, the skills test is a pre-trip, basic control, and a road test in a straight truck, with no fifth wheel. Each knowledge test is 80%.",
+      },
+      {
+        question: "How do you get a Class B CDL?",
+        answer:
+          "Pass General Knowledge and Air Brakes if the truck has air brakes, at 80% each. The state prints a CLP. Hold it at least 14 days, finish entry-level driver training, and take the skills test in a representative Class B vehicle. Interstate driving is 21. Many states allow an intrastate CDL at 18. Class B does not include the Combination Vehicles test.",
       },
       {
         question: "What is the difference between a Class A, Class B, and Class C license?",
@@ -1016,12 +1054,22 @@ CertReady’s bank is original CDL test questions on those topics — space and 
 Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (50 questions / 50 minutes) when category scores are **85%+**.
 
 - [CDL General Knowledge test](/exams/cdl/general-knowledge) — usually 50 questions, 80% to pass
-- [Class B CDL vs Class A and Class C](/exams/cdl/guides/class-a-vs-class-b)
+- [Class B CDL test](/exams/cdl/guides/class-a-vs-class-b) — straight truck, no Combination test
 - [How to study for the CDL permit test](/exams/cdl/guides/cdl-permit) — what the CLP knowledge tests consist of
 - [Hazmat practice test](/exams/cdl/hazardous-materials) · [Air Brakes](/exams/cdl/air-brakes) · [Combination Vehicles](/exams/cdl/combination-vehicles)
 - [Passing score (80%)](/exams/cdl/guides/passing-score)
 - [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia)
 - [Pre-trip inspection checklist](/exams/cdl/guides/pre-trip) — skills test, not this written bank
+
+## CDL knowledge test practice
+
+**CDL knowledge test practice** here is the written tests, one at a time. General Knowledge is every class. Air Brakes is any air-brake truck. Combination Vehicles is Class A only. Hazmat, Tanker, and Passenger are the endorsements. Each one is 80%. The scored exam is at the state office. Start with [General Knowledge](/exams/cdl/general-knowledge), then the [permit study order](/exams/cdl/guides/cdl-permit).
+
+## DMV CDL practice test
+
+A **DMV CDL practice test** is practice for the knowledge tests your state scores. California calls that office DMV. Texas is DPS, Ohio is BMV, Florida is DHSMV, and Georgia is DDS. The federal topics do not change with the sign on the building. This bank is that practice. It is not the form the clerk hands you, and a score here does not print a CLP.
+
+Book the real test with the state: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).
 
 ## Is there a CDL practice test PDF?
 
