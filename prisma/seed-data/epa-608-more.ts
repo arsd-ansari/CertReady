@@ -43,6 +43,19 @@ export const moreEpa608Questions: SeedQuestion[] = [
   ),
   q(
     C,
+    "What does Section 608 certification allow a technician to do?",
+    [
+      "Service motor-vehicle air conditioning with no other card",
+      "Maintain, service, repair, or dispose of appliances that could release refrigerant, and buy refrigerant the card covers",
+      "Skip the state contractor license in every state",
+      "Vent leftover refrigerant when the recovery machine is slow",
+    ],
+    1,
+    "The card is permission to do the work that could release refrigerant, and to buy the refrigerants that type covers. Type I is small appliances, Type II is high-pressure equipment, Type III is low-pressure chillers, and Universal is all three. Cars and trucks are Section 609. A state license is a separate credential. Venting is still illegal.",
+    { tags: ["certification", "sales-restriction"], difficulty: "EASY", source: "epa-608-overview" },
+  ),
+  q(
+    C,
     "How many questions are on the EPA 608 Universal certification test?",
     [
       "25, all from Core",

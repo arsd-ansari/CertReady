@@ -283,6 +283,17 @@ In shop language that means:
 
 You do **not** need 608 to carry a condensing unit still in the crate, to clean a coil with the circuit sealed, or to replace a thermostat.
 
+## What Section 608 certification allows a technician to do
+
+**Section 608 certification allows a technician to** maintain, service, repair, or dispose of appliances that could release refrigerant into the atmosphere, and to buy the refrigerants that card covers. The work and the purchase both stop at the type on the card.
+
+- **Type I** — factory-sealed small appliances, 5 lb or less
+- **Type II** — high-pressure equipment that is not a small appliance: splits, rooftops, walk-ins, racks
+- **Type III** — low-pressure chillers
+- **Universal** — all three, because the card is Core plus every type
+
+It does not allow motor-vehicle air conditioning. That work is Section 609, a different card. It does not replace a state contractor license. It does not let you vent refrigerant because recovery is slow. Which type matches the equipment is [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2). The employment default is [EPA universal certification](/exams/epa-608/guides/universal).
+
 ## Who requires HVAC technicians to be certified
 
 A four-choice question asks whether the **employer**, the **Environmental Protection Agency**, the **Clean Air Act**, or a **state certification board** requires technicians to be certified to work with refrigerants.
@@ -398,6 +409,11 @@ CertReady is independent practice material. We are not affiliated with EPA or an
           question: "What is EPA Section 608 certification?",
           answer:
             "Section 608 of the Clean Air Act requires a certified technician to maintain, service, repair, or dispose of stationary air-conditioning and refrigeration equipment that could release refrigerant, and to buy most regulated refrigerants. An EPA-approved organization gives the exam and prints the card. Motor vehicle air conditioning is Section 609, a different card.",
+        },
+        {
+          question: "What does Section 608 certification allow a technician to do?",
+          answer:
+            "Maintain, service, repair, or dispose of appliances that could release refrigerant, and buy the refrigerants that card covers. Type I is small appliances, Type II is high-pressure equipment, Type III is low-pressure chillers, and Universal is all three. It does not cover motor-vehicle air conditioning, and it does not replace a state contractor license.",
         },
         {
           question: "Do I need EPA 608 to buy refrigerant?",

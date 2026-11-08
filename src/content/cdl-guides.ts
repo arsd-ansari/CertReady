@@ -55,6 +55,20 @@ Each knowledge test is **80%**, scored alone. A high General Knowledge score doe
 
 Where you book is the state office, not this site: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia). CertReady does not issue the license.
 
+## How to get a Class A CDL
+
+**How to get a Class A CDL** uses the same federal order as Class B, then adds the combination. Class B stops at a straight truck. Class A is the tractor-trailer path.
+
+1. Hold a driver license. Interstate driving is age **21**. Many states issue an intrastate CDL at **18**, and that license does not authorize crossing state lines.
+2. Put a DOT medical certificate on file before the state will print the permit.
+3. Pass three knowledge tests, each at **80%**. General Knowledge is every class. [Combination Vehicles](/exams/cdl/combination-vehicles) is the written test Class A adds. [Air Brakes](/exams/cdl/air-brakes) is required unless the truck is hydraulic-only, which a tractor-trailer almost never is. A Class B application skips Combination. A Class A application does not.
+4. The state prints a **Class A CDL permit** (the CLP). That permit test is those three knowledge tests, not a fourth booklet. Counts and the 14-day hold: [Class A CDL permit](/exams/cdl/guides/cdl-permit).
+5. Finish entry-level driver training before the skills test. Upgrading from Class B to Class A is a new class, so that course applies again. It does not replace the knowledge tests.
+6. Take the skills test in a representative combination: GCWR of **26,001 lb or more** and a towed unit over **10,000 lb**. The walkaround includes the fifth wheel. A qualified Class A CDL holder rides with you while you practice on the permit. A straight truck does not produce a Class A license.
+7. The state prints the CDL. It covers Class B and Class C vehicles when you hold the endorsements that truck needs and no restriction blocks them.
+
+The line on each knowledge test is the [CDL passing score](/exams/cdl/guides/passing-score). Practice is [General Knowledge](/exams/cdl/general-knowledge), [Combination](/exams/cdl/combination-vehicles), and [Air Brakes](/exams/cdl/air-brakes). CertReady does not issue the license.
+
 ## Does a Class A CDL cover Class B?
 
 **Yes.** Class A is the broader license. It covers Class B and Class C vehicles when you hold the endorsements that vehicle needs and you do not have a restriction that blocks them. An air-brake restriction still blocks an air-brake truck, whether the license says A or B.
@@ -99,7 +113,7 @@ Air brakes are a **restriction**, not a class. Skip the [Air Brakes](/exams/cdl/
 
 ## Class A CDL practice test
 
-Class A is three knowledge tests, not one quiz:
+The written half of how to get a Class A CDL is three knowledge tests, not one quiz:
 
 1. [General Knowledge](/exams/cdl/general-knowledge)
 2. [Combination Vehicles](/exams/cdl/combination-vehicles)
@@ -178,6 +192,11 @@ State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/
           "Pass General Knowledge and Air Brakes if the truck has air brakes, at 80% each. The state prints a CLP. Hold it at least 14 days, finish entry-level driver training, and take the skills test in a representative Class B vehicle. Interstate driving is 21. Many states allow an intrastate CDL at 18. Class B does not include the Combination Vehicles test.",
       },
       {
+        question: "How do you get a Class A CDL?",
+        answer:
+          "Pass General Knowledge, Combination Vehicles, and Air Brakes if the truck has them, at 80% each. The state prints a Class A CLP. Hold it at least 14 days, finish entry-level driver training, and take the skills test in a representative combination (GCWR 26,001 lb or more, trailer over 10,000 lb). Interstate driving is 21. A straight-truck skills test does not produce Class A. Class A covers Class B vehicles.",
+      },
+      {
         question: "What is the difference between a Class A, Class B, and Class C license?",
         answer:
           "Class A is a combination with a GCWR of 26,001 lb or more and a trailer of 10,001 lb GVWR or more, and it adds the Combination Vehicles test. Class B is a single vehicle of 26,001 lb or more and may tow under 10,001 lb, with no Combination test. Class C is under those weights when the vehicle carries 16 or more people, including the driver, or placarded hazmat. Class A covers B and C vehicles if you have the endorsements.",
@@ -224,6 +243,33 @@ The CDL permit test consists of the **knowledge tests** for the class you are ap
 - **An endorsement you want on the permit:** that endorsement’s knowledge test. Hazmat on a permit is limited.
 
 The pre-trip, the basic-control pad, and the road test come after the state has printed the CLP. The walkaround is the [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).
+
+## Class A CDL permit
+
+A **Class A CDL permit** is the Commercial Learner's Permit for a combination: GCWR of **26,001 lb or more** and a towed unit over **10,000 lb** GVWR. People also call it a **class A permit**. It lets you practice in that combination. It is not a solo CDL.
+
+While the permit is all you hold:
+
+- A qualified CDL holder with a Class A license rides in the front passenger seat
+- You do not haul passengers, other than supervisors, examiners, or trainees
+- You do not haul placarded hazardous materials
+- The truck you practice in has to be a representative Class A vehicle. A straight truck does not turn this permit into a Class A license
+
+The state prints it only after the knowledge tests below. Hold it at least **14 days** before the skills test. The rest of the path to the license is [how to get a Class A CDL](/exams/cdl/guides/class-a-vs-class-b).
+
+## Class A CDL permit test
+
+The **Class A CDL permit test** — the **class A permit test** — is not a fourth booklet with “Class A” on the cover. It is the knowledge tests for that permit, each scored alone at **80%**:
+
+| Test | Usual questions | Correct to pass |
+| --- | --- | --- |
+| [General Knowledge](/exams/cdl/general-knowledge) | 50 | 40 |
+| [Combination Vehicles](/exams/cdl/combination-vehicles) | 20 | 16 |
+| [Air Brakes](/exams/cdl/air-brakes) | 25 | 20 |
+
+Air Brakes drops off only if the truck has no air brakes. Combination does not drop off. That is the difference from a Class B permit. Illinois uses 30 General Knowledge questions. Pennsylvania lists a longer Class A written set. Both still use 80%. Full table: [CDL passing score](/exams/cdl/guides/passing-score).
+
+Fail Combination and you do not get a Class A permit. If General Knowledge passed, a Class B permit may still be available. Fail Air Brakes and the state can still print a permit with an air-brake restriction, which blocks an air-brake tractor.
 
 ## How to study for the CDL permit test
 
@@ -327,6 +373,16 @@ CertReady does not issue permits. Only your state DMV / DPS / DHSMV / DDS does.`
         question: "How many questions are on the CDL learner's permit test?",
         answer:
           "It is not one quiz. Most states use 50 General Knowledge questions (40 correct), 25 Air Brakes (20 correct), and 20 Combination for Class A (16 correct). Illinois uses 30 General Knowledge questions. Pennsylvania’s Class A written set is longer. Passing is 80% on each test.",
+      },
+      {
+        question: "What is a Class A CDL permit?",
+        answer:
+          "The Commercial Learner's Permit for a combination with a GCWR of 26,001 lb or more and a trailer over 10,000 lb. You practice only with a qualified Class A CDL holder in the front seat. You cannot haul passengers or placarded hazmat on it. Hold it at least 14 days before the skills test. A straight truck does not make it a Class A license.",
+      },
+      {
+        question: "What is on the Class A CDL permit test?",
+        answer:
+          "Three knowledge tests, not one Class A booklet: General Knowledge (usually 50 questions, 40 correct), Combination Vehicles (usually 20, 16 correct), and Air Brakes if the truck has them (usually 25, 20 correct). Each test is 80%. Fail Combination and you do not get the Class A permit.",
       },
       {
         question: "Does CertReady give a CDL permit?",
@@ -1055,6 +1111,7 @@ Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (5
 
 - [CDL General Knowledge test](/exams/cdl/general-knowledge) — usually 50 questions, 80% to pass
 - [Class B CDL test](/exams/cdl/guides/class-a-vs-class-b) — straight truck, no Combination test
+- [How to get a Class A CDL](/exams/cdl/guides/class-a-vs-class-b) — Combination test, then a Class A permit
 - [How to study for the CDL permit test](/exams/cdl/guides/cdl-permit) — what the CLP knowledge tests consist of
 - [Hazmat practice test](/exams/cdl/hazardous-materials) · [Air Brakes](/exams/cdl/air-brakes) · [Combination Vehicles](/exams/cdl/combination-vehicles)
 - [Passing score (80%)](/exams/cdl/guides/passing-score)

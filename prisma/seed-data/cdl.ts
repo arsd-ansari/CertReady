@@ -598,6 +598,19 @@ const questions: SeedQuestion[] = [
     "Federal rules prohibit texting while operating a CMV. There is no 30-mph exception. Pull off the road and stop if you must read or send a message.",
     { difficulty: "EASY", tags: ["distraction"] },
   ),
+  q(
+    G,
+    "A Class A commercial learner's permit lets you practice in a combination vehicle only when:",
+    [
+      "You are alone, as long as the trailer is empty",
+      "A qualified CDL holder with a Class A license rides in the front passenger seat",
+      "You already passed the skills test that same morning",
+      "The permit is 14 days old and the load is placarded hazmat",
+    ],
+    1,
+    "A Class A CLP is practice, not a solo license. The person beside you must hold a CDL for that class. You still cannot carry passengers (other than supervisors, examiners, or trainees) or placarded hazmat. The 14-day rule is how long you hold the permit before the skills test, not permission to drive alone. A straight truck on this permit does not produce a Class A CDL.",
+    { difficulty: "EASY", tags: ["permit", "class-a"], sourceNote: "Federal CLP accompaniment rule" },
+  ),
 ];
 
 export const cdl: SeedExam = {
