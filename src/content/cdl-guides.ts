@@ -6,9 +6,9 @@ export const CDL_GUIDES: ExamGuide[] = [
     title: "Class B CDL vs Class A and Class C",
     seoTitle: "Class B CDL vs Class A and Class C — Practice Tests",
     seoDescription:
-      "The Class B CDL test is General Knowledge and Air Brakes, then a straight-truck skills test. No Combination test. Class A covers Class B. Class C is the lighter passenger or hazmat vehicle.",
+      "A Class A CDL means a combination with GCWR 26,001 lb or more and a trailer of 10,001 lb or more. The Class B CDL test skips Combination. Class D is not a CDL.",
     intro:
-      "A Class A and Class B license are two commercial classes, not two cards. Class B is a single vehicle rated 26,001 lb or more, or that truck towing 10,000 lb or less. The Class B CDL test skips Combination. Class A covers Class B and adds that test. Class C is the lighter vehicle that carries 16 or more people or placarded hazmat.",
+      "A Class A CDL means a combination with a GCWR of 26,001 lb or more and a trailer of 10,001 lb or more. Class B is the straight truck and skips Combination. Class C is the lighter passenger or hazmat vehicle. Class D is not a CDL.",
     markdown: `## The short answer
 
 | Class | Vehicle | Extra knowledge tests |
@@ -18,6 +18,14 @@ export const CDL_GUIDES: ExamGuide[] = [
 | **C** | Not A or B, but **16 or more persons including the driver**, or **placarded hazmat** | General Knowledge + **P** and/or **H** as required |
 
 A Class A covers Class B and C vehicles (with the right endorsements). A Class B does **not** let you pull a 10,001 lb+ trailer.
+
+## What does a Class A CDL mean?
+
+A **Class A CDL** means you may drive a **combination** with a GCWR of **26,001 lb or more** when the towed unit is rated **10,001 lb GVWR or more**. That is the tractor-trailer class, not a straight truck.
+
+The written tests are [General Knowledge](/exams/cdl/general-knowledge), [Combination Vehicles](/exams/cdl/combination-vehicles), and [Air Brakes](/exams/cdl/air-brakes) unless the truck is hydraulic-only. The license covers Class B and Class C vehicles when you hold the endorsements that truck needs and no restriction blocks them. A heavy box truck with no heavy trailer is Class B, and it does not sit Combination.
+
+The steps to earn it are **How to get a Class A CDL**, below. The permit that comes first is the [Class A CDL permit](/exams/cdl/guides/cdl-permit). California DMV and Texas DPS use this same federal line: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/guides/texas). Passing is **80%** on each knowledge test: [CDL passing score](/exams/cdl/guides/passing-score).
 
 ## What is a Class B CDL?
 
@@ -82,6 +90,18 @@ A Class B CDL does **not** cover a combination whose trailer is over 10,000 lb G
 - **Class A** — combination with a GCWR of 26,001 lb or more and a towed unit over 10,000 lb. Adds Combination Vehicles.
 - **Class B** — single vehicle of 26,001 lb or more, trailer 10,000 lb or less. No Combination test.
 - **Class C** — under those weights, but 16 or more people including the driver, or placarded hazmat.
+
+## Vehicle classes A, B, C, and D
+
+**Vehicle classes A, B, and C** on a CDL application are the three federal commercial classes above. **Class D is not a CDL.** There is no federal Class D commercial license.
+
+States reuse the letter for ordinary licenses:
+
+- **New York Class D** is the operator license: passenger cars and trucks with a GVWR of **26,000 lb or less**. NY DMV requires a Class D, Class E, or non-CDL Class C before you apply for a CDL. Class D does not authorize a tractor-trailer.
+- **California** does not issue a Class D. The ordinary license is **Class C**. Commercial classes are A, B, and C. [California CDL](/exams/cdl/guides/california).
+- **Texas** does not issue a Class D either. The ordinary passenger license is **Class C**. A Texas Class C **CDL** is a different card, for 16 to 23 passengers or placarded hazmat. [Texas CDL](/exams/cdl/guides/texas).
+
+A chart that lists A, B, C, and D as four CDL classes is mixing an operator license into the commercial list. This bank is A, B, and C only.
 
 ## What is a Class A and Class B license?
 
@@ -205,6 +225,16 @@ State booking: [California](/exams/cdl/guides/california) · [Texas](/exams/cdl/
         question: "What is a Class A and Class B license?",
         answer:
           "They are two commercial classes. Class A is the combination (GCWR 26,001 lb or more, trailer over 10,000 lb) and it covers Class B. Class B is the single vehicle of 26,001 lb or more, towing 10,000 lb or less, with no Combination test. A job that says CDL A or B means the truck picks the class. A noncommercial Class A or Class B driver license is not a CDL.",
+      },
+      {
+        question: "What does a Class A CDL mean?",
+        answer:
+          "A combination with a GCWR of 26,001 lb or more and a towed unit of 10,001 lb GVWR or more. You take General Knowledge, Combination Vehicles, and Air Brakes if the truck has them. Class A covers Class B and Class C vehicles when you have the endorsements and no restriction blocks the truck. A straight truck with no heavy trailer is Class B.",
+      },
+      {
+        question: "Is Class D a CDL?",
+        answer:
+          "No. Federal CDL classes are A, B, and C. In New York, Class D is the ordinary operator license for cars and trucks at 26,000 lb GVWR or less. California and Texas do not issue a Class D. Their ordinary license is Class C.",
       },
     ],
   },
@@ -489,14 +519,22 @@ Related: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b) · [CDL perm
     title: "California CDL Practice Test",
     seoTitle: "California CDL Practice Test — CA Class B License & DMV",
     seoDescription:
-      "CA Class B license and the California CDL practice test. DMV knowledge exams are usually 50 General Knowledge questions, 80% to pass, three attempts. A noncommercial Class B is not this CDL.",
+      "California DMV CDL practice test: usually 50 General Knowledge questions, 80% to pass, three attempts. A CA Class B license is the commercial class, not a noncommercial Class B.",
     intro:
-      "California issues the CDL through DMV, to federal standards. The knowledge tests are the national topics — classes, space, air brakes, combination vehicles — plus CA’s own handbook. This page is practice for that written appointment, not a driving school.",
+      "California issues the CDL through DMV, to federal standards. A California DMV CDL practice test is for those knowledge exams, starting with General Knowledge. This page is practice for that written appointment, not a driving school.",
     markdown: `## How California CDL testing works
 
 You book **knowledge tests at CA DMV**, not on CertReady. After you pass, DMV prints a **CLP**. You hold it (at least **14 days** under federal rules; follow DMV if they require longer), practice with a qualified CDL driver, then take the **skills test**.
 
 Use the official [California CDL](https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/commercial-driver-licenses-cdl/) pages for fees, REAL ID, medical cards, and whether your office uses walk-in or appointment testing.
+
+## California DMV CDL practice test
+
+A **California DMV CDL practice test** is practice for the knowledge tests DMV scores. It is not a DMV login, and a score on this site does not print a CLP.
+
+The **California CDL general knowledge test** is the one every class sits. Plan on **50 questions** and **40 correct (80%)** unless the handout at the window shows a different count. Add Air Brakes (25 questions, 20 correct) if the truck has air brakes, and Combination Vehicles (20 questions, 16 correct) for Class A. DMV gives **three attempts** at each test. Fail the same test three times and that application is no longer valid.
+
+Use the [free CDL practice test](/exams/cdl/practice-test) for original questions on those topics, then drill [General Knowledge](/exams/cdl/general-knowledge) until you are above 85%. What a Class A CDL means, and what a CA Class B license covers, is [Class B vs Class A and Class C](/exams/cdl/guides/class-a-vs-class-b). Book the scored tests at DMV.
 
 ## What to study (same bank as every state)
 
@@ -592,6 +630,16 @@ Other states: [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio)
         answer:
           "On the written side, Air Brakes is the section people fail: low-air warning, leakage and spring brakes. Class A also loses points on Combination Vehicles. The pre-trip skills test is a separate exam and is not in this practice bank.",
       },
+      {
+        question: "What is a California DMV CDL practice test?",
+        answer:
+          "Practice for the knowledge tests California DMV scores: General Knowledge, Air Brakes if the truck has them, and Combination Vehicles for Class A. Each test is 80%. CertReady’s questions are original practice, not the DMV form, and a score here does not print a CLP.",
+      },
+      {
+        question: "What is on the California CDL general knowledge test?",
+        answer:
+          "The same federal General Knowledge topics as other states, usually 50 questions with 40 correct to pass. DMV gives three attempts. Air Brakes and Combination are separate tests, not extra questions inside General Knowledge.",
+      },
     ],
   },
   {
@@ -601,7 +649,7 @@ Other states: [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio)
     seoDescription:
       "Texas CDL practice for DPS: Texas Commercial Rules (special requirements) first, then General Knowledge, Air Brakes and endorsements. English-only knowledge tests since June 1, 2026. 80% each.",
     intro:
-      "Texas is not only the federal CDL bank. DPS makes you pass Texas Commercial Rules — the test people still call special requirements — before General Knowledge. Practice the federal topics here, and study Section 14 of the Texas handbook for the state test.",
+      "Texas CDL certification is the license DPS prints, not a school certificate. DPS makes you pass Texas Commercial Rules — the test people still call special requirements — before General Knowledge. Practice the federal topics here, and study Section 14 for the state test.",
     markdown: `## How Texas CDL testing works
 
 The Department of Public Safety issues the license. Knowledge tests are at a DPS driver license office. After you pass, DPS prints a **CLP**. You hold it at least **14 days**, finish entry-level driver training, then take the skills test in a representative vehicle.
@@ -617,6 +665,14 @@ DPS gives the knowledge exams in this order:
 5. **Endorsements** you are adding
 
 The CLP is valid for **180 days** or until your Texas driver license expires, whichever is sooner. It can be renewed once, up to 30 days before it expires, without retaking the knowledge exams. A qualified CDL holder age 21 or older, with the same class, has to sit beside you on the road.
+
+## Texas CDL certification
+
+**CDL certification in Texas** is the commercial driver license DPS prints. It is not a second card you buy from a truck school, and FMCSA does not issue Texas licenses. A school diploma does not replace the DPS license.
+
+You still sit the tests in the order above. Texas Commercial Rules is first. Then General Knowledge, Combination for Class A, Air Brakes if the truck has them, and any endorsement. Hold the CLP at least **14 days**, finish entry-level driver training, and pass the skills test. That license is the certification.
+
+Practice the federal half on the [free CDL practice test](/exams/cdl/practice-test) and [General Knowledge](/exams/cdl/general-knowledge). What a Class A CDL means is the combination line: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). The state test that is not in the federal bank is Texas Commercial Rules, next.
 
 ## Texas Commercial Rules (special requirements)
 
@@ -714,6 +770,11 @@ Other states: [California](/exams/cdl/guides/california) · [Ohio](/exams/cdl/gu
         question: "Where do I take the Texas CDL written exam?",
         answer:
           "At a Texas DPS driver license office, by appointment. CertReady does not give the official test and does not issue a CLP.",
+      },
+      {
+        question: "What is CDL certification in Texas?",
+        answer:
+          "The commercial driver license DPS issues after Texas Commercial Rules, the federal knowledge tests, a CLP held at least 14 days, entry-level driver training, and the skills test. A truck-school certificate is not that license.",
       },
     ],
   },
@@ -1111,7 +1172,7 @@ Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (5
 
 - [CDL General Knowledge test](/exams/cdl/general-knowledge) — usually 50 questions, 80% to pass
 - [Class B CDL test](/exams/cdl/guides/class-a-vs-class-b) — straight truck, no Combination test
-- [How to get a Class A CDL](/exams/cdl/guides/class-a-vs-class-b) — Combination test, then a Class A permit
+- [Class A CDL](/exams/cdl/guides/class-a-vs-class-b) — what it means (combination, GCWR 26,001 lb, trailer 10,001 lb or more), and how to get it
 - [How to study for the CDL permit test](/exams/cdl/guides/cdl-permit) — what the CLP knowledge tests consist of
 - [Hazmat practice test](/exams/cdl/hazardous-materials) · [Air Brakes](/exams/cdl/air-brakes) · [Combination Vehicles](/exams/cdl/combination-vehicles)
 - [Passing score (80%)](/exams/cdl/guides/passing-score)
@@ -1137,7 +1198,7 @@ export const CDL_GENERAL_KNOWLEDGE_COPY = `## What the CDL General Knowledge tes
 
 Every CDL class sits **General Knowledge**. Most states use **50** multiple-choice questions and score it at **80%**, which is **40 correct**. You can miss **10**. Illinois uses **30** questions at the same 80%. Pennsylvania’s Class A written set is longer. The percentage is the rule: [CDL permit passing score](/exams/cdl/guides/passing-score).
 
-The test covers the shared manual: class lines, following distance, cargo, hours of service, railroad crossings, and alcohol at **0.04**. It does not replace [Air Brakes](/exams/cdl/air-brakes) or, for Class A, [Combination Vehicles](/exams/cdl/combination-vehicles).
+The test covers the shared manual: class lines, following distance, cargo, hours of service, railroad crossings, and alcohol at **0.04**. What a Class A CDL means, and why Class D is not a CDL, is [Class A, B, and C](/exams/cdl/guides/class-a-vs-class-b). It does not replace [Air Brakes](/exams/cdl/air-brakes) or, for Class A, [Combination Vehicles](/exams/cdl/combination-vehicles).
 
 New York, Texas, California, and Georgia use these same topics. The state page is where you book, not a second General Knowledge bank: [Texas](/exams/cdl/guides/texas) · [California](/exams/cdl/guides/california) · [Georgia](/exams/cdl/guides/georgia).
 

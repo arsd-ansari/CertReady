@@ -224,6 +224,14 @@ const questions: SeedQuestion[] = [
   ),
   q(
     G,
+    "Which of these is a federal CDL class?",
+    ["Class D", "Class A", "Class E", "Class M"],
+    1,
+    "Federal CDL classes are A, B, and C. Class D is not a CDL. In New York, Class D is the ordinary operator license for a car or light truck at 26,000 lb GVWR or less. California and Texas do not issue a Class D; their ordinary license is Class C. A motorcycle Class M is not a CDL class.",
+    { difficulty: "EASY", tags: ["classes"], source: "fmcsa-cdl", sourceNote: "FMCSA CDL classes are A, B, and C" },
+  ),
+  q(
+    G,
     "Under 40 mph, a common CDL following-distance rule is one second of gap for every:",
     ["10 feet of vehicle length", "10 mph of speed", "Axle on the truck", "Trailer you pull"],
     0,
