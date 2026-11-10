@@ -30,6 +30,19 @@ export const moreEpa608Questions: SeedQuestion[] = [
   // ------------------------------------------------------------------ CORE
   q(
     C,
+    "A shop asks for a 608 certification. Which card is that?",
+    [
+      "Section 609, for motor-vehicle air conditioning",
+      "Section 608 of the Clean Air Act, also called EPA 608 certification",
+      "A state contractor license that replaces the refrigerant card",
+      "An EPA license that expires every two years",
+    ],
+    1,
+    "608 certification and EPA 608 certification are two names for Section 608 of the Clean Air Act. The card covers stationary appliances that could release refrigerant, and it does not expire. An EPA-approved organization prints it. EPA does not. Motor-vehicle air conditioning is Section 609. A state contractor license is a separate credential.",
+    { tags: ["certification"], difficulty: "EASY", source: "epa-608-overview" },
+  ),
+  q(
+    C,
     "Which one of the following requires HVAC technicians to be certified to work with refrigerants?",
     [
       "The employer",

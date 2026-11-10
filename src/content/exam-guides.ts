@@ -267,10 +267,18 @@ Read [Type 1 vs Type 2 vs Type 3](/exams/epa-608/guides/type-1-vs-type-2) if you
       title: "EPA Section 608 Certification",
       seoTitle: "EPA Section 608 Certification — Who Needs It, Cost, and the Card",
       seoDescription:
-        "The Clean Air Act requires HVAC refrigerant certification — not the employer, EPA, or a state board. Section 608 is that card: who needs it, what it costs, and how it differs from Section 609.",
+        "The Clean Air Act requires HVAC refrigerant certification — not the employer, EPA, or a state board. 608 certification is that Section 608 card: who needs it, the cost, and how it differs from Section 609.",
       intro:
-        "EPA Section 608 certification is the card you need before you open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant. There is no federal age minimum. An apprentice may work only while a certified technician supervises; everyone else needs the exam.",
-      markdown: `## What EPA Section 608 requires
+        "608 certification, also called EPA 608 certification, is EPA Section 608: the card you need before you open a refrigerant circuit, recover a charge, or buy cylinders of regulated refrigerant. There is no federal age minimum. An apprentice may work only while a certified technician supervises; everyone else needs the exam.",
+      markdown: `## What is 608 certification?
+
+**608 certification** is **EPA 608 certification**. Both names mean **EPA Section 608** of the Clean Air Act. The card is for anyone who maintains, services, repairs, or disposes of stationary air-conditioning or refrigeration equipment that could release refrigerant, and for buying most regulated refrigerants.
+
+It is not a public 608 certification lookup. The organization that tested you replaces a lost card. EPA does not, and CertReady does not. The card does not expire. It does not cover motor-vehicle air conditioning, which is Section 609. It does not replace a state contractor license.
+
+Most shops want [EPA universal certification](/exams/epa-608/guides/universal) (Core plus every type). Which single type matches the equipment is [Type I vs Type II vs Type III](/exams/epa-608/guides/type-1-vs-type-2). Each section is [18 of 25](/exams/epa-608/guides/passing-score). Practice for the proctored exam is the [EPA 608 certification practice test](/exams/epa-608/practice-test). Many techs sit the real exam [online with a live proctor](/exams/epa-608/guides/certification-online).
+
+## What EPA Section 608 requires
 
 Section 608 of the Clean Air Act is the federal **refrigerant certification**. It requires certification for anyone who **maintains, services, repairs or disposes of** appliances that could release ozone-depleting refrigerant (and, under later rules, many substitute refrigerants) into the atmosphere.
 
@@ -406,9 +414,14 @@ CertReady is independent practice material. We are not affiliated with EPA or an
             "Ozone-depleting refrigerants and most substitutes, including HFCs and HFOs, with the small self-sealing MVAC can as the usual exception. The buyer has to be Section 608 or Section 609 certified, or an employer who proves they employ a certified technician, and the purchase has to match that card.",
         },
         {
+          question: "What is 608 certification?",
+          answer:
+            "608 certification is EPA Section 608 of the Clean Air Act, the same card shops call EPA 608 certification. It covers stationary appliances that could release refrigerant, and the purchase of most regulated refrigerants. It does not cover motor-vehicle air conditioning, it does not expire, and the organization that gave the exam prints the card. EPA does not.",
+        },
+        {
           question: "What is EPA Section 608 certification?",
           answer:
-            "Section 608 of the Clean Air Act requires a certified technician to maintain, service, repair, or dispose of stationary air-conditioning and refrigeration equipment that could release refrigerant, and to buy most regulated refrigerants. An EPA-approved organization gives the exam and prints the card. Motor vehicle air conditioning is Section 609, a different card.",
+            "EPA Section 608 certification is the same card as 608 certification and EPA 608 certification. Section 608 of the Clean Air Act requires a certified technician to maintain, service, repair, or dispose of stationary air-conditioning and refrigeration equipment that could release refrigerant, and to buy most regulated refrigerants. An EPA-approved organization gives the exam and prints the card. Motor vehicle air conditioning is Section 609, a different card.",
         },
         {
           question: "What does Section 608 certification allow a technician to do?",
@@ -770,6 +783,12 @@ Start with a 10-question mixed set if you have ten minutes. Switch to one type w
 - [EPA 608 in Spanish](/exams/epa-608/guides/spanish)
 
 CertReady is not ESCO’s practice exam. ESCO’s 2026 test bank and its 2018 bank are theirs. The rules those sittings still test — 18 of 25, recovery percentages, leak rates — are what this bank drills.
+
+## EPA practice test
+
+An **EPA practice test** on this page is the Section 608 bank: Core, Type I, Type II, and Type III. People also search that sitting as **EPA test practice** or an **EPA 608 certification practice test**. The proctored exam is a different event. An approved organization gives it and prints the [608 certification](/exams/epa-608/guides/who-needs-certification) card. A score here does not.
+
+This is not Section 609 for cars and trucks, and it is not a PDF of the live form. The employment card most shops want is [EPA universal certification](/exams/epa-608/guides/universal). The equipment split is [Type I vs Type II vs Type III](/exams/epa-608/guides/type-1-vs-type-2). The line on test day is still [18 of 25](/exams/epa-608/guides/passing-score) on every section.
 
 ## Is there a free EPA 608 practice test PDF?
 

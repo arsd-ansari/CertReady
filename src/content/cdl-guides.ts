@@ -647,10 +647,36 @@ Other states: [Texas](/exams/cdl/guides/texas) · [Ohio](/exams/cdl/guides/ohio)
     title: "Texas CDL Practice Test",
     seoTitle: "Texas CDL Practice Test — Commercial Rules, General Knowledge & DPS",
     seoDescription:
-      "Texas CDL practice for DPS: Texas Commercial Rules (special requirements) first, then General Knowledge, Air Brakes and endorsements. English-only knowledge tests since June 1, 2026. 80% each.",
+      "A Texas CDL is the DPS license. Getting one means Texas Commercial Rules first, then General Knowledge, a CLP held 14 days, and the skills test. English-only knowledge tests since June 1, 2026. 80% each.",
     intro:
-      "Texas CDL certification is the license DPS prints, not a school certificate. DPS makes you pass Texas Commercial Rules — the test people still call special requirements — before General Knowledge. Practice the federal topics here, and study Section 14 for the state test.",
-    markdown: `## How Texas CDL testing works
+      "A Texas CDL is the commercial license DPS prints. Getting a CDL in Texas starts with a Texas driver license, then Texas Commercial Rules before General Knowledge. That license is not a school certificate.",
+    markdown: `## Texas CDL
+
+A **Texas CDL** is the commercial driver license the Department of Public Safety issues. It is the federal class you need, plus the Texas knowledge test DPS gives before General Knowledge. FMCSA does not print Texas licenses. A truck-school diploma does not replace the card DPS prints.
+
+DPS describes the classes this way:
+
+- **Class A** — a combination with a GCWR of 26,001 lb or more when the towed vehicle’s GVWR exceeds 10,000 lb.
+- **Class B** — a single vehicle of 26,001 lb or more, which may tow a vehicle that does not exceed 10,000 lb. DPS also puts a vehicle built for **24 or more passengers**, including the driver, in Class B. A skills test in a bus under 26,001 lb GVWR restricts you to buses under that weight.
+- **Class C** — not Class A or B, when the vehicle is built for **16 to 23 passengers** including the driver, or hauls hazmat that must be placarded.
+
+The written practice for the federal half is the [free CDL practice test](/exams/cdl/practice-test) and [General Knowledge](/exams/cdl/general-knowledge). What a Class A CDL means on the federal line is [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). Each knowledge test is **80%**: [passing score](/exams/cdl/guides/passing-score).
+
+## How to get a CDL in Texas
+
+**Getting a CDL in Texas** is a DPS appointment, not a certificate you buy online. How to get a CDL in Texas follows the order on the [DPS application page](https://www.dps.texas.gov/section/driver-license/how-do-i-apply-commercial-driver-license).
+
+1. Hold a **Texas driver license**. A CLP is not valid without it, and it is not an ID by itself.
+2. Bring identity, a Social Security number, and proof of U.S. citizenship or lawful presence. DPS will not issue the permit without a Social Security number.
+3. File one medical self-certification (CDL-4, CDL-5, or CDL-10) and the medical examiner’s certificate when that status requires it.
+4. Finish the CDL application, book the driver license office, pay the fee, and pass vision. Since **June 1, 2026**, every CDL knowledge exam is in English only.
+5. Pass the knowledge tests in DPS order: **Texas Commercial Rules**, then **General Knowledge**, then **Combination** for Class A, **Air Brakes** if the truck has them, then any endorsement. Each one is 80%. Commercial Rules does not replace General Knowledge.
+6. DPS prints the CLP. Hold it at least **14 days**. It lasts **180 days** or until your Texas driver license expires, whichever is sooner. On the road, a qualified CDL holder age 21 or older, with the same class, sits beside you.
+7. Finish entry-level driver training, then the skills test in a vehicle that matches the permit: pre-trip, basic control, and the road. That license is the Texas CDL.
+
+CertReady does not give the DPS exam and does not issue the CLP. The federal topics are below, under what to practice. The state booklet is Section 14.
+
+## How Texas CDL testing works
 
 The Department of Public Safety issues the license. Knowledge tests are at a DPS driver license office. After you pass, DPS prints a **CLP**. You hold it at least **14 days**, finish entry-level driver training, then take the skills test in a representative vehicle.
 
@@ -670,7 +696,7 @@ The CLP is valid for **180 days** or until your Texas driver license expires, wh
 
 **CDL certification in Texas** is the commercial driver license DPS prints. It is not a second card you buy from a truck school, and FMCSA does not issue Texas licenses. A school diploma does not replace the DPS license.
 
-You still sit the tests in the order above. Texas Commercial Rules is first. Then General Knowledge, Combination for Class A, Air Brakes if the truck has them, and any endorsement. Hold the CLP at least **14 days**, finish entry-level driver training, and pass the skills test. That license is the certification.
+You still sit the tests in the order above. Texas Commercial Rules is first. Then General Knowledge, Combination for Class A, Air Brakes if the truck has them, and any endorsement. Hold the CLP at least **14 days**, finish entry-level driver training, and pass the skills test. That license is the certification. The application steps are **How to get a CDL in Texas**, above.
 
 Practice the federal half on the [free CDL practice test](/exams/cdl/practice-test) and [General Knowledge](/exams/cdl/general-knowledge). What a Class A CDL means is the combination line: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). The state test that is not in the federal bank is Texas Commercial Rules, next.
 
@@ -732,7 +758,7 @@ The federal half of the Texas appointment is the same bank as every other state:
 
 [Free CDL practice test](/exams/cdl/practice-test) · [mock exam](/mock/cdl) · **80%** [passing score](/exams/cdl/guides/passing-score)
 
-Class lines: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). On the DPS page, Class A is a combination with a GCWR of 26,001 lb or more when the towed vehicle’s GVWR **exceeds 10,000 lb**. Class B is a single vehicle of 26,001 lb or more and may tow a vehicle that does not exceed 10,000 lb. Permit timing: [CLP](/exams/cdl/guides/cdl-permit). The walkaround is a skills test: [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).
+Class lines: [Class A vs Class B](/exams/cdl/guides/class-a-vs-class-b). On the DPS page, Class A is a combination with a GCWR of 26,001 lb or more when the towed vehicle’s GVWR **exceeds 10,000 lb**. Class B is a single vehicle of 26,001 lb or more and may tow a vehicle that does not exceed 10,000 lb. DPS also counts a vehicle built for 24 or more passengers, including the driver, as Class B. Class C is 16 to 23 passengers, or placarded hazmat, when the truck is not Class A or B by weight. Permit timing: [CLP](/exams/cdl/guides/cdl-permit). The walkaround is a skills test: [pre-trip inspection checklist](/exams/cdl/guides/pre-trip).
 
 Other states: [California](/exams/cdl/guides/california) · [Ohio](/exams/cdl/guides/ohio) · [Florida](/exams/cdl/guides/florida) · [Georgia](/exams/cdl/guides/georgia).`,
     faq: [
@@ -775,6 +801,16 @@ Other states: [California](/exams/cdl/guides/california) · [Ohio](/exams/cdl/gu
         question: "What is CDL certification in Texas?",
         answer:
           "The commercial driver license DPS issues after Texas Commercial Rules, the federal knowledge tests, a CLP held at least 14 days, entry-level driver training, and the skills test. A truck-school certificate is not that license.",
+      },
+      {
+        question: "What is a Texas CDL?",
+        answer:
+          "The commercial driver license DPS prints. Class A is a combination with a GCWR of 26,001 lb or more and a towed vehicle over 10,000 lb. Class B is a single vehicle of 26,001 lb or more, or a vehicle built for 24 or more passengers including the driver. Class C is 16 to 23 passengers, or placarded hazmat, when the truck is not Class A or B by weight. You also pass Texas Commercial Rules before General Knowledge.",
+      },
+      {
+        question: "How do you get a CDL in Texas?",
+        answer:
+          "Hold a Texas driver license, bring identity, a Social Security number, and proof of citizenship or lawful presence, and file the medical self-certification DPS requires. Pass Texas Commercial Rules, then General Knowledge, then Combination for Class A and Air Brakes if the truck has them, each at 80%. Hold the CLP at least 14 days, finish entry-level driver training, and pass the skills test in a matching vehicle. Knowledge tests are in English only as of June 1, 2026.",
       },
     ],
   },
@@ -1168,7 +1204,7 @@ CDL knowledge tests are **80% to pass**, scored **one test at a time**. Most sta
 
 CertReady’s bank is original CDL test questions on those topics — space and hours of service in General Knowledge, 60 psi and spring brakes in Air Brakes, coupling and off-tracking in Combination, placards, surge and passenger railroad stops. It is not a Georgia-only or California-only quiz; the federal manual is the same, and we add [state landing pages](/exams/cdl/guides/california) for booking.
 
-Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (50 questions / 50 minutes) when category scores are **85%+**.
+Start with a 10-question mixed set. Drill a weak category. Sit the timed mock (50 questions / 50 minutes) when category scores are **85%+**. A **CDL study practice test** is this same bank: one knowledge test, then the next. Getting a CDL in Texas adds Texas Commercial Rules before those federal tests: [Texas CDL](/exams/cdl/guides/texas).
 
 - [CDL General Knowledge test](/exams/cdl/general-knowledge) — usually 50 questions, 80% to pass
 - [Class B CDL test](/exams/cdl/guides/class-a-vs-class-b) — straight truck, no Combination test
